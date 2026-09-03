@@ -1,0 +1,5808 @@
+Summary
+SV_Change WO・PO Status To Cancel(@Okinawa)
+PT_BUS FORCE Cost adjustの結果が正しくありません
+CMVM_与信限度額更新_中国
+VO_リサイクルステータス更新_青森
+SV_Change Service Quote Status(@Hakodate)
+SV_Change PO Cost(Only Siebel)(@Chugoku)
+SV_Recovery Service Quote(Manual Discount Amount)(＠Chugoku)
+VO_マスタ更新（eキャンター）_岡山
+SV_BUS FORCE I042297598が移行されていない
+SV_BUS FORCE 外注発注書が実行レポートの選択肢にでてこない
+COM_FDP社員マスタ新規登録_沖縄20260722
+NV_見積で型式選択ができない_中国
+CMVM_BUS FORCE 顧客情報変更承認フローでSCHQ-CS-Snr-Mgr承認者に対してUIDが割り当てされませんでした
+UV_BUS FORCE 中古車在庫に再販指示価格が移行されていない
+UV_BUS FORCE 中古車スタッフが査定後に承認依頼が出来ない
+CMVM_8FDP新規UID登録_IT平田
+PT_BUS FORCE 直購品の価格マスタが存在しない
+SV_BUS FORCE サービス履歴 画面でJCをクリックすると権限エラー
+COM_FDP社員マスタ新規登録_GienTech用
+SV_BUS FORCE クローズ承認依頼が承認依頼中となる
+Request for a Quote and Risk Assessment Regarding Changing the D2S Authentication Method to OAuth
+CMVM_売掛先情報更新エラー_中国
+UV_BUS FORCE SC UAT環境のトランザクションデータが移行されている
+PT_N000393332 recovery in Aomori
+Com_Inbox daily recovery(21-25.Jul)
+INS_BUS FORCE_Insurance Transaction data not migrated
+SV_BUS FORCE 整備作業納品書と整備作業請求書の発行元が正しくない
+NV_見積改訂が受注へ反映していない_和歌山
+VO_マスタ更新（S袈装)_7社
+VO_マスタ更新（S袈装）_岡山
+NV_BUS FORCE_Siebel Batch Jobs unable to process
+SV_Individual Invoice Issue(＠Chugoku)
+SV_Change JC・WO・PO Status To Cancel(@Shikoku)
+SV_BUS FORCE マイナーパーツ/交換部品管理 マスタの修正
+SV_BUS FORCE JCをクローズしたが再編集ボタンが非活性かつJVも作成されていない。
+UV_BUS FORCE 中古車販売注文書の左上に当社の表記が出ていない
+NV_BUS FORCE_Wrong Values Displayed in Plan Date Addition Master (予定日加算マスタ)
+UV FDP青森 中古車在庫の取消依頼
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+INS_Spread sheet value change
+SV_BUS FORCE WO作成時に ”作業価格表” が自動表示されない
+VO_リサイクルステータス更新_中国
+Com_BUS FORCE_RCR Jobs Failure
+SV_Change WO and Labor Line Item Status(＠Okinawa)
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+UV FDP中国 中古車在庫の取消依頼
+INS_BUS FORCE_Insurance company not available on Spread sheet creation
+SV_Change Service Quote Status and Parts Return Order Recovery(@Okayama)
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+SV_Supplier code and Name(@Chugoku)
+NV_BUS FORCE_内部結合
+CMVM_顧客住所が違う
+UV_BUS FORCE 諸費用請求書が真っ白になる
+UV_BUS FORCE 諸費用請求書作成中にエラーになる
+UV_BUS FORCE 納品書の注意マークがズレている
+UV_BUS FORCE 中古車販売注文書２のロゴの位置が右にズレている
+UV_BUS FORCE 買取見積書のPDFが発行されない
+UV_BUS FORCE 査定依頼の情報保存時（CTRL+S）で1回だけエラーが出る
+SV_Change JC Status(Cancel)(＠Okayama)
+UV_BUS FORCE 査定依頼の車種の選択時に同じ値が何個もある
+UV FDP岩手 中古車の在庫取消依頼
+CMVM_BUS FORCE 車検証取り込み時不具合
+Com_Inbox daily recovery(13-18.Jul)
+CMVM_FDP顧客・車両データー提供(岩手、和歌山、沖縄、四国）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+PT_BUS_FORCE Approval Eligibility Master(部品見積閾値マスタ）が未設定の為、部品見積が自動承認になってしまう
+PT_BUS FORCE 販売返品の承認フローが設定されなかった
+PT_BUS FORCE 経費出庫票BIPの会社名ロゴが表示されず印刷はずれている
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+SV_BUS FORCE 価格リストに明細がないレコードが多数ある。
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+UV FDP青森 中古車在庫の取消依頼
+PT_BUS FORCE 部品発注書・発注指示書BIPの会社名ロゴが表示されず印刷がずれている
+CMVM_BUS FORCE 車両マスタ内容不備
+CMVM_BUS FORCE 車両マスタの「市場措置情報」タブ選択時エラーになる
+VO_シャシオーダーキャンセル_岩手
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+NV FDP中国 受注へ訂正稟議が反映しない
+Com_BUS FORCE BranchSupplierに初期ファイルの内容が設定されていない
+Com_BUS FORCE SCマスタに初期配備ファイルに無い他FDPのレコードが存在する
+SV_Journal Vector Recovery(＠Shikoku)
+PT_BUS FORCE BIP Parts Quoteのヘッダーの会社ロゴが三菱マークのままになっている
+SV_BUS FORCE  油脂マスタの部品名称が文字化けしている
+SV_BUS FORCE ベイ（ストール）マスタの名称がことなる。
+COM_FDP中国_社員マスタ更新_20260708
+SV_BUS FORCE Service LABOR Branch Price/Cost LISTの追加依頼
+PT_BUS FORCE Inventory masterに不要な支店が存在する
+VO_マスタ更新（外色）_岡山
+COM_社員マスタ更新_FDP沖縄20260708
+COM_社員マスタ更新_FDP四国20260708
+SV Vehicle Master Export(@Okayama)
+SV_Change Line Item Status(@Iwate)
+CMVM_FDP中国顧客売掛マスタ抽出依頼_20260707
+NV_BUS FORCE_トランザクション
+INS_BUS FORCE_Mismatch Insurance company master & 10 Digit master
+NV FDP中国 受注の承認中に見積改訂をした為、訂正が反映しない
+CMVM_BUS FORCE 売掛先・買掛先情報更新ボタン押下時、エラーとなる
+SV_Maintenance Contract Master Update(ALL-FDP)
+SV_Change PO Cost(Only Siebel)(@Chugoku)
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+CMVM_BUS FORCE 車両マスタに添付されているファイルが移行されていない
+SV_The JC Close has not reached the KB.(@Chugoku)
+Com_BUS FORCE 回収担当拠点、回収担当者が変換されていない為9999になっている
+Com_BUS FORCE 社員マスタのposition、responsibilityが異なる
+NV_BUS FORCE_マスタ移行確認
+Com_BUS FORCE 部署名が６月２日提供した初期配備名と異なる
+Com_BUS FORCE 支店名が６月２日提供した初期配備名と異なる
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV_Approvers Recovery(@Shikoku)
+FORCEとKB間のIF仕様の整理
+UV FDP青森 中古車在庫の取消依頼
+Com_Inbox daily recovery(06-11.Jul)
+Com_Inbox daily recovery(06-11.Jul)
+SV_Change WO・PO Status(Cancel)(＠Shikoku)
+Kaizen approval for Parts Action and Transaction creation
+SV_Change and Add Lubrication Master(@Wakayama)
+SV_Change JC・WO Type(@Aomori)
+SV_Change PO Cost(Only Siebel)(@Okayama)
+VO_マスタ更新（オプション価格）_函館
+SV_Journal Vector Issue(@Shikoku)
+PT_N000607681 recovery in Okayama
+INC6683499 - PT_The Original Part Number is not displayed on the BIP order sheet.
+SV_MGW Approval Issue(@Shikoku)
+COM_定期社員マスタ更新_FDP岩手_20260702
+COM_社員マスタ更新_FDP和歌山_20260702
+UV FDP岩手 架装発注、部品発注の購入オーダーが作成できない
+COM_社員マスタ新規追加_FDP岡山_20260702
+COM_定期社員マスタ更新追加_FDP四国_20260701
+SV_Change Lubrication Master Price(@Hakodate)
+SV_Change and Add Lubrication Master(@Okayama)
+SV_Change PO Cost(Only Siebel)(@Okayama)
+UV FDP中国 KBインターフェースエラーリカバリ
+VO_リサイクルデータが表示されていない_中国
+SV_Change JC and Line Item Type(@Chugoku)
+COM_定期社員マスタ更新_FDP中国_20260630
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+SV_Change WO・PO Status(Cancel)(＠Okayama)
+VO_マスタ更新（外色）_岡山
+SV_Change and Add Lubrication Master(@Aomori)
+COM_FDP四国_定期EmployeeMaster_20260629
+SV_Change Service Quote Status(@Shikoku)
+UV FDP中国 納車完了承認の承認ルートが作成されない
+SV_Change Quote Status(＠Aomori)
+SV_Change Lubrication Master Price(@Chugoku)
+PT_Cycle Count batch job process and Cycle count 1-6R2ZCW  recovery in Wakayama.
+NV_納車承認エラー_中国
+SV_Change and Add Lubrication Master(@Hakodate)
+Com_Inbox daily recovery(29.Jun-04.Jul)
+VO_マスタ更新（大型）_沖縄
+SV_Change Parts Internal Return Order Status(@Okayama)
+SV_Change Lubrication Master Price(@Shikoku)
+SV_Change Supplier Code and Name(＠Aomori)
+SV_Change PO Cost(Only Siebel)
+SV_Change WO & PO Status(Cancelled)
+VO_マスタ更新（大型）_岩手
+UV FDP岡山 架装発注の購入オーダーが作成できない
+VO_マスタ更新（大型）_青森
+VO_マスタ更新（大型）_岡山
+COM_EmployeeMaster_FDP岡山20260626
+UV FDP岩手 架装発注の購入オーダーが作成できない
+SV_Change Claim Type(@Shikoku)
+SV_Change Quote and WO Status(＠Aomori)
+SV_Change Expense Status(@Okinawa)
+VO_リサイクルステータス更新_四国
+VO_マスタ更新（S袈装）_岡山
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（小型OPT追加）_7社
+PT_Not created JV of Parts Sales Return M000486052
+NV_見積に支店長名が表示されない_中国
+UV FDP岩手 孫取車両の購入オーダーが作成されない
+SV_Journal Vector Issue(@Shikoku)
+CMVM_取引先マスタ作成エラー_中国
+CMVM_取引先区分変更_岡山
+SV Change JC Status (Manual Close)(@Shikoku)
+VO_車両マスタ入力不可_岡山
+SV_Change WO Status(@Chugoku)
+NV_シャシ金額違い_函館
+SV_Change Lubrication Master Price(@Okinawa)
+NV_納車承認エラー_函館
+Liability insurance premium and Agency commission Revision(2026 Aug)
+VO_マスタ更新（大型追加）_四国
+VO_マスタ更新（大型追加）_中国
+NV_見積オプション価格が表示されない_四国
+SV_Change JC・WO Type(@Aomori)
+PT_Patrs Price update for 1st July. 2026
+Com_Inbox daily recovery(22-27.Jun)
+PT_Cannot print using the One-Click Print Solution.
+SV_Change WO Status(@Chugoku)
+NV_注文書作成エラー_四国
+CMVM_顧客・車両マスタデータ提供依頼(岩手、和歌山、沖縄、四国)
+CMVM_FDP顧客・車両マスタデータ提供(岡山、青森、函館、中国)
+UV FDP岩手 中古車在庫の取消依頼
+CMVM_取引先区分変更_岡山
+UV FDP四国 販売見積の関連見積がキャンセルできない
+SV_Change of supplier for PO
+COM_FDP四国_EmployeeMaster_20260618
+UV FDP青森 販売見積を誤ってキャンセル
+VO_車両マスタのフル型式2表示_全社
+COM_FDP沖縄_EmployeeMaster_20260617
+PJCR_SV_Changing the JC Type
+SV_Change of supplier for PO
+VO_車両マスタ型式違い_和歌山
+UV FDP岡山 中古車在庫の取消依頼
+UV FDP青森 中古車在庫キャンセル
+UV FDP岩手 受注承認が終わって居るのに承認中のまま
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+VO_リサイクルステータス更新_青森
+Com_Inbox daily recovery(15-20.Jun)
+SV_Change JC・WO Status(@Chugoku)
+VO_マスタ更新（HB、LB）_青森
+SV_Change Lubrication Qty and Cost(@Okinawa)
+VO_マスタ更新（大型追加）_岩手
+VO_マスタ更新（小型OPT価格）_青森
+VO_マスタ更新（大型追加）_青森
+UV FDP岡山 販売見積が再承認中のままで止まって居る
+VO_シャシオーダーキャンセル_岩手
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+UV FDP青森 受注承認が終わって居るのに承認中のまま
+COM_FDP四国EmployeeMaster_20260611
+VO_マスタ更新（eキャンター）_函館
+VO_マスタ更新（大型追加）_函館
+VO_マスタ更新（小型MC7）_函館
+PT_D2S SO not received
+VO_マスタ更新（大型追加）_四国
+VO_マスタ更新（大型追加）_沖縄
+VO_マスタ更新（大型追加）_中国
+VO_マスタ更新（大型追加）_岡山
+VO_マスタ更新（型式削除）_全社
+CMVM_FDP顧客・車両マスタデータ提供（岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両マスタデータ提供依頼(岡山、函館、青森、中国）
+VO_マスタ更新（小型MC7）_青森
+VO_マスタ更新（小型MC7）_岡山
+SV_Maintenance Contract Master Update(ALL-FDP)
+NV_見積の営業本部長表示_函館
+NV FDP中国 Power BI 3-06 Rerportに同じ受注が2件表示される
+VO_マスタ更新（小型MC7）_沖縄
+VO_マスタ更新（小型MC7）_岩手
+VO_マスタ更新（小型MC7）_四国
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新（小型MC7）_中国
+NV_見積改訂が受注へ反映していない_和歌山
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+SV_Change Labor Code and Labor Code Name：(Branch Miss Input)
+CMVM_顧客コード更新時エラー_中国
+SV_Add Lubrication Master Item(@Aomori)
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新（袈装発注書）_四国
+PT_Cycle Count batch job process in Shikoku.
+NV_見積有効変更_中国
+Com_Inbox daily   recovery(08-13.Jun)
+CMVM_取引先区分変更の影響確認_岡山
+UV FDP岩手 購入オーダーを割当解除せずに受注キャンセルした
+VO_リサイクル請求の車台番号不具合_岩手
+UV FDP青森 入庫検収依頼が承認依頼中のまま承認が作成されなかった
+PT_N000103833 recovery in Wakayama
+CMVM_FDP中国顧客売掛マスタ抽出依頼_20260604
+CMVM_車検証読込エラー_中国
+COM_EmployeeMaster随時/FDP四国_20260604
+SV_Change WO・PO Status(@Aomori)
+NVUV FDP中国 EPO CR　電子サインCR
+SV_Activity Status is incorrect.(@Chugoku)
+Outbound URL change - TNET UAT
+Unable to print directly
+UV FDP中国 販売した車両が在庫に残っている
+SV_Change Billable Flag(JC-Header)(＠Okayama)
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM_売掛・買掛作成時エラー表示_岡山
+CMVM_顧客・車両マスターデータ提供依頼_20260603
+CMVM_顧客・車両マスターデータ提供依頼_20260602
+PT_Price master not updated.
+PT_PO return N000194423 recovery in Iwate.
+Com_Inbox daily   recovery(01-06.Jun)
+VO_マスタ更新（S袈装　小型）_7社
+VO_マスタ更新（S袈装　小型）_岡山
+Request to fetch the UAT and prod files
+SV Change JC Status(Cancelled)
+CMVM_定期/FDP四国社員マスターUpdate
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+SV_Change Quote and WO Status(＠Chugoku)
+NV_UV_袈装発注書注意事項更新_青森
+VO_シャシオーダーキャンセル_岩手
+PT_N000101734 and N000102085 recovery in Wakayama
+SV_Change Lubrication Master Price and Add Lubrication Parts＃(@Okinawa)
+SV_Change Lubrication Master Price(@Aomori)
+COM_FDP中国_EmployeeMaster_20260527
+SV_JCO and Quote-Change Labor Status(Canceled)
+SV_Change JC・WO and Line Item Type(@Chugoku)
+PT_Price master not updated
+VO_袈装ステータス変更_青森
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+NV_税確定仕訳重複_四国
+UV FDP和歌山 購入オーダーキャンセル依頼の承認WFが無い
+PT_Patrs Price update for 1st Jun. 2026
+Com_Inbox daily   recovery (25-30.May)
+NV_袈装オーダーが奉行連携されていない_岩手
+PT_There are unnecessary records in the cycle count data for KB.
+SV_Change PO Cost(Only Siebel)
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+NV FDP沖縄 見積承認依頼がエラーで出来ない
+CMVM_取引先データ抽出_中国
+NV FDP沖縄 受注承認依頼がエラーで出来ない
+VO_マスタ更新（OPT価格）_函館
+NV_受注のシャシ及びオプション価格_四国
+FDP中国 受注の納車完了承認を却下しても納車完了承認中のまま変わらない
+INC6487012 - SV_承認者へのコメント が消える
+The display of the FDP printer master differs depending on the account.
+SV_Quote Amount Correction
+SV_Change Labor Generic Labor Description(@Hakodate)
+NV FDP青森 見積承認依頼時にエラーが出て承認依頼できない
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+CMVM_顧客・車両マスタデータ提供依頼_20250522_2
+CMVM_顧客・車両マスタデータ提供_20260522
+PT_Add an online working day for Okayama Prod to process the cycle count process
+SV_Maintenance Contract Master Update(ALL-FDP)
+SV Change JC Status(Cancelled)
+NV_見積改訂ができない_中国
+UV FDP和歌山 中古車購入オーダーのキャンセルリクエストでエラーが出て進めない
+SV_The debit and credit departments are different.
+NV_見積有効変更_和歌山
+VO_マスタ更新（大型追加）_岡山
+VO_マスタ更新（小型OPT価格）_和歌山
+VO_マスタ更新（小型OPT価格）_岩手
+VO_マスタ更新（大型追加）_沖縄
+VO_マスタ更新（大型追加）_和歌山
+VO_マスタ更新（大型追加）_岩手
+PT_ The SDS items added under CR-0869 do not exist in MF Parts - Non Genuine Form Applet
+SV_Claim Sabumit Error(@Okinawa)
+"SV_Recovery Expense Order(Price ""0"")"
+Com_Inbox daily   recovery(18-23.May)
+UV FDP岩手 中古車受注が承認済にならない
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（小型OPT価格）_3社
+VO_マスタ更新（小型OPT価格）_岡山
+PT_Data patching related to MFTBCFFR-5262
+VO_マスタ更新（大型追加）_四国
+VO_マスタ更新（大型追加）_中国
+SV_Change JC・WO Type(@Chugoku)
+"SV_Recovery Expense Order(Price ""0"")"
+COM_FDP中国_EmployeeMaster_20260514
+NV_奉行連携確認
+UV FDP中国 在庫加修の整備原価が２つの内１つが反映していない
+COM_FDP函館_EmployeeMaster_20260514
+UV FDP青森 架装発注の承認依頼が出来ない
+PT_Price master not updated.
+SV_Change WO Status(Cancelled) and Delete JV record
+CMVM_住所コードマスターUPDATE依頼_2026年4月
+SV_The total parts amount on the invoice is incorrect.
+回収担当者の使用確認
+VO_シャシオーダー発注日の表示誤り
+VO_マスタ更新（外色）_岡山
+SV_Add Position and Labor Master(@Hakodate)
+UV FDP四国 中古車販売見積を誤ってキャンセルにした
+SV_Change JC・WO and Line Item Type(@Aomori)
+SV_Change Labor Generic Labor Description(@Chugoku)
+NV_UV_承認フロー更新_青森
+SV_Inbox Items List - Remove	(@Chugoku)
+SV_Change Labor Status(@Chugoku)
+UV FDP岩手 売上承認依頼ができない
+SV_Recover the Journal Vector for LubricantGWC. @Shikoku
+NV_車台番号表示誤り_青森
+VO_袈装発注ステータス変更_中国
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+Com_Inbox daily   recovery (11-16.May)
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM_FDP岡山_顧客売掛マスタ抽出依頼_20260508
+UV FDP函館 中古車入庫取消依頼（在庫は既に再入庫中の為、購入オーダーのみ）
+KB_JV not created for Liability Insurance
+COM_FDP四国_EmployeeMaster_20260508
+NV_請求書の支払日が表示されない
+SV_JV Data not received in KB
+SV_Change PO Cost(Only Siebel)
+SV_Invoice details are not printed
+COM_FDP岩手_EmployeeMaster_20260507
+PJCR_PT_Salesforce Parts process improvement and Force interface
+SV_Change JC・WO Type(@Aomori)
+SV_Update Payment Term
+PT_Material master not updated.
+PT_Material master not updated.
+NV_納車依頼キャンセル_四国
+INS_集計表が承認済になっている
+COM_FDP四国_EmployeeMaster_20260501
+CMVM_FDP中国顧客売掛マスタ抽出依頼_2026.4
+Com_Inbox daily   recovery(07-09.May)
+KB_Daily Batch control file mismatch
+NV_納車依頼キャンセル_四国
+INS_Revert the Spread sheet status
+UV FDP四国 整備作業依頼用の活動が作成できない
+SV_Change PO Cost(Only Siebel)(@Okayama)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+NV_見積有効変更_中国
+Common_SIEBEL operating hours ended a little earlier than scheduled.(＠ALL-FDP？)
+SV_Change Quote Status(@Hakodate)
+VO_リサイクルデータが表示されていない_中国
+SV Change JC Status(Cancelled)
+SV_Change Labor Status(@Hakodate)
+CMVM_定期 / 社員マスターUpdate_岡山・中国
+UV FDP中国 売上後の架装発注のGIの仕訳が出来ていない
+SV_Change Field Fix Order Code
+SV_Siebel Time-out(＠Okayama)
+PT_Add an online working day for Shikoku Prod to process the cycle count process.
+VO_シャシオーダーステータスが更新されていない_青森
+CMVM_FDP売掛情報の表示と異なる（中国）
+VO_TOB請求データが奉行連携されていない_岡山
+PJCR_PTSV_Changes to the email template and error messages(2 CRs).
+PJCR_PTSV_Change Approval mail Template
+PJCR_PTSV_Adding and modifying error messages
+PT_D2S allocation and shipment recovery
+Com_Inbox daily   recovery(27.Apr-02.May)
+SV_Change Field Fix Code and Labor Status(@Wakayama)
+SV_Change of supplier for PO
+CMVM_随時 / 社員マスターUpdate_岩手
+SV_Change Chassis＃(Key＃) and Registration＃(@Okayama)
+VO_マスタ更新（大型バス排ガス記号）_中国_沖縄
+NV FDP中国 架装入庫検収の承認依頼時に「正しい承認依頼者を選択します」とエラーが出て進めない
+VO_マスタ更新（登録手数料）_和歌山
+SV Change JC Status(Cancelled) and Change PO Cost(Only Siebel)
+VO_マスタ更新（大型バス、小型バス）_和歌山
+PT_Patrs Price update for 1st May. 2026
+SV_Change WO Status(@Chugoku)
+VO_車台番号表示違い_青森
+SV_Change PO Cost(Only Siebel)
+PT_PO return N050648971 recovery in Chugoku.
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+SV_Change Quote and WO Status(＠Chugoku)
+VO_マスタ更新（大型バス、小型バス）_函館
+VO_マスタ更新（大型バス、小型バス）_岡山
+SV_Change Parts Comment(＠Okinawa)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+UV FDP岩手 プール原価を手動で0円にしてしまった
+SV_Journal Vector Recovery-Weight Tax(@Wakayama)
+Com_Inbox daily   recovery(20-25.Apr)
+PT_N000094966 recovery in Wakayama
+VO_マスタ更新（大型バス、小型バス）_岩手
+SV_Change Billing・Cost Rate Master(＠Aomori)
+PT_The D2S Invoice mismatch screen is very slow both when opening it and when exporting.
+SV_Lubrication Qty Issue(@Okinawa)
+SV_Change Lubrication Master Price(@Hakodate)
+UV FDP中国 中古車本体の原価の仕訳が作成されていない
+VO_マスタ更新（大型バス、小型バス）_中国
+VO_マスタ更新（大型バス、小型バス）_四国
+SV_Add Service Discount Master(@Aomori)
+VO_マスタ更新（大型バス、小型バス）_沖縄
+UV FDP中国 売上後に追加した整備追加原価のJVの金額から整備部品原価分の金額が抜けている
+UV FDP中国 中古車本体の原価の仕訳が作成されていない
+SV_Add Position and Labor Master(@Shikoku)
+SV_Change Service Billing and Cost Rate Master(@Hakodate)
+April 2026 PT_The value for Ship To Customer was not copied to the PO.
+PT_N000477872 recovery in Okayama.
+PT_The price master is not updated correctly.
+VO_車台番号がC/#のみ_四国
+SV_Service Quote Open Issue(Long GURU GURU)(@Iwate-PROD)
+SV_Change Parts Internal Return Order Status(Cancelled)
+VO_袈装発注ステータス変更_中国
+UV FDP岩手 納車完了承認時にエラーが出るが購入オーダーは全部Mapしている
+KB_Re-create EoM Invoice data for target Orders
+SV_WO and PO status change
+VO_車台番号が表示されていない_中国
+NV_見積ステータス変更_中国
+SV_Change PO Cost(Only Siebel)
+VO_シャシオーダーが表示されない_四国
+VO_マスタ更新（外色）_沖縄
+VO_車台番号が更新されていない_中国
+CMVM_随時 / 社員マスターUpdate_四国
+FDP岡山 中古車の売上後訂正で追加した整備の原価振替の仕訳が作成されない
+SV_Change JC・WO Type(@Okinawa)
+Com_Inbox daily   recovery(13-18.Apr)
+VO_シャシオーダーが表示されない_岩手
+SV_Change JC・WO Type(@Okinwa)
+UV_税確定金額修正_函館
+NV_BIPの支店長名が変更されていない_岩手
+SV_Change the  Prospect Account Name(Blank) @Okinawa
+VO_マスタ更新（S袈装）_岡山
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（S袈装）_7社
+CMVM_随時 / 社員マスターUpdate_岡山
+CMVM_FDP顧客売掛回収担当一括変更（岩手）
+CMVM_随時 / 社員マスターUpdate_岩手
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+UV FDP中国 誤って販売見積をキャンセルにした為、戻して欲しい
+VO_マスタ更新（外色）_沖縄
+SV_Journal Vector Recovery(@Shikoku)
+CMVM_随時 / 社員マスターUpdate_沖縄
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+FDP和歌山_承認依頼メールをクリックするとエラーになる
+VO_マスタ更新（eキャンター）_中国
+SV_Maintenance Contract Master Update(ALL-FDP)
+INC6387156 PT_The D2S location is not displayed when clicking the D2S stock check button.
+SV_Change Labor Time(＠Okinawa)
+SV Change JC Status(Cancelled)
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+INS_Revert Insurance order status
+Com_Inbox daily   recovery(06-11.Apr)
+VO_マスタ更新（eキャンター）_4社
+SV_Change PO Cost(Only Siebel)
+PT_DN price has not been reflected.
+CMVM_FDP沖縄_買掛情報が更新されない
+SV_WO status change
+SV_Change Parts Name(＠Aomori)
+SV_Change Supplier Code and Name(＠Aomori)
+SV_Change PO Cost(Only Siebel)(@Aomori)
+NV_仕様書に袈装が表示されない
+SV_Change PO Cost(Only Siebel)
+CMVM_FDP中国_顧客売掛情報データー提供
+CMVM_随時 / 社員マスターUpdate_中国
+PT_No price records exist for LUMF parts.
+PT_The price revision record for April 1st does not include the addition of two part numbers.
+PT_Update bulk Discount master in Chugoku.
+SV_Change Lubrication Master Price(@Aomori)
+SV_JC and WO Status To Cancel(@Aomori)
+NV_マスタ更新（登録手数料）_岡山
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+SV_Change Billing・Cost Rate Master(＠Okayama)
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+NV_納車エラー_四国
+SV_Change the  Prospect Account Name(Blank) @Okinawa
+SV_Change Quote Status(@Aomori)
+VO_袈装発注ステータス変更_中国
+CMVM_定期 / 社員マスターUpdate_岩手・中国・四国
+VO_袈装オーダー仕訳修正_四国
+UV FDP青森 入庫検収依頼が承認依頼中のまま承認が作成されなかった
+SV_JC and WO Status To Cancel(@Iwate)
+SV_Change Quote Status(＠Shikoku)
+CMVM_売掛取引先名称変更
+CMVM_売掛情報からの提供項目の変更
+VO_リサイクルが表示されていない_中国
+SV_Change the status of a WO
+PT_Cycle Count batch job process in Hakodate.
+Com_Inbox daily   recovery(30.Mar-04.Apr)
+PT_Unnecessary txns were created with PO return N050639276 in Chugoku
+UV FDP和歌山 PBI 2-05レポートが表示されない
+SV_Change Lubrication Master Price(@Shikoku)
+PT_Cycle Count batch job process in Okinawa
+PT_AMS_CR_Add error handling for D2S allocation
+SV_Change Quote Status(＠Shikoku)
+NV UV ALLFDP 承認却下と承認済の時のメール内容がわからなくなっている
+NV FDP中国 訂正稟議が反映されていない
+NV UV CR_Tax Reform RITM1886763
+SV_Change JC Type(@Aomori)
+SV_Change WO Status(@Okinawa)
+CMVM_FDP顧客売掛回収情報提供依頼(岩手)
+UV FDP四国 受注キャンセル前にアンマップしなかった為リカバリ
+SV_Change WO and JC Status(@Hakodate)
+SV_There are times when payment terms are not reflected in JCO
+NV_マスタ更新（登録手数料）_岩手
+PJCR_PT_SCFDP Change related to the Parts Quote and UOE Quote screen.
+PT_Cycle Count batch job process in Iwate.
+PT_Cycle Count batch job process in Aomori.
+SV_Changes to JCO collection conditions
+SV_Change JC and WO Status(＠Aomori)
+SV_Payer Basic Account Code Issue(＠ALL-FDP)
+SV_Changes to JCO collection conditions
+FDP取引先・車両画面のメニュー表示変更
+FDP取引先・車両画面のメニュー表示変更
+FDP取引先・車両画面のメニュー表示変更
+PT_N000297375 recovery in Aomori
+VO_マスタ更新（大型バス）_和歌山
+PJCR_SV_Service-related CRs (Summary of 4 items)
+NV_納車承認エラー_中国
+SV_Change JC Type(@Aomori)
+CMVM_FDP中国_買掛情報仕入取引可能フラグ変更
+PT_Patrs Price update for 1at Apr. 2026
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+SV_Change JC・WO Type(@Aomori)
+VO_マスタ更新（後付）_岡山
+PT_Txns 1-125393331 recovery in Aomori.
+Com_Inbox daily   recovery(23-28.Mar)
+SV_Change Lubrication Status(@Wakayama)
+SV_Change WO・PO Status(Cancel)(＠Wakayama)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV_Change Labor Name(＠Wakayama)
+PT_Txns 1-125393331 recovery in Aomori.
+SV_Change  Service Discount Master(@Iwate：0000265640)
+SV Change Approval Matrix(@Iwate)
+SV Change JC Status (Manual Close)(@Iwate)
+SV_The accounting entries for Journal Vector are incorrect.
+SV_Recover the Journal Vector for PartsGWC. @Shikoku
+SC_FDP_バスFORCE_CR改修
+VO_袈装発注ステータス変更_中国
+NV_諸費用請求の消費税が違う_岡山
+SV_ Reflect Prospect customers in expense reports(SC/ FDP)
+SV_Adding discount display items (quote)
+CMVM_随時 / 社員マスターUpdate_和歌山
+NV_注文書3の車両代が表示されない
+"SV_Recovery Expense Order(Price ""0"")"
+PT_PO recovery
+PT_The PO return N050639276 was registered duplicated in D2S in Chugoku.
+VO_マスタ更新（登依頼マスタ）_中国
+PT_D2S SO not received
+UV FDP青森 中古車販売見積のステータス変更
+SV_Update Payment Term
+SV_Recover the Journal Vector for Sales Amount.
+SV_WO and PO status change
+NV_請求書の支払予定日が違う
+Com_Inbox daily   recovery(16-21.Mar)
+The amounts differ between the SV_SIEBEL and KB reports.
+UV FDP岡山 売上済受注の検収済架装発注取消
+CMVM_FDP顧客売掛回収担当一括変更（中国）
+CMVM_FDP中国_買掛情報仕入取引可能フラグ変更
+PT_N050688451 and N050688320 recovery in Chugoku
+UV FDP岩手 訂正稟議が反省されていない
+SV_Input Chassis＃(Key#)(＠Okayama)
+VO_マスタ更新（外色）_岡山
+PT_The genuine Price master was not updated correctly.
+PT_PO N000331056 and PO return N000346864 recover in Aomori.
+PT_Barcode and shipment receiving is not possible
+CMVM_随時 / 社員マスターUpdate_函館
+VO_車両マスタ重複
+PT_N000351247 recovery in Aomori
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM_FDP中国_Siebelと奉行で差異がある
+NV_登録依頼の明細が正常に作成されていない
+UV FDP四国 中古車販売見積のステータスを戻して欲しい
+NV_請求書の支払日が表示されない
+NV_税確定仕訳重複
+SV_Maintenance Contract Master Update(ALL-FDP)
+NV_見積ステータス変更_四国
+UV FDP中国 入庫した在庫の取消依頼
+SV_Change JC and WO、line Item Type(＠Okayama)
+SV_Change JC and WO Status(@Hakodate)
+NV_受注データ抽出_中国
+Com_Inbox daily   recovery(09-14.Mar)
+SV_The account headings for Parts and Lubricant are incorrect.
+SV_Sales Price Issue(Non Chargeable Type)
+SV_Recovery Non-TAX PO(Okinawa)
+VO_マスタ更新（S袈装）_岡山
+VO_マスタ更新（S袈装）_7社
+PT_N000331598 recovery in Aomori.
+SV_Change PO Cost(Only Siebel)
+SV_Add Billing and Cost Rate Master(＠Iwate)
+SV_JC and WO Status To Cancel(@Aomori)
+VO_リサイクル料金修正_中国
+SV_Change JC Type(@Aomori)
+NV_私の受注に他の担当者のオーダーが表示される_岡山
+NV_承認フロー違い_岡山
+VO_マスタ更新（袈装発注書）_函館
+CMVM_FDP中国_顧客売掛情報データー提供
+SV_Change PO Cost(Only Siebel)(@Okayama)
+CLONE - NV_見積ステータス変更_中国
+VO_シャシオーダー明細アウトライン番号違い_中国
+VO_シャシオーダーキャンセル_四国
+UV FDP四国 諸費用請求書の実額の項目と予定の項目が一致しない
+NV_MFTBCFFR-4150関連修正
+VO_袈装オーダー消費税の仕訳が作成されていない_中国
+VO_シャシオーダーの価格が表示されない
+VO_マスタ更新（袈装発注書）_岡山
+Com_Inbox daily   recovery(02-07.Mar)
+PT_Sales order M050626185 recovery in Chugoku
+PT_Cycle Count batch job process in Chugoku.
+NV_納車承認エラー_青森
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+SV_Change the Quotation Status
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV Change JC Status(Cancelled)
+NV_見積ステータス変更_中国
+CMVM_定期 / 社員マスターUpdate_中国・四国
+CMVM_買掛：非課税フラグが登録申請と逆に登録される
+VO_シャシオーダー重複_中国
+SV_Recovery Non-TAX PO(ALL-FDP)
+SV_Change WO Status(Cancelled)
+PT_PO return N050639276 recovery in Chugoku.
+VO_袈装オーダーステータス変更_青森
+SV_Change Supplier Code and Name(＠Aomori)
+SV_Change PO Cost(Only Siebel)(@Okayama)
+PT_Cycle Count batch job process in Okayama.
+The amounts differ between the SV_SIEBEL and KB reports.
+Com_Inbox daily recovery(24-28.Feb)
+UV FDP中国 受注キャンセル前にアンマップしなかった為リカバリ
+SV_WO status change
+PT_Patrs Price update for 2nd Mar. 2026
+SV_Change the status of a quote
+VO_袈装発注ステータス変更_中国
+VO_マスタ更新（小型バス）_OPT価格_函館
+VO_マスタ更新（小型バス）_OPT価格_6社
+CMVM_FDP岡山_顧客売掛情報データー提供
+SV_Change WO Status(@Okinawa)
+SV_WO status change
+CMVM_随時 / 社員マスターUpdate_岩手
+SV_Changes to JCO collection conditions
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change JC Type(@Aomori)
+Common_Unable to log in to Siebel(@Aomori/Hakodate)
+"SV_The account code for the free-of-charge item ""External Parts"" is incorrect."
+PT_Can not receive D2S SO confirmation in Hakodate
+PT_Can not print to 1-click print solution in Hakodate
+VO_袈装発注ステータス変更_中国
+PT_D2S shipment not received.
+VO_マスタ更新（小型バス）_函館
+VO_マスタ更新（小型バス）_６社
+SV_Prospect Account Name Issue(@Shikoku)
+SV_Update Payment Term
+CMVM_FDP顧客売掛回収担当一括変更（中国）
+UV FDP四国 中古車在庫の取消依頼
+VO_袈装オーダーステータス戻し_沖縄
+NV_見積ステータス変更_沖縄
+CMVM_随時 / 社員マスターUpdate_中国
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+CR_Power BI項目追加
+NV_見積ステータス変更_沖縄
+"SV_Recovery Expense Order(Price ""0"")"
+UV FDP岩手 キャンセルした受注の架装購入オーダーが新受注に紐付出来ない
+SV_Change Generic Labor Description(Branch Miss Input)
+SV_JC-Change MileageOperation Hoursr
+SV_Change Parts Internal Return Order Status(Cancelled)
+UV FDP岩手 中古車在庫の取消依頼
+CMVM_FDP中国_買掛情報仕入取引可能フラグ変更
+CMVM_随時 / 社員マスターUpdate_函館・四国
+PT_Change of owner of Cycle count in FDP Chugoku.
+PT_MWH slip for N050641353 is not output FDP Chugoku
+UV FDP中国 販売見積の承認履歴が違う
+Com_Inbox daily recovery(16-21.Feb)
+SV_Add Billing and Cost Rate Master(＠Iwate)
+SV_WO status change
+SV_Change Claim Type：(Branch Miss Input)
+SV_Inbox Items List - Perform approval and Remove(Service GW)
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+CMVM_住所コード登録依頼（中国）
+SV_Change PO Cost(Only Siebel)(@Aomori)
+SV_Update Payment Term
+VO_マスタ更新（外色）_岡山
+SV_Change WO Status :@Iwate
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+VO_マスタ更新（S袈装）_岡山
+VO_マスタ更新（S袈装）_7社
+SV_Change PO Cost(Only Siebel)(@Aomori)
+SV_Change WO Status(@Iwate)
+INC6142724	SV_Quote PO Cost Issue
+Feb 2026 release
+SV_Change PO Cost(Only Siebel)(@Shikoku)
+SV_Change Chassis＃(Key＃) and Registration＃(@Shikoku)
+SV_Change Quote Status(＠Iwate)
+VO_マスタ更新（大型OPT価格）
+VO_マスタ更新（大型OPT価格）_岡山
+VO_マスタ更新（大型追加型式）_函館
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV_Change Quote Status(@Wakayama)
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+SV_Maintenance Contract Master Update(ALL-FDP)
+SV_Change WO・PO Status(Cancel)(＠Wakayama)
+PT_MWH slip for N050632273 is not output FDP Chugoku
+NV FDP中国 売上後の変更で下取車をつけても反映しない
+Com_Inbox   daily recovery(09-14.Feb)
+SV_Change PO Cost(Only Siebel) ×２
+PT_The delivery slip when the EC order was created was not an EC delivery slip in FDP Chugoku
+CMVM_FDP顧客売掛回収担当一括変更（中国）
+PT_The 適格事業者番号 on the EC Delivery slip is blank in FDP Chugoku.
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM_随時 / 社員マスターUpdate_中国
+VO_マスタ更新（大型バス）_中国
+SV_Service Subtotal Issue(JCO‐Header)(@ALL-FDP)
+CMVM_随時 / 社員マスターUpdate_岩手
+VO_マスタ更新（大型追加型式）_岡山
+PT_Additional processing of D2S invoice data in FDP Shikoku
+VO_マスタ更新（大型追加型式）_四国
+VO_マスタ更新（大型追加型式）_中国
+VO_マスタ更新（大型追加型式）_岩手
+VO_マスタ更新（大型追加型式）_沖縄
+PT_MWH slip for N050623785 is not output FDP Chugoku
+UV FDP岩手 査定依頼を却下からキャンセルにしたい
+CMVM_FDP顧客売掛部品・整備回収担当データー提供（中国）
+CMVM_FDP中国_顧客売掛情報データー提供
+SV_Change WO Status(Cancelled)
+SV_Change JC・WO Type(@Aomori)
+SV_Change PO Cost(Only Siebel)
+N000338130 recovery in Aomori.
+UV FDP中国 見積用車両の査定依頼を査定済にできない為、キャンセル出来ない
+PT_Alternate Parts Master extraction
+SV_Change WO and Labor Status(@Okinawa)
+NV_諸費用請求ステータス変更_中国
+Com_Inbox   daily recovery (02-07.Feb)
+SV_Inbox Items List - Remove	(@Okayama)
+UV FDP和歌山 中古車在庫の取消依頼
+PT_The DN price for ME222261 is incorrect.
+SV_Change PO Cost(Only Siebel)(@Okayama)
+PT_D2S invoice recovery in FDP Shikoku
+SV_Recovery Internal Work JC(@Shikoku)
+UV FDP中国 利益が計算と合わない
+UV FDP中国 社内工事の定価が合わない
+CMVM_定期 / 社員マスターUpdate_各FDP
+VO_マスタ更新（eキャンター）_岩手
+UV FDP岡山 中古車販売見積の承認依頼ロール間違え
+NV_見積ステータス変更_四国
+SV_Change WO Status(Cancelled)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+NV_納車承認エラー_中国
+KB_Wrong Tax flag on CSJS203 & CSJS303
+SV_Change JC・WO Type(@Chugoku)
+CMVM_不要な取引先がKBに連携されている
+VO_マスタ更新（HB）_函館
+PT_Add an online working day for Chugoku Prod to process the cycle count process.
+VO_マスタ更新（外色）_函館
+PT_Purchase orders were not automatically created from orders created in UOE Quote in Wakayama UAT.
+SV_Change PO Cost(Only Siebel)
+CMVM_売掛先情報追加時のエラー(中国)
+VO_リサイクルステータス更新_青森
+SV_CM_Change AR Post Code and Address(@Hakodate)
+SV_Change KEY Number
+NV_見積有効変更_中国
+NV_見積改訂時エラー表示_中国
+SV_Change WO & PO Status(Cancelled)
+SV_Change WO・PO Status(Cancel)(＠Okinawa)
+PT_Patrs Price update for 2nd Jan. 2026
+UV FDP中国 エラーにて査定依頼が作成できない
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+CR_完了済袈装発注キャンセル
+SV_Change PO Cost(Only Siebel)
+SV_Cannot link with VECT
+Com_Inbox   daily recovery (26-31.Jan)
+INS_Revert Spread sheet status #2
+INS_Revert Spread sheet status
+VO_マスタ更新（オプション価格）_函館
+NV_大型バス価格違い_函館
+NV_受注データ抽出_中国
+PT_N000357918 recovery in Shikoku
+CMVM_FDP中国_顧客基本・売掛情報データー提供
+CMVM_RESPONSBLE_SERVICE_SHOP_CODE and other information have disappeared
+KB_Department code blank on JV
+SV_Change Activity Status(Internal Work Request)
+CLONE - NV_見積で部品入力ができない_四国
+PT_Change DN price in Cycle Cnt to fixed(SC Ver AMS CR 610007571)
+UV FDP和歌山 中古車在庫に戻った車両の戻し
+SV_Add Service Discount Master(@Okayama)
+VO_マスタ更新（外色）_岡山
+CMVM_FDP中国_顧客売掛情報データー提供
+CMVM_FDP顧客・車両データー提供（岩手・四国・和歌山・沖縄
+CMVM_FDP顧客・車両データー提供（岡ふ・青森・函館・中国）
+NV_見積の所長名が違う_岩手
+PT_Change Parts Quote BIP
+UV FDP和歌山 中古車在庫の取消依頼
+PT_A blank page was inserted on the second page of the delivery slip.
+UV FDP岡山 査定依頼のバススタッフの承認ルートが作成されない
+Com_Inbox daily recovery(19-24.Jan)
+SV_Change Vehicle Owner Field Mapping(@ALL-FDP)
+SV_Change WO & PO Status(Cancelled)
+SV_Change in Quotation amount@Shikoku
+SV Change JC Status(Closed)
+SV_Change PO Cost(Only Siebel)(@Aomori)
+SV_Change Expense Status(Actual＆Plan)
+VO_袈装オーダーステータス戻し_青森
+PT_N000324626 recovery in Aomori
+PT_Missing records for discount master upload
+SV_Change WO Status
+NV_Power BI修正（袈装業者）_全社
+NV FDP中国 見積承認ルートが作成されない
+CMVM_随時 / 社員マスターUpdate_岩手
+SV Add Position and Labor Code Master(ALL-FDP)
+NV_VCのオプションコード表示_中国
+VO_マスタ更新（外色）_中国
+SV_Change Parts Internal Return Order Status
+SV_Change JC/JCO・WO Status(@Aomori)
+"SV_Change JC・WO Type,Change WO Status(@Aomori)"
+SV_Maintenance Contract Master Update(ALL-FDP)
+SV_WO status change
+PBI_SV_Service Report Issue(@Chugoku)
+SV_Change PO Cost(Only Siebel)
+Com_Inbox   daily recovery(13-17.Jan)
+VO_マスタ更新（外色）_岡山
+Impact analysys for TOB interface
+VO_マスタ更新（外色）_函館
+CLONE - VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+SV_Change PO Cost(Only Siebel)
+CMVM_ホーム画面の表示について
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+CMVM_随時 / 社員マスターUpdate_四国
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+SV_Update JCO Customer Info(@Okinawa)
+CMVM_随時 / 社員マスターUpdate_四国
+CMVM_社員マスターエクスポートデーターについて
+INS_Change Bank transfer fee
+"CMVM_""Name of Personnel in charge of service"" contains an invalid value."
+CMVM_随時 / 社員マスターUpdate_和歌山
+PT_MWH stock transfer print not output in FDP chugoku
+VO_マスタ更新（OPT価格）_岡山
+SV_Change PO Cost(Only Siebel)
+CMVM_随時/ 社員マスターUpdate_中国
+VO_袈装発注ステータス変更_中国
+CMVM_定期 / 社員マスターUpdate_四国
+SV_Billing/Cost Rate Master Not updated
+Com_Inbox   daily recovery(05-10.Jan)
+CMVM_定期 / 社員マスターUpdate_中国
+VO_マスタ更新（大型バス）_岡山
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+D2S Invoice Calander
+UV FDP四国 中古車在庫の取消と下取車の新車受注からの取消
+Com_Inbox daily recovery(29.Dec)
+SV_Change JC・WO Type(@Aomori)
+SV_Add Reporting JC Type LOV (@Aomori)
+SV_Change Lubrication Master Price(@Aomori)
+NV_受注ステータス戻し_中国
+SV_Change Lubrication Master Price(@Shikoku)
+SV Change JC Status(Cancelled)
+SV Change Lubrication Status(Cancelled)
+SV Change Service Change Order Status(Cancelled)
+CMVM_FDP顧客データー提供依頼（中国）
+SV_Change Quote Status(＠Iwate)
+SV_Change JC・WO・PO Status(@Okayama)
+SV_Change JC Status(@Okayama)
+NV_見積ステータス変更_四国
+UV_Cannot Tax Confirmation completed
+SV_Change PO Cost(Only Siebel)
+"SV_Change JC・WO Type,Change WO Status(@Shikoku)"
+NV_見積ステータス変更_中国
+SV_JCO Line Discount％ Issue(@Okayama)
+PT_Primary printer setting in Chugoku
+VO_シャシオーダーの明細がない
+SV_Change Generic Labor Description(Branch Miss Input)
+PT_Cycle Count batch job process and Cycle count 1-4G7MDD recovery in Wakayama.
+"KB_Wrong account code in JV - NV ""Revise Sales Posting Selling"""
+SV_Recovery Payer Account Code (＠Shikoku)
+VO_マスタ更新（外色）_中国
+VO_袈装発注ステータス変更_中国
+"SV_Change JC・WO Type, Change WO Status(@Shikoku"
+NV_納車依頼ステータス戻し_青森
+SV_Maintenance Contract Master Update(ALL-FDP)
+CMVM_随時 / 社員マスターUpdate_和歌山
+PT_Patrs Price update for 1st Jan. 2026
+VO_マスタ更新（大型バス）_函館
+Com_Inbox   daily recovery(22-27.Dec)
+VO_マスタ更新（外色）_岡山
+PT_N000072453 recovery in Wakayama
+SV_Change WO・PO and JC Status(Cancel)(＠Okinawa)
+SV_Change JC・WO Type(@Wakayama)
+SV_Change Labor Name(＠Wakayama)
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+VO_袈装発注ステータス変更_中国
+SV_Change PO Cost(Only Siebel) ×２
+CMVM_住所コードマスター字丁目変更（中国）
+VO_マスタ更新（大型・小型オプション）_7社
+VO_マスタ更新（大型・小型オプション）_岡山
+UV_税確定エラー修正_岩手
+SV_Change JC・WO Type(@Aomori)
+UV FDP四国 注文書と販売見積の金額が違う（注文書の金額が合っていない）
+UV FDP中国 部品の関連見積がキャンセルできない
+KB_Change Department code in JV and add mapping table
+"PT_In Price Master MX002835, the end date is not set for the old period record. All FDP."
+NV_承認フロー更新_四国
+"PT_The shipment action exists, but the transaction does not exist in FDP Shikoku N000327572."
+VO_マスタ更新（大型バス）_青森
+KB_Department code blank on JV
+SV_Change JC・WO Type(@Shikoku)
+SV_JCO-Change Labor Status(Canceled)
+SV_Change JC・WO Status(Cancel)(＠Iwate)
+PBI_SV_Table Title Issue(Report＃1-10)
+SV_Change Billing・Cost Rate Master(＠Iwate)
+"SV_The item is tax-exempt, but the tax rate is displayed"
+VO_マスタ更新（シャシ価格）_四国
+SV_Change Labor Cost(@Okinawa-PROD)
+SV Change JC Status(Cancelled)
+SV_Change Activity Status(Internal Work Request)
+SV_Change JC・WO Type(@Chugoku)
+"SV_Change WO,Quote and Claims"
+VO_マスタ更新（大型バス）_四国
+VO_マスタ更新（年式）_全社
+SV_Change Labor Name and Add Labor Code(@Hakodate)
+Com_Inbox   daily recovery (15-20.Dec)
+SV_Individual Invoice Issue(@Iwate)
+SV_Change Field Fix Order Code(@Shikoku)
+PT_The Kaizen for Discount Master
+CMVM_一括更新のタイムスタンプについて
+VO_マスタ更新（外色）_函館
+SV_Change JC Type(@Aomori)
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM_随時 / 社員マスターUpdate_岩手
+VO_トレーラーオーダー_仕訳の拠点が違う
+SV_Change Field Fix Order Code
+UV FDP和歌山 中古車在庫の取消依頼
+VO_マスタ更新（大型バス）_岩手
+VO_マスタ更新（外色）_和歌山
+VO_マスタ更新（登録依頼）_岡山
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+VO_マスタ更新（大型バス）_沖縄
+PT_N000082344 recovery in Okinawa
+PT_N000069386 recovery in Wakayama
+CMVM_随時 / 社員マスターUpdate_沖縄
+SV_Change Labor Operation Time(@Shikoku)
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+SV_Change Billing・Cost Rate Master(＠Shikoku)
+UV FDP岩手 中古車販売見積の承認依頼ロールを間違えた
+VO_マスタ更新（登録手数料）_岩手
+SV_Add Position and Labor and Template(@Aomori)
+SV_Change Billing・Cost Rate Master(＠Aomori)
+PT_N000069394 recovery in Wakayama
+PT_N000321640 recovery in Aomori
+SV Change JC Status(Cancelled)
+SV_Add Position and Labor and Template(@Shikoku)
+SV_ADD Service Template(＠Hakodate)
+SV_Change Approval Flow(@Okayama)
+SV_The customer address on the expense invoice is different.
+CMVM_随時 / 社員マスターUpdate_中国
+PT_N000280697 recovery in Shikoku
+CMVM_FDP顧客売掛回収担当一括変更（中国）
+SV_Change PO Cost(Only Siebel)
+SV_Change WO & PO Status(Cancelled)
+Com_Inbox daily recovery(8-13.Dec)
+PT_Cycle Count batch job process in Shikoku.
+PT_Add an online working day for Okayama Prod to process the cycle count process
+VO_リサイクルステータス更新_青森
+VO_マスタ更新（シャシ価格）_函館
+SV Change JC Status(Cancelled)
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装)_岡山
+NV_見積改訂ができない_和歌山
+PT_D2S price master not updated.
+VO_マスタ更新（外色）_和歌山
+VO_リサイクルデータが表示されていない_中国
+SV Change JC Status(Delivery Completed)
+NV_納車承認エラー_和歌山
+SV_Change WO & PO Status(Cancelled)
+SV_Change PO Cost(Only Siebel)
+UV FDP岩手 中古車販売見積の孫取フラグにチェックが入らない
+VO_袈装発注ステータス変更_青森
+PT_D2S invoice recovery in FDP Chugoku
+KB_Outsourcing order JV issue
+SV_Redaction journal entries not generated when JC is re-edited
+SV_Change Activity Status(Internal Work Request)
+PBI_部品社内返品で登録番号・車体番号ブランク
+PT_Change Approval flow in Iwate.
+SV_Change Tax Exempt Flag(Service Parts)
+NV_ロット受注売上後訂正_青森
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+VO_マスタ更新（外色）_和歌山
+UV FDP岩手 中古車在庫の取消依頼
+PT_Update Discount master in Aomori.
+NV_担当者変更で営業担当が選択できない_岡山
+Com_Inbox   daily recovery(01-06.Dec)
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+SV_Change PO Cost(Only Siebel)(@Okayama)
+Can't change the phone number for AR information in Account.
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+NV_納車依頼ステータス変更_岩手
+VO_リサイクルステータス更新_四国
+SV_Change JC Header Text(@Okinawa-PROD)
+SV_Update JCO Customer Info(@Hakodate)
+SV_Change Labor Name(＠Wakayama)
+SV_Change JC Header Text(@Okinawa-Prod)
+SV_Change Expense Group ID(@Hakodate)
+SV_Change JC/JCO・WO Status(@Okinawa)
+CMVM_FDP顧客・車両データー提供(岩手、和歌山、沖縄、四国）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV_Change Expense Status(Actual/Plan)(@Hakodate)
+CMVM_定期 / 社員マスターUpdate_四国
+CMVM_定期 / 社員マスターUpdate_中国
+VO_袈装発注ステータス変更_中国
+NV_納車承認エラー_中国
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+SV_Change WO・PO and JC Status(Cancel)(＠Aomori)
+VO_マスタ更新（OPT価格）_沖縄
+UV FDP青森 中古車在庫の取消依頼
+CMVM_随時 / 社員マスターUpdate_四国
+CMVM_車検修正画面のデーター削除_函館
+VO_リサイクルステータス更新_青森
+SV_Service Purchase Order Sheet Issue(Iwate/Okunawa/Chugoku)
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+SV_Change JC・WO Status(Cancel)(＠Shikoku)
+NV_見積ステータス変更_中国
+SV_Change Labor Name(＠Wakayama)
+NV_仕様書出力でエラー表示_中国
+SV_Change PO Cost(Only Siebel)(@Okayama)
+Com_Inbox   daily recovery(25-29.Nov)
+NV FDP中国 売上後の取引先変更で消費税の仕訳が出ない
+PT_Patrs Price update for 1st Dec. 2025
+CMVM_随時 / 社員マスターUpdate_青森
+VO_マスタ更新（販売転記マスタ）_全社
+CMVM_随時 / 社員マスターUpdate_岩手
+UV FDP岩手 中古車在庫の取消依頼
+CMVM_売掛情報更新ボタンを押すとエラーになる（中国）
+SV_Change WO and PO Status(Cancel)(@Wakayama)
+NV_見積ステータス変更_四国
+SV_Change JC・WO Status(Cancel)(＠Aomori)
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+SV_Update JCO Customer Info(@Okinawa)
+VO_シャシオーダーが表示されない_四国
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+CMVM_随時 / 社員マスターUpdate_岡山（UAT環境）
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV_Change PO Cost(Only Siebel)(@Okayama)
+UV FDP四国 中古車在庫の取消依頼
+NV_見積ステータス変更_中国
+UV FDP岡山 査定依頼の承認が承認中だが承認履歴は承認済
+UV FDP中国 中古車在庫の取消依頼
+VO_リサイクルステータス更新_沖縄
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+VO_マスタ更新（外色）_和歌山
+CMVM_随時 / 社員マスターUpdate_岡山
+PT_D2S Shipment for D2S SO 1019257018 remains in progress in Shikoku.
+CMVM_随時 / 社員マスターUpdate_中国
+PT_PO return MWH In transit action and transaction is incorrect
+PT_PO return MWH In transit action and transaction is incorrect
+SV_Change PO Cost(Only Siebel)(@Okayama)
+VO_袈装発注ステータス変更_中国
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+SV_Change Claim Type (Labor)(@Shikoku)
+SV_New Requirement JC data Truck Connect Linkage (@ALL-FDP)
+PT_Add an online working day for Shikoku Prod to process the cycle count process.
+CMVM_随時 / 社員マスターUpdate_岩手
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+SV_PO Sheet Master Issue(＠Wave-3 and Chugoku)
+PT_Update approval flow for parts in Okayama
+NV_見積ステータス変更_中国
+SV_Payer Basic Account Code is Blank(ALL-FDP)
+SV_Recovery Payer Account Code (＠Iwate)
+CMVM_販売情報の管理部署変更依頼（岩手）
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+SV_Labor Code specification change (.401699) (ALL-FDP)
+VO_マスタ更新_（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+SV_Recovery Payer Account Code (＠Chugoku)
+SV_Journal Vector Code Issue(Lubrication)(ALL-FDP)
+SV_Journal Vector Code Issue(ALL-FDP)
+UV FDP岡山 査定依頼の承認が承認中なのに承認が飛ばない
+VO_袈装発注ステータス変更_中国
+VO_リサイクルステータス更新_青森
+FDP取引先・車両画面のメニュー表示変更
+SV_Change PO Cost(Only Siebel)(@Chugoku)
+販売情報項目の管轄部署について
+VO_マスタ更新（大型価格）_函館
+CMVM_FDP顧客売掛整備回収担当データー提供（中国）
+SV_Maintenance Contract Master Update(ALL-FDP)
+NV_下取消費税が反映していない_四国
+VO_マスタ更新（小型OPT価格）_沖縄
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+VO_リサイクル料金重複_中国
+CMVM_FDP顧客・車両マスタ提供（岩手、和歌山、沖縄、四国）
+CMVM_FDP顧客・車両マスタデータ（岡山、青森、函館、中国）
+Com_Inbox   daily recovery (10-15.Nov)
+PT_PO N050025785 recovery in FDP Chugoku.
+PT_The bulk invoice data for the Oct 31st closing of FDP Okayama has not been created.
+SV_Change PO Price(Cost)(@Shikoku)
+Processing of parts screen is slow in FDP Shikoku on 6th Nov.
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+NV_見積ステータス変更_中国
+Processing of parts screen is slow in FDP Shikoku
+VO_リサイクル確定報告が複数回TOB送信できる_四国
+SV_Change the status of a WO
+CMVM_随時 / 社員マスターUpdate_中国
+PT_The stock transfer slip is not being printed from the MWH 50 TAK_12_P10 printer.
+INS_Duplicated JV creation
+NV_Power BI 受注重複_中国
+NV_Power BI 受注重複_中国
+"Com_When opening the Employee Master Export screen in the JPN environment of FDP-UAT8, an error screen appears"
+PT_The display and export of the order detail shipment screen is slow.
+SV_Change JC Header Price(YS■A)(@Aomori)
+UV FDP岩手 買取見積がキャンセルできない
+CMVM_随時 / 社員マスターUpdate_各FDP
+SV_Change Supplier Finance Code(@Aomori)
+INS_eJIBAI not link to Siebel
+VO_マスタ更新（小型MY26）_青森
+PBI_SV_November results are not reflected correctly(@Okayama)
+NV_見積で部品入力ができない_四国
+PBI_The Siebel gateway from Power BI for each FDP is offline.
+PJCR_SV_Service-related CRs (Summary of 6 items)
+UV FDP和歌山 役員用レポートの売上完了一覧に１日売上の受注が出てこない
+CMVM_随時 / 社員マスターUpdate_中国
+SV_Change PO Cost(Only Siebel)
+CMVM_定期 / 社員マスターUpdate_四国
+PT_PO N000304716 recovery in Aomori
+SV_Change PO Cost(Only Siebel)
+NV_見積で自賠責追加ができない_四国
+SV_Change WO Status(Not Work)
+NV_注文書印刷エラー_岩手
+Com_Inbox   daily recovery(04-08.Nov)
+SV_Change the status of a Quote
+SV_Change WO Status(＠Hakodate)
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_定期 / 社員マスターUpdate_四国
+CMVM_定期 / 社員マスターUpdate_岡山
+CMVM_定期 / 社員マスターUpdate_岩手
+SV_Change WO・PO Status(@Shikoku)
+SV_Change Internal Order (Internal Work Request)(@Aomori)
+Processing of parts screen is slow in FDP Shikoku
+NV_見積と受注でシャシ価格が違う_四国
+"SV_Recovery Expense Order(Price ""0"")"
+NV_見積と受注のシャシ価格が違う
+CMVM_FDP顧客・車両データ提供（岩手、和歌山、沖縄、四国）
+CMVM_顧客・車両データ提供（岡山、青森、函館、中国)
+CMVM_各FDP住所コートマスター登録
+SV_Change PO Cost(Only Siebel)
+PJCR_SV_Change Location code(Expense charge) logic on JC
+PJCR_SV_有償レートの選択機能の追加
+PJCR_SV_Controls the initial value of the report name
+PJCR_SV_免税フラグの制御
+PJCR_SV_Expense change function
+PJCR_SV_PO change function
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Cost
+SV_Change Generic Labor Description(Branch Miss Input)
+SV_Update JCO and Quote
+VO_袈装発注ステータス変更_岩手
+VO_マスタ更新（年式）_全社
+SV Change JC Status(Cancelled)
+NV_見積で部品入力ができない_四国
+PT_Patrs Price update for 1st Nov. 2025
+UV_登録依頼マスタの支払情報が重複登録されている_函館
+SV_Dummy Lubrication Parts Issue(＠UAT-1)
+VO_マスタ更新（小型シャシ価格）_青森
+SV_Change Internal Order (Internal Work Request)
+UV FDP青森 架装発注の承認が行方不明
+VO_リサイクルステータス更新_青森
+SV_Change Generic Labor Description(Branch Miss Input)
+SV_Change PO Cost(Only Siebel)
+VO_2回目の持込後付が完了にならない_中国
+INC5708671 SV_Lubrication Line Item Status Issue
+INC4823908 - SV_Mismatch between SV Quote and JCO. I036459038
+May 2025 release
+SV_Products Description Field Issue(@Aomori)
+VO_マスタ更新（MC5追加）_函館
+VO_マスタ更新（大型）_四国
+VO_マスタ更新（小型）_和歌山
+UV FDP中国 所有者が改訂見積から受注へ訂正がつながらない
+CMVM_【沖縄】顧客マスタの抽出
+CMVM_【函館以外のFDP】登録地マスターの値変更 『袖ケ浦』 ⇒ 『袖ヶ浦』
+SV_WO Status Issue(@ALL-FDP)
+SV_Change WO Status(＠Chugoku)
+WAKAYAMA FUSO- TANABE- EJIBAI data Connection
+NV/UV FDP岡山 承認ルートの変更
+SV_Change WO・PO Status(@Okayama)
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新（MC5追加）_沖縄
+VO_マスタ更新（MC5追加）_岡山
+VO_マスタ更新（MC5追加）_岩手
+VO_マスタ更新（MC5追加）_四国
+VO_マスタ更新（MC5追加）_中国
+SV_【Update Cancel Flag】Button(ALL-FDP)
+PBI_SV_Lubrication Sales Price Issue(＠ALL-FDP)
+NV_受注へPOマップできない
+SV_JCO-Change Parts Status(Canceled)
+VO_リサイクルステータス更新_青森
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+CMVM_随時 / 社員マスターUpdate_各FDP（UAT環境）
+NV_見積ステータス変更_岩手
+CMVM_ホーム画面の設定について
+VO_マスタ更新（OPT）_7社
+VO_マスタ更新（OPT）_岡山
+PBI _SV_Real-Time Service Export ERROR(ALL-FDP)
+PBI_SV_Sales Price Mismatch(@Wakayama)
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+SV_Internal Order (Charge To) Issue(ALL-FDP)
+SV_Change Internal Order (Internal Work Request)(@Chugoku)
+CMVM_FDP顧客・車両マスタデータ提供依頼（岩手、和歌山、沖縄、四国)
+CMVM_FDP顧客・車両マスタデータ提供依頼（岡山・函館・青森・中国)
+SV_Lubricant Master Sales and Cost Price Change(＠Okayama)
+SV_Change WO Status(＠Shikoku)
+Com_Inbox   daily recovery(20-25.Oct)
+SV_Print Order Number issue(@Hakodate)
+CMVM_随時 / 社員マスターUpdate_中国
+VO_リサイクル金額修正_岩手
+SV_Add New Labor Code(ALL-FDP)
+SV_【UAT1】The destination address for the expense report is incorrect.
+SV_Change Internal Order (Internal Work Request)
+VO_シャシオーダーステータス更新_岩手
+VO_マスタ更新（プール）_岡山
+VO_マスタ更新（小型MY26）_岡山
+VO_リサイクルステータス更新_青森
+CMVM_随時 / 社員マスターUpdate_四国
+PT_Incorrect mapping of shipment num for bulk invoice data.
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+SV_Siebel is slow(@Okayama)
+CMVM_随時 / 社員マスターUpdate_岩手
+SV_Please provide the SQL for creating a JV record when a JC is closed.
+SV_Update Payment Term
+VO_レポート削除（リサイクル券）
+PT_D2S invoice JV with blank PO number created multiple times
+To change EJIBAI ID
+NV_見積有効変更_中国
+CMVM_随時 / 社員マスターUpdate_沖縄
+Com_Inbox   daily recovery(14-18.Oct)
+UV FDP青森 買取契約書が０円になる
+SV_Change PO Cost(Only Siebel)
+NV_Power BI_損益相違
+SV_Maintenance Contract Master Update(ALL-FDP)
+FORCEから帳票出力が出来ない
+SV_Change Internal Order (Internal Work Request)(ALL-FDP)
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新（小型MY26）_岩手
+SV_Change Internal Order (Internal Work Request)(@Chugoku)
+CMVM_FDP岡山_顧客情報提供依頼
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+VO_マスタ更新（小型MY26）_和歌山
+KB_Wrong Department code JV recovery
+NV_見積ステータス変更_中国
+NV_見積改訂が受注へ反映しない_和歌山
+SV Change JC Status(Cancelled)
+VO_マスタ更新（小型MY26）_函館
+VO_マスタ更新（大型バス）_沖縄
+VO_マスタ更新（小型MY26）_沖縄
+PT_Two JV documents were mixed together in Okayama.
+VO_マスタ更新（小型MY26）_四国
+CMVM_FDP顧客・車両データ提供依頼(岩手、和歌山、沖縄、四国)
+PBI_PT_Location number not updated in 5-02 report in Okayama.
+VO_マスタ更新（小型MY26）_中国
+PT_D2S SO number for N000255023 is blank
+CMVM_定期 / 社員マスターUpdate_四国
+UV_No created Approval WF
+CMVM_FDP中国_顧客情報提供依頼
+PBI_SV_Status Code Issue(1-15A)(ALL-FDP)
+SV_Change WO Status change(＠Okayama)
+SV_WO status remains unchanged
+VO_マスタ更新（発注書）_函館
+SV_Correct the Payer Finance Account code
+"SV_Recovery Expense Order(Price ""0"")"
+SV Change JC Status(Cancelled)
+CMVM_FDP顧客・車両データ（岡山、青森、函館、中国）
+Com_Inbox   daily recovery(06-11.Oct)
+NV_見積ステータス変更_中国
+Outbound URL change - TNET UAT
+SV_Change PO Cost(Only Siebel)
+KB_Bulk invoice tax amount gap
+SV_JCO-Change Parts Status(Canceled)
+CMVM_随時 / 社員マスターUpdate_中国
+SV_Change JC・WO Type(@Aomori)
+SV Change JC Status(Cancelled)
+KB_Replace Segment2 in JV
+PT_Update Discount master in Aomori.
+CMVM_定期 / 社員マスターUpdate_沖縄
+KB_Replace Segment2 in JV
+UV FDP岩手 Power BIで入庫取消した中古車在庫が表示されている
+UV FDP岩手 中古車在庫の取消
+PT_D2S Invoice data for D2S SO 1018665931 is not displayed in the UI in Chugoku.
+SV_Lubricant Master Sales and Cost Price Change(＠Chugoku)
+NV_Power BI受注重複_中国
+INS_Remove '書損' flag
+SV_Change PO Cost(Only Siebel)
+SV Add Position Code Master(For WO Header)(ALL-FDP)
+CMVM_FDP顧客売掛回収情報一括更新（岩手）
+PT_PO N050069040 duplicate shipment recovery in Chugoku.
+CMVM_定期 / 社員マスターUpdate_岡山
+CMVM_定期 / 社員マスターUpdate_岩手
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_FDP顧客・車両データー提供（岩手・四国・和歌山・沖縄）
+CMVM_FDP顧客・車両データー提供（岡山・青森・函館・中国）
+SV_Change CO BIP Mapping(FDP-ALL)
+SV_Change WO Status(@Wakayama)
+SV_Change Labor Line Item Status(Cancel)(＠Okayama)
+INC5508402_SV_Planned Expense Copy Issue
+Sep 2025 release
+SV_Change PO Cost(Only Siebel)
+PT_Cycle Count batch job process in Okinawa
+VO_リサイクルステータス更新_青森
+NV_納車承認エラー_中国
+SV_Change JC Type(@Aomori)
+SV_Change Internal Order (Internal Work Request)
+To fetch the printer info of chuugoku FDP
+VO_リサイクルステータス更新_青森
+SV_Internal Order (Charge To) is blank
+SV_Parts Line Items in Journal Vector are duplicated(＠Chugoku)
+NV_納車承認エラー_中国
+PT_Cycle Count batch job process in Hakodate.
+Com_Inbox   daily recovery(29.Sep-04.Oct)
+PT_Cycle Count batch job process in Chugoku.
+SV_Change Internal Order (Internal Work Request)
+SV_Internal Order (Charge To) is blank
+SV_Change Internal Order (Internal Work Request)
+SV_Change Internal Order (Internal Work Request)
+VO_マスタ更新（オプション）_岡山以外
+VO_マスタ更新（オプション）_岡山
+VO_マスタ更新（外色）_和歌山
+UV FDP四国 中古車在庫の取消依頼
+"PT_In some FDP environments, the D2S shipment on Sep 25th could not be received."
+PT_D/N price is incorrect
+SV_Change Activity Status & Internal Order (Internal Work Request)
+SV Change JC Status(Cancelled)
+SV_Change WO & PO Status(Cancelled)
+SV_ change the WO Status
+SV Change JC Status(Cancelled)
+SV_Change Internal Order (Internal Work Request)
+SV_Change Internal Order (Internal Work Request)
+SV_Labor Line Item Status Issue(＠ALL-FDP)
+CMVM_FDP住所コードマスター追加依頼
+SV_Change PO Cost(Only Siebel)
+PT_Patrs Price update for 1st Oct. 2025
+PT_Cycle Count batch job process in Iwate.
+SV_JCO-Change Parts Status(Canceled)
+SV_Change Activity Status and Internal Order (Internal Work Request)
+CMVM_FDP中国_買掛情報仕入取引可能フラグ変更
+SV_Change Main cause parts Flag(@Iwate)
+FDP取引先・車両画面のメニュー表示変更
+PT_Cycle Count batch job process in Aomori.
+SV_Issue when canceling a PO(ALL-FDP)
+SV_Journal Vector Code Issue(ALL-FDP)
+VO_マスタ更新（税確定）_函館
+SV_PT_provide all the bulk invoice data for Sep 20th that was created in FDP and sent to KB.
+SV_Error in comprehensive invoice detail data
+SV_Change Payment Term(@Okinawa)
+SV_Change JC Status(@Hakodate)
+CMVM_FDP中国_車両マスターステータス変更
+NV_見積ステータス変更_岩手
+KB_JV not created for TOB Invoice
+Com_Inbox   daily recovery (22-27.Sep)
+SV_Changes to my Customer Account are not reflected(@Shikoku)
+SV_Change JC・WO Status(Cancel)(@Iwate)
+SV_Change PO Price(Cost)(@Aomori)
+CMVM_FDP中国_顧客コード変換依頼
+NV_見積ステータス変更_岩手
+SV_Real-Time Invoice Issue(Department name and contact address)
+PT 中国ふそう　山口本庫／松江本庫設定追加
+SV_Change JC・WO Type(@Okinawa)
+SV_JV Data not received in KB
+PT_N000226509 D2S Allocation failed in Hakodate
+UV_税確定ベンダーコード変更_函館
+NV FDP青森 青森営業所で売上した受注の仕訳が五所川原営業所になっている
+SV_WO status change
+SV Change JC Status(Cancelled)
+SV_Service BIP Issue(ALL-FDP-PROD)(＠Field Fix)
+CMVM_FDP中国_顧客データー提供
+SV_WO Status Issue(@ALL-FDP)
+SV_Change PO Cost(Only Siebel)
+PT_PBI_5-02 Inventory stock report not updated in Shikoku
+NV_マスタ更新（登録手数料）_岩手
+SV_WO 【Create/Sync PO】Button Issue(＠ALL-FDP)
+UV FDP青森 見積用車両の査定依頼に車台番号が入力できない
+CMVM‗顧客・車両データ提供(岩手、和歌山、沖縄、四国)
+CMVM_顧客・車両データ提供(岡山、青森、函館、中国)
+SV_Change WO Status(@Hakodate)
+VO_マスタ更新（外色）_函館
+VO_マスタ更新（外色）_岡山
+FDP中国LBC情報紐づけ
+UV FDP岡山 中古車販売見積の追加架装の品目区分と品名が空白
+CLONE - KB_JV_Wrong department code on Trade-in PO
+SV_Change WO Status change(＠Chugoku)
+SV_JCO-Change Parts Status(Canceled)
+SV_Change WO Status change(＠Chugoku)
+VO_リサイクル回答が反映されない_青森
+SV_The billable flag doesn't work.
+SV_Child WO Issue(＠All-FDP)
+SV_Change WO Status(Cancelled)
+PT_Errors printing from PDF  with 1-click solution and standard BIP report
+Com_Inbox   daily recovery(16-20.Sep)
+NV_見積ステータス変更_中国
+SV_Change WO・PO Status change(＠Chugoku)
+Update for Alternate Parts Master
+CMVM_FDP中国_顧客ダンズNo情報変更
+SV_WO status change
+CMVM_随時 / 社員マスターUpdate_岩手
+CMVM_随時 / 社員マスターUpdate_四国
+SV_Change PO Cost(Only Siebel)
+SV_Maintenance Contract Master Update(ALL-FDP)
+NV_納車承認エラー_青森
+CMVM 和歌山ふそう　非課税フラグ（買掛）一括変更
+VO_袈装発注ステータス変更_沖縄
+UV FDP岡山 中古車販売見積の明細に品名が表示されない
+CMVM_FDP中国_顧客データー提供
+CMVM_FDP顧客・車両データ提供(岩手、和歌山、沖縄、四国)
+VO_マスタ更新（外色）_岡山
+KB_Wrong account code on NV GR JV
+SV_Change Generic Labor Description(Branch Miss Input)
+SV_The customer address on the expense invoice is different.
+UV FDP四国 査定依頼の承認ルートが違う
+SV_Chassis＃(Key＃)issue(＠Chugoku)
+CMVM顧客・車両データ提供(岡山、青森、函館、中国）
+NV_シャシ出荷の仕訳誤り
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+SV_Individual Invoice Issue(@Chugoku)
+CMVM_随時 / 社員マスターUpdate_四国
+INS_Spread sheet value change
+PJ_CR_SV_New Integration with VECT to show Vehicle information
+PJ_CR_SV_Change Order Remove Verification & add Fields
+SV_FORCE is Slow(@Okayama)
+CMVM_顧客非課税フラグについて
+NV_注文書印刷エラー_青森
+Com_Inbox   daily recovery(08-13.Sep)
+NV_見積ステータス変更_中国
+VO_マスタ更新（外色）_和歌山
+NV_見積改訂が受注へ反映していない_中国
+Change TNET URL as per the Tokai Fujiwara San Request
+PT_Update Discount master in Aomori Prod.
+SV_Recovery JCO Customer Info(@Chugoku)
+SV_Change WO・Labor Status(@Okinawa)
+SV_Change Labor Code・Name・PO Cost(@Okinawa)
+NV_見積有効フラグ変更_函館
+SV_Recovery Payer Account Code (＠Shikoku)
+SV_Invoice for Change Order (Payer Change) not issued(@Shikoku)
+Cannot access to FORCE in FDP
+SV_【Generate Approval】Button issue(@Chugoku)
+SV_Change JC・WO Type(@Okinawa)
+NV_マスタ更新（プール）_中国
+VO_マスタ更新（後付オプション）_青森
+SV_Change WO Status(＠Okinawa)
+SV_Change WO・PO Status(Cancel)(＠Okinawa)
+SV_Change WO・PO Status(Cancel)(＠Chugoku)
+CMVM_FDP中国_顧客コード変換依頼
+SV_Change PO Cost(Only Siebel)(@Okayama)
+CMVM_随時 / 社員マスターUpdate_中国
+CMVM_FDP顧客売掛回収情報提供依頼（岩手）
+NV_Power BI受注重複_中国
+CMVM_FDP中国_顧客LBC情報紐付け
+Exract of Alternate Parts Master
+CMVM_随時 / 社員マスターUpdate_岡山
+NV_Power BIの担当者が違う_岡山
+CMVM_CMVM_買掛情報仕入取引可能フラグについて（中国）
+CMVM_随時 / 社員マスターUpdate_沖縄
+SV_Change PO Price(Cost)(@Aomori)
+NV_見積の下取が削除できない_中国
+SV_Change Labor Name(＠Wakayama)
+SV_Individual Invoice Issue(＠Chugoku)
+UV FDP中国 売掛金の計上先が請求先になっていない
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+SV_Change WO・PO Status(Cancel)(＠Okinawa)
+SV_SV_JCO-Change Parts Status(Canceled)(@Chugoku)
+UV FDP岡山 中古車入庫取消依頼
+SV_Change JC・ WO・PO Status(Cancel)(＠Hakodate)
+NV_登録完了ができない_沖縄
+SV_Change Individual Invoice Print Flag(@Okinawa)
+VO_マスタ更新（外色）_函館
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+SV_Change Expense Amount(＠Chugoku)
+NV_納車承認エラー_岡山
+SV_Change WO Status(＠Shikoku)
+KB_Replace Segment2 in JV
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_定期 / 社員マスターUpdate_四国
+NV_見積ステータス変更_中国
+NV_見積ステータス変更_四国
+NV_見積ステータス変更_岩手
+VO_持込後付オーダーが完了とならない
+VO_マスタ更新（オプション名称）_全社
+KB_Replace Segment2 in JV
+SV_Change Labor Name(＠Wakayama)
+SV_Change Generic Labor Description(Branch Miss Input)
+CMVM_LBC情報紐づけ(中国)
+SV_Change WO・PO Status(Cancel)(＠Hakodate)
+KB_Replace Segment2 in JV
+VO_袈装発注ステータス変更_青森
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+PT_Cycle Count batch job process in Okayama.
+SV_Change PO Price(Cost)(@Aomori)
+PT_Update Discount master for EC. in Chugoku
+SV_Change Generic Labor Description and Name (Branch Miss Input)
+Printer_Adding 12 new printers for Iwate FDP
+PT_Update Discount master in Shikoku Prod.
+VO_架装発注キャンセル_中国
+VO_マスタ更新（小型）_岡山
+SV_Change JC・WO Status(＠Iwate)
+PT_Patrs Price update for 1st Sep. 2025
+SV_Change PO Cost(Only Siebel)(@Okayama)
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+CMVM_随時 / 社員マスターUpdate_四国
+VOマスタ更新（小型）_四国
+CMVM_随時 / 社員マスターUpdate_青森
+CMVM_随時 / 社員マスターUpdate_中国
+VO_マスタ更新（大型追加）_青森
+NV_見積ステータス変更_中国
+UV FDP四国 中古車入庫取消依頼
+KB_Account code blank on JV
+SV_Maintenance Contract Master Update(ALL-FDP)
+NV_改訂が受注へ反映しない_中国
+SV_Change PO Price(Cost)(@Aomori)
+NV_受注ステータス変更_中国
+PT_Sales order M030383405 recovery in Chugoku.
+PT_Update Discount master for EC. in Okayama
+PT_D/N price not updated.
+KB_Bulk invoice details creation
+KB_Replace Segment2 in JV
+VO_マスタ更新（オプション）_7社
+VO_マスタ更新（オプション）_岡山
+承認完了メールの配信停止
+FDP版FORCE　セッション切断時間延長
+NV_見積ステータス変更_中国
+NV_見積ステータス変更_中国
+SV_Change JC Type(@Aomori)
+VO_マスタ更新（外色）_中国
+CMVM_FDP顧客・車両データー提供(岩手、和歌山、沖縄、四国）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+KB_UV GI JV not created
+SV_Change Field Fix Status(@Chugoku)
+NV_納車承認エラー_青森
+SV_Change Generic Labor Description(Branch Miss Input)
+SV_Change PO Cost(Only Siebel)
+SV_Update Collection Terms
+VO_リサイクルオーダー重複_青森
+NV_見積有効変更_四国
+NV_見積ステータス変更_岩手
+SV_Change PO Cost(Only Siebel)
+CMVM_随時 / 社員マスターUpdate_岩手
+SV_Change Generic Labor Description(Branch Miss Input)
+NV_見積ステータス変更_岩手
+SV_Change JC Type(@Aomori)
+PT_Add an online working day for Chugoku Prod to process the cycle count process.
+VO_架装発注キャンセル_中国
+SV_Change Generic Labor Description(Branch Miss Input)
+SV_JC Re-Edit Issue(＠Common)
+SV_Change Tax Exempt Flag(Service Parts)(@Okayama)
+VO_リサイクルステータス更新_沖縄
+NV_見積ステータス変更_中国
+SV_Change WO・PO Status(Cancel)(＠Wakayama)
+SV_Change the Payer information
+Supplier code change.
+UV FDP函館 車台番号を間違えて入庫した
+"PT_N000045590, N000045551 duplicate txns recovery in Wakayama."
+SV Change JC Status(Maintenance Completed)
+CMVM_随時 / 社員マスターUpdate_四国
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+PT_N000044405 recovery in Wakayama
+INC5312294  eC発注分納品書住所表示不備の件
+NV_受注一覧画面が表示されない_岡山
+SV_Add Service Billing and Cost Rate Master(@Hakodate)
+"SV_Recovery Expense Order(Price ""0"")"
+PT_D2S Invoice JV creation recovery in FDP Chugoku
+PT_Delivery slip O050172906 was not printed automatically in FDP Chugoku
+UV FDP岩手 中古車受注キャンセル時の購入オーダー割当解除忘れ
+SV_Change WO Status(@Wakayama)
+VO_架装発注キャンセル_中国
+SV_Change PO Cost(Only Siebel)
+UV FDP青森 中古車在庫車両が消えてしまった
+VO_リサイクルデータが表示されていない_和歌山
+CMVM_随時 / 社員マスターUpdate_全FDP
+CMVM_定期 / 社員マスターUpdate_岡山
+INS_Change Customer code
+KB_JV_Wrong department code on Trade-in PO
+"VO_リサイクルTOB送信ボタン（CUT,変更）"
+CMVM_FDP顧客・車両データー提供(岩手、和歌山、沖縄、四国）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館、中国）
+NV_受注ステータス変更_中国
+VO_架装発注キャンセル_中国
+SV_Correct  Internal Order (Charge To)
+INC5317919 PT_Display error in the Reserve qty on the Reservation slip (auto)
+July 2025
+UV FDP岩手 再販価格設定の承認ルートが作成されていない
+NV_諸費用請求ステータス変更_中国
+NV_納車承認エラー_岡山
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+NV_諸費用請求ステータス変更_中国
+CMVM_定期 / 社員マスターUpdate_岩手
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_定期 / 社員マスターUpdate_四国
+PT_N000278286 duplicate txns recovery in Aomori.
+VO_マスタ更新（小型バス）_沖縄
+NV_諸費用請求ステータス変更_中国
+SV_Change JC and WO Status(@Shikoku)
+SV_Change PO Cost(Only Siebel)(@Okayama)
+NV_諸費用請求ステータス変更_中国
+SV_Change CO Status(Approved)(＠Shikoku)
+SV_Change Quote Status(Customer Approved)(@Wakayama)
+"PT_When I enter a positive value in the delta amount field on the part change screen, an error message appears in FDP-UAT1."
+PT_An error message appears when entering an overwrite less %  on the parts quote screen in FDP-UAT1.
+VO_架装発注キャンセル_四国
+VO_架装発注キャンセル_中国
+PT_Internal order M000382912 recovery in Okayama
+CMVM_随時 / 社員マスターUpdate_中国
+SV_Change PO Cost(Only Siebel)(@Aomori)
+KB_Replace Project in JV
+UV FDP岩手 中古車販売見積がブランクで作成される
+PT_The D2S allocation for N000261541 has failed in Aomori
+PT_Patrs Price update for 1st Aug. 2025
+PT_Delivery slip O050167912 was not printed automatically in FDP Chugoku
+VO_マスタ更新（大型追加）_岩手
+KB_Replace Segment2 in JV
+Edge対応：Requesting to change URL parameter on UAT FDP(1-8)
+SV_Change  Cash Receipt Flag(JC Header)(＠Okayama)
+VO_架装発注キャンセル_中国
+SV_Change WO Status(Not Work)(@Wakayama)
+SV_Change PO Cost(Only Siebel)
+VO_架装発注キャンセル_四国
+VO_袈装発注ステータス変更_四国
+SV_Inbox Items List - Remove(Service Order)
+NV_見積ステータス変更_中国
+VO_袈装発注ステータス変更_中国
+PBI_INS_Unmatch PBI & Siebel
+NV_見積ステータス変更_中国
+CMVM_【函館】登録地マスターの値変更  『袖ケ浦』 ⇒ 『袖ヶ浦』
+CMVM_随時 / 社員マスターUpdate_沖縄
+"SV_Recovery Expense Order(Price ""0"")"
+"SV_Recovery Expense Order(Price ""0"")"
+PJCR_SV_PT Individual Invoice CR BIP & SV Query Changes (Black Slip)
+CMVM_FDP顧客・車両データー提供(岩手、和歌山、沖縄、四国）
+PT_D2S Invoice JV creation recovery in FDP Chugoku
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+VO_マスタ更新（大型追加）_函館
+VO_マスタ更新（大型追加）_四国
+VO_マスタ更新（大型追加）_中国
+VO_マスタ更新（大型追加）_岡山
+UV FDP中国 中古車入庫取消依頼
+VO_架装発注キャンセル_四国
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館）
+SV_Change the WO Status
+SV Change JC Status(Cancelled)
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（オプション）_四国
+CMVM_随時 / 社員マスターUpdate_中国
+VO_税確定金額修正_函館
+CMVM_FDP顧客売掛回収情報一括変更（四国）
+SV_The record of type Service Correction Sales Amount Red Slip Non-Taxable was created in the JV
+INS_集計表の再承認依頼ができない
+SV_FORCE takes a long time to operate(@Okayama)
+VO_マスタ更新（バス）_岡山
+CR_FDP_個別請求書を実績拠点で発行
+CR_FDP_仕訳データに支払予定日追加
+SV_Change JC・WO・PO Status(Cancel)(＠Okinawa)
+VO_マスタ更新（外色）_和歌山
+UV FDP中国 中古車入庫取消依頼
+UV_FDP全部 予定プール原価の購入オーダーが見れなくなっているので見れる様にする
+NV_見積コピーでエラー表示_四国
+KB_Replace Segment2 in JV
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+NV_受注担当者変更_岡山
+UV FDP函館 入庫した在庫の取消依頼
+Update Discount master in Iwate Prod.
+INS_Voluntary insurance order not updated
+NV_見積有効フラグ変更_岡山
+KB_Replace Project code in JV
+UV FDP岩手 車台番号を間違えて入庫した（支払い済）
+VO_架装発注キャンセル_中国
+Com_Inbox daily recovery(14-19.Jul)
+SV_JV Branch Code Issue(@Shikoku)
+KB_Replace Segment2 in JV
+SV_Change WO Status(Cancel)(@Wakayama)
+SV_SV_JCO-Change Labor Status(Canceled)(@Wakayama)
+CMVM_随時 / 社員マスターUpdate_中国
+CMVM_FDP顧客売掛回収情報提供依頼(岩手)
+UV FDP岩手 入庫した在庫の取消依頼
+SV_Change JC・WO・PO Status(Cancel)(＠Chugoku)
+CMVM_FDP顧客作成時エラーとなり更新できない（四国）
+UV FDP岩手 中古車販売車両が商品になっている
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+UV FDP岩手 入庫した在庫の取消依頼
+KB_Wrong reverse JV sent to KB
+VO_マスタ更新（オプション）_岡山
+VO_マスタ更新（オプション）_7社
+Com_Remove reopen SR button
+PT_Price master not updated on All FDP.
+CMVM_FDP顧客売掛回収情報提供依頼（四国）
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_各FDP
+NV_受注担当者の変更ができない_岡山
+SV_Change WO・PO Status(Cancel)(@Wakayama)
+PT_N000038893 recovery in Wakayama
+PT_The 1-click solution for Non gen purchase orders did not auto print in Okayama.
+NV_見積ステータス変更_四国
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館）
+KB_Bulk invoice details not created
+UV FDP岩手 見積の承認ルートが作成されていない
+SV_Remove Internal Order Number(＠Iwate)
+CMVM_ 顧客基本情報の住所更新
+SV_Change WO Status(Cancel)(@Shikoku)
+KB_Replace Segment2 in JV
+KB_Liability insurance JV mapping change
+NV_見積ステータス変更_中国
+Com_Inbox daily recovery(07-12.Jul)
+UV FDP岩手 買取見積のステータスが受注になっている
+SV_Change CO Status(@Chugoku)
+PT_A D2S SO was created twice for purchase return order N000137127 in FDP Shikoku.
+KB_TOB Invoice Tax & Recyclre JV not created
+CMVM_FDP顧客売掛部品・整備回収担当一括更新（中国）
+NV_見積改訂を受注へ反映_和歌山
+KB_Shikoku Chassis GI JV recovery
+CMVM_基本情報更新で住所が更新されない_中国
+SV_Change PO Cost(Only Siebel)
+FDP had error for mail authentication.
+SV_Change PO Cost(Only Siebel)
+SV_Change Supplier Code and Name(@Aomori)
+UV FDP四国 中古車承認ルートの変更依頼
+NV_シャシ金額違い_沖縄
+Onboard Customer FDP_Okayama 02/07
+KB_Liability insurance JV not linked
+UV_プールコストマスタ更新_和歌山
+CMVM_随時 / 社員マスターUpdate_全FDP
+CMVM_FDP顧客売掛情報提供依頼（中国）
+INS_Duplicated Liability Insurance AP&AR posting
+CMVM_FDP顧客売掛回収担当情報提供依頼（中国）
+KB_Replace Segment2 in JV
+VO_マスタ更新（シャシ仕様）
+NV_シャシオプションの金額が表示されていない
+CMVM_サービスリクエストが完了にならない_中国
+CMVM_FDP顧客・車両データー提供(岩手、和歌山、沖縄、四国）
+UV FDP沖縄 中古車入庫検収の承認がロール切り替え忘れで動かなかった
+SV_PBI Real Time Report issue(＠Iwate)
+PT_PO to MWH Stock transfer slip was not printed automatically in Shikoku.
+CMVM_定期 / 社員マスターUpdate_函館
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_定期 / 社員マスターUpdate_四国
+CR_シャシオーダー更新とバス袈装
+KB_Department code blank on JV
+SV_JCO-Change Parts Status(Canceled)
+Com_Inbox daily recovery (30.Jun-05.Jul)
+SV_Change Lubrication Master Price(@Aomori)
+SV_Change WO and PO Status(Cancel)
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館）
+SV_Change PO Cost(Only Siebel)
+KB_Replace Segment2 in JV
+KB_Department code blank on JV
+VO_マスタ更新（外色）_青森
+SV_Change WO Status(Cancelled)
+NV_諸費用請求ステータス変更_中国
+UV FDP岡山 中古車販売見積を誤ってキャンセルにした
+SV_Change Expense Status(@Chugoku)
+SV_Actual Expense Issue(＠Common)
+SV_JC作成時のPositionチェックについて
+CMVM_FDP中国_顧客LBC情報紐付け
+NV_諸費用請求ステータス変更_中国
+NV_IBOS袈装　仕訳重複_中国
+CMVM_住所コード大字・通称名ダミー対応（全ＦＤＰ）
+SV_Change WO Status(Cancelled)
+CMVM_随時 / 社員マスターUpdate_岩手
+SV_Change JC Status(Closed)
+PT_Cycle Count batch job process in Wakayama.
+PT_The third approver was not assigned in the Cycle count approval flow in FDP Wakayama.
+SV Change JC Status(Cancelled)
+SV_change the Planned Expenses Status
+SV_Add Service Discount Master(@Okayama)
+PT_The Line status for N050254153 in FDP Chugoku was not updated
+Change Net Operation Time and Target Hours
+EC Campaign update
+VO_リサイクル重複_和歌山
+VO_マスタ更新（小型オプション金額）_沖縄
+VO_架装発注キャンセル_中国
+UV FDP中国 売上後キャンセル後の中古車在庫戻し
+VO_袈装オーダーステータス変更_岩手
+UV FDP四国 中古車在庫の取消依頼
+KB_Replace Segment2 in JV
+SV Change JC Status(Cancelled)
+SV_Inbox Items List - Remove	(@Okayama)
+KB_TOB invoice JV duplicated
+PT_Price master not updated
+CMVM_FDP中国_顧客LBC情報紐付け
+PO N050219705 recovery in FDP Chugoku
+UV FDP岩手 車台番号を間違えて入庫した（支払い済）
+VO_マスタ更新（シャシ価格）_四国
+UV FDP岩手 中古車承認フローの変更
+VO_シャシ出荷日が違う_岡山
+SV_Change Actual labor hour total(WO)(@Shikoku)
+CMVM_随時 / 社員マスターUpdate_岩手
+UV FDP四国 売上後の孫取を削除したいが、削除時にエラーがでてできない
+CMVM_随時 / 社員マスターUpdate_四国
+NV_見積でシャシ型式の選択ができない_青森
+SV_Change JC Status(＠Shikoku)
+SV_Change Internal Order (Charge To)(JC Header)(＠Shikoku)
+UV FDP中国 入庫取消した在庫の取消依頼
+NV_承認フロー変更_四国
+EC_Chugoku Order was Failed to Send to FORCE DMS
+EPO_ステータスにドラフトと表示されている
+INS_Voruntary Insurance data not updated on Siebel
+PBI_SV_The first update in the morning is slow(＠Chugoku)
+UV 受注の明細にOption Itemが追加されている
+SV_Change Labor Net Operation Time(＠Okinawa)
+"KB_Wrong JV recovry for Outsourcing order (MFTBCFFR-3006, MFTBCFFR-4215)"
+Com_Inbox daily recovery (23-28.Jun)
+KB_Liability insurance JV recovery
+PT_Patrs Price update for 1st July. 2025
+KB_Chassis AP postin JV duplicated
+INS_Duplicated Liability Insurance AP&AR posting
+KB_Replace Segment2 in JV
+SV_Change WO Status(@Iwate)
+EPO_収入印紙の文言修正
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+SV_Change Labor Name(＠Wakayama)
+SV_Add Service Billing and Cost Rate Master(@Hakodate)
+NV_納車承認エラー_四国
+PT_Cycle Count batch job process in Shikoku.
+VO_リサイクルステータス更新_青森
+KB_Wrong JV recovry for Outsourcing order (MFTBCFFR-3006)
+VO_リサイクルステータス更新_青森
+CMVM_顧客売掛回収担当情報提供依頼（沖縄）
+NV_税確定金額が受注へ反映されていない_和歌山
+PT_Error transferring records from ASCENT to Parts Quote in FDP Wakayama Prod.
+PBI_SV_Service Real-time Report Total Mismatch(＠Common)
+KB_Replace Segment2 in JV
+CMVM_FDP顧客・車両データー提供(岩手、四国、沖縄、和歌山）
+CMVM_FDP顧客・車両データー提供(岡山、青森、函館）
+UV FDP中国 PBI 2-06 Reportの利益が一致しない
+PBI_SV_PBI not reflected (June 16th)
+VO_シャシPO仕訳作成_岩手
+SV_Maintenance Contract Master Update(ALL-FDP)
+UV FDP岩手 KB側で売上取消をしたので、在庫状態に戻して欲しい
+SV_Change PO Cost(Only Siebel)
+Com_Inbox daily recovery(16-21.Jun)
+UV 全FDP 中古車購入オーダーキャンセル依頼の承認が動かない
+SV_Changed the logic for setting the posting date of the Re-edit red slip
+CMVM_随時 / 社員マスターUpdate_岩手
+CR NV_UV_担当者の承認依頼時のロールチェク
+VO_シャシオーダー更新_四国
+CR_NV/UV_非課税袈装発注
+CMVM_随時 / 社員マスターUpdate_中国
+SV_Change JC Status(@Aomori)
+SV_JC Re-Edit Issue(＠Okayama)
+VO_架装発注キャンセル_中国
+SV_Monthly invoice data mismatch @Chugoku K050202590
+UV FDP中国 Migration DataのSales PosingのKB連携がされている
+VO_TOB請求重複_和歌山
+CMVM_FDP顧客・車両データー提供（岩手・四国・和歌山・沖縄）
+CMVM_FDP顧客・車両データー提供（岡山・青森・函館）
+SV_Total Non Chargeable Cost Issue(Quote Header)(@Okayama)
+UV FDP岩手 中古車本体の購入オーダーが割当できない
+PT_Add an online working day for Okayama Prod to process the cycle count process
+SV_Change Registration Number(@Hakodate)
+PT_Internal order M000112851 recovery in Sikoku.
+PT_The latest D2S allocation failed on FDP
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新（外色）_和歌山
+NV/UV/SV_Change Expense Record(＠Common)
+VO_リサイクルLOV変更_全社
+VO_シャシオーダーが出荷済となっていない_和歌山
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_FDP中国・FDP岩手
+SV_Change KEY Number
+NV FDP沖縄 受注訂正が反映していない
+SV_Change PO Cost(Only Siebel)
+SV_Change Cash Receipt Flag (@Okinawa)
+SV_Change Cash Receipt Flag (@Okayama)
+SV_Change Cash Receipt Flag (@Hakodate)
+SV_Change Labor Name(＠Wakayama)
+VO_マスタ更新（S袈装　小型）_岡山
+VO_マスタ更新（S袈装　小型）_7社
+PT_Po Return N050054123 recovery in FDP Chugoku.
+Com_Inbox daily recovery (09-14.Jun)
+SV JCO Work Shop Issue(＠Wakayama)
+NV_IBOS見積回答が反映されない_中国
+VO_マスタ更新（小型バス）_和歌山
+VO_シャシオーダー重複_和歌山
+CR_NV_購入オーダー一覧画面
+CMVM_随時 / 社員マスターUpdate_岩手
+CMVM_随時 / 社員マスターUpdate_四国
+SV_Change CO and Inbox Status(＠Okayama)
+CR_NV_UV_Power BIへの部整金額表示
+CR_NV_UV_税確定への金額連携
+CR_NV_仕様書変更
+CR_NV_バス注文書追加
+KB_Department code blank on JV
+CR_NV_担当者名表示他
+CR_NV_ロット受注の分割
+610008263   PT display parent quote no. in parts quote
+INC4823908   mismatch between SV quote and JCO
+INC4978698   PT_Expense Charge To was changed after order completion by user.
+June 2025 release
+UV FDP青森 販売見積のステータス変更（ロール切り替え間違い）
+UV FDP岩手 査定依頼のステータス変更（ロール切り替え間違い）
+VO_マスタ更新（小型オプション名称）_全社
+PT_Stock qty is mismatched with 502 report and SIEBEL in Shikoku
+"SV_Recovery Expense Order(Price ""0"")(@Okayama)"
+NV_シャシ価格がUATと違う_四国
+PT_Can not Open ASCENT from Parts Quote
+PT_N000037275 recovery in Okinawa Prod.
+SV_Change PO Cost(Only Siebel)(@Aomori)
+SV_Change PO Cost(Only Siebel)
+SV_Change Cash Receipt Flag (@Shikoku)
+SV_change the Payer information
+CMVM_随時 / 社員マスターUpdate_中国
+SV_FALCON Labor Line Item Recovery
+SV_見積り画面で無償費目の明細に金額が入力できてしまう
+SV_FALCON Labor Line Item Recovery
+KB_Ins JV not created for Spread sheet
+SV_Change Quote Status(＠Wakayama)
+SV_Change PO Cost(Only Siebel)
+UV FDP青森 販売見積のステータス変更（ロール切り替え間違い）
+UV FDP青森 査定依頼のステータス変更（ロール切り替え間違い）
+INS_Change Bank transfer fee
+INS_Revert Spread sheet status
+CMVM_FDP顧客売掛整備回収担当一括更新
+Com_Inbox daily recovery (02-07.Jun)
+VO_マスタ更新（S袈装）_岡山
+VO_マスタ更新（S袈装）_7社
+UV FDP岩手 入庫した在庫の取消依頼
+PT_PO return N000020150 recovery in Iwate
+VO_マスタ更新（モデルイヤー）_全社
+SV_Recovery Payment Term(JCO Header)(@-Iwate)
+PT_GI processing was interrupted on Internal order M050198361/O050108814 in FDP Chugoku.
+NV_納車承認エラー_中国
+SV_Change WO Status(＠Shikoku)
+The activity status can be updated.
+VO_架装発注キャンセル_中国
+VO_リサイクルステータス更新_四国
+SV_Change Quote Status(＠Shikoku)
+CMVM_定期 / 社員マスターUpdate_函館
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_定期 / 社員マスターUpdate_四国
+VO_架装発注キャンセル_中国
+NV_見積ステータス変更_中国
+SV_Add Service Discount Master(@Okayama)
+SV_Recovery Payment Term(JCO Header)
+CMVM_FDP顧客・車両データー提供（岩手・四国・和歌山・沖縄）
+CMVM_FDP顧客・車両データー提供（岡山・青森・函館）
+SV_JCO-Change Parts Status(Canceled)
+PT_duplicate shipment was created for Sales Return M000121562 in Shikoku.
+VO_マスタ更新（外色）_中国
+KB_Wrong posting date PT PO
+NV_受注の担当者変更ができない_中国
+VO_マスタ更新（小型修正）_中国
+VO_マスタ更新（小型修正）_岡山
+NV_見積の明細に空白行がある_沖縄
+Change Generic Labor Description(Branch Miss Input)
+SV_JCO-Change Status(Canceled)
+SV_JCO-Change Status(Canceled)
+KB_Replace Segment2 in JV
+NV_受注ステータス戻し_中国
+NV_見積有効フラグ変更_中国
+SV_Add Job Card Template(＠Shikoku)
+PT_The view is not read-only
+SV_Cancel  PO
+VO_リサイクルステータス更新_和歌山
+SV_Recovery Payer Account Code (＠Chugoku)
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Prospect Account Name Issue(Individual Invoice)
+PT_Patrs Price update for 1st June. 2025
+UV FDP KB連携エラーのVIN#修正依頼
+VO_リサイクルデータが表示されていない_中国
+SV_Change Labor Taime(＠Okinawa)
+VO_マスタ更新（外色）_岡山
+SV_Change Order Closed Date Issue(Payer Change)(＠Common)
+VO_リサイクルステータス更新_青森
+KB_Chassis GR_GI_Cost posting JV not created
+KB_Bulk invoice details not printed
+VO_リサイクルステータス更新_青森
+SV_Change Service Billing and Cost Rate(@Hakodate)
+KB_Wrong posting date SV Sales posting
+Com_Inbox daily recovery(26-31.May)
+UV FDP中国 受注訂正が反映しない
+NV_諸費用請求キャンセル_中国
+SV_個別請求書が発行できない
+SV_Recovery Service Journal Vector(Re-Edit)(@Common)
+SV_Invoice Total issue(Re-Edit)(＠Common)
+VO_マスタ更新（小型）_函館
+CMVM_随時 / 社員マスターUpdate_沖縄
+VO_マスタ更新（e小型）_函館
+KB_Wrong GR JV created
+UV FDP CR 社外架装発注の関連見積を使用しない
+SV_Change Registration Number
+SV_Change PO Cost(Only Siebel)
+CMVM_FDP顧客売掛整備回収担当データー提供（中国）
+マスタ更新（小型）_岩手
+マスタ更新（小型）_和歌山
+VO_マスタ更新（小型）_四国
+VO_リサイクルステータス更新_沖縄
+NV_諸費用請求キャンセル_中国
+マスタ更新（小型）_沖縄
+KB_Wrong account code on Recycle invoice JV
+PJCR_SVPT_KB Monthly Invoice data change and related UI change.
+PJCR_SV_Improve Navigation Through Screens.(SC:CR-758)
+PJCR_SV_WO Start & Stop Work Buton Change.(SC:CR-753)
+VO_マスタ更新（小型）_青森
+PT_LPP Price Master Update in Okinawa Prod.
+CMVM_FDP顧客売掛・買掛データー提供（中国）
+NV FDP中国 粗利率が１００％を超えている
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Cost(Only Siebel)
+CMVM_住所コード大字・通称名ダミー対応
+PT_D2S billing data addition processing in FDP Shikoku.
+VO_マスタ更新（小型バス）_四国
+VO_マスタ更新（小型金額）_四国
+NV_諸費用請求キャンセル_中国
+CMVM_随時 / 社員マスターUpdate_和歌山
+PTSV_Invoice data for customer code 0000328018 in Shikoku Prod has not been sent to KB.
+CMVM 顧客情報更新時の承認フロー分割
+VO_マスタ更新（小型）_中国
+VO_マスタ更新（小型）_岡山
+"PT_When creating a change order, the individual billing flag is not copied."
+Change Generic Labor Description(Branch Miss Input ＠Wakayama)
+PT_The journal voucher department code is set incorrectly
+KB_Unknown Salesposting JV created
+SV_Service Delivery Slip Issue(＠Okinawa)
+SV_Change PO Cost(Only Siebel)
+追加項目が無い
+CMVM_FDP顧客・車両データー提供
+CMVM_FDP顧客・車両データー提供
+INS_Spread sheet value change
+NV_見積有効フラグ変更_四国
+追加項目と電子注文書送信履歴が無い
+SV_見積り書の発行拠点名が異なる。
+タブが注文書タブと分かれている
+項目名が違う
+PT_Sales order M032505904 in Chugooku
+PT_No printer output with 1-click solution in Shikoku Prod
+SV_Change Labor Taime(＠Okinawa)
+SV_Change Labor Code and Name(＠Wakayama)
+SV_Service Quote takes a long time to open
+Com_Inbox daily recovery(19-24.May)
+CR-0837_SIT_Test Execution
+CR-0837-NVUV_SIT06
+CR-0837-NVUV_SIT05
+CR-0837-NVUV_SIT04
+CR-0837-NVUV_SIT03
+CR-0837-NVUV_SIT02
+CR-0837-NVUV_SIT01
+UV SC/FDP CR 中古車の重複入庫防止
+KB_Outsourcing invoice wrong text
+VO_袈装発注ステータス変更_沖縄
+SV PowerBI レポートの移行（SC版→FDP版）
+SV_Individual Invoice Issue(Discount Price)(＠Chugoku)
+SVChange Order issue(Payer and Price Change)(＠Chugoku)
+UV FDP四国 入庫した在庫の取消依頼
+VO_マスタ更新（外色）_青森
+NV_見積ステータス変更_中国
+SV_Change PO Cost(Only Siebel)
+PT_Add an online working day for Shikoku Prod to process the cycle count process.
+CMVM_FDP中国_顧客LBC情報解除
+CMVM_随時 / 社員マスターUpdate_和歌山
+NV_見積ステータス変更_中国
+KB_Bulk invoice data recovery
+VO_税確定金額修正_岡山
+VO_マスタ更新（S袈装）_7社
+VO_マスタ更新（S袈装）_岡山
+NV_見積ステータス変更_中国
+VO_マスタ更新（小型バス）_青森
+VO_架装発注キャンセル_沖縄
+VO_マスタ更新（外色）_和歌山
+SV_FORCE is slow(＠Okayama-PROD)
+CMVM_随時 / 社員マスターUpdate_全FDP
+VO_マスタ更新（小型バス）_函館
+VO_リサイクルステータス更新_中国
+VO_マスタ更新（OPT価格）_沖縄
+VO_マスタ更新（外色）_中国
+KB_Not created Recycle Invoice JV for April
+PT_Update Discount master in Okinawa Prod.
+SV_Change PO Cost(Only Siebel)
+NV_見積の顧客情報を入力可能とする
+Change Individual Invoice Print Flag (@Okinawa)
+Com_Inbox daily recovery(12-17.May)
+SV_Change Labor Line Item Status(Cancel)(＠Shikoku)
+SV_Change PO Cost(Only Siebel)
+NV_マスタ更新（小型バス）_中国
+SV_Service Delivery Slip Print Error(Direct Print)(＠Wakayama)
+CMVM_買掛情報（AP）がKBに登録されていない
+NV_マスタ更新（小型バス）_岩手
+VO_マスタ更新（小型バス）_岡山
+VO_シャシオーダーが表示されない_中国
+VO_シャシオーダーが表示されない_中国
+VO_マスタ更新（外色）_青森
+NV_受注の車台番号が更新されていない
+Common_FDP-UAT environment does not start
+INS_Revert Insurance order status
+Processing of customer data
+SV_Change the WO/PO Status from Price Change Recovery.
+NV_承認フロー変更_四国
+Common_Printer cannot be used (＠FDP-UAT_ALL)
+UV FDP岩手 入庫した在庫の取消依頼
+SV_Change Labor Code and Labor Code Name
+SV_Change Generic Labor Description(Branch Miss Input)
+SV_Change the WO/PO Status from Price Change Recovery.
+CMVM_FDP中国_顧客LBC情報紐付け
+CMVM_随時 / 社員マスターUpdate_和歌山
+CMVM_FDP顧客・車両データー提供(岩手ふ・和歌山ふ・四国ふ・沖縄ふ)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+"SV_Recovery Expense Order(Price ""0"")"
+VO_リサイクルデータが表示されていない_和歌山
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_FDP中国・FDP岩手
+Com_Inbox daily recovery(07-10.May)
+CMVM_随時 / 社員マスターUpdate_四国
+NV_見積有効フラグ変更_中国
+VO_マスタ更新（大型）_和歌山
+UV FDP ALL 売上後の下取損益変更で仕訳が発生しない
+NV_見積ステータス変更_中国
+SV_【四国】CSS契約の総括請求書3月分が発行されない
+SV_【四国】総括請求書の整備明細書が発行されない
+CMVM_随時 / 社員マスターUpdate_沖縄
+SV_JV Department Code Blank(＠Okinawa)
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_LBC情報の設定（中国）
+SV_Recovery JCO Customer Info(@Okinawa)
+CR_NV_後付オプションの手動更新
+NV_税確定の項目を入力可能とする
+CR_NV_見積の税諸費用表示
+KB_Replace Segment2 in JV
+VO_マスタ更新（大型バス）_岩手
+SV_Change JCO Line Item Status(＠Wakayama)
+SV_Change Activity Status(Internal Work Request)
+SV_Change PO Cost(＠Wakayama)
+VO_架装発注キャンセル_沖縄
+VO_袈装発注ステータス変更_沖縄
+CMVM_定期 / 社員マスターUpdate_四国
+SV_Change KEY Number
+SV_Change WO and Labor Status(＠Hakodate)
+NV_見積改訂が受注へ反映しない_岡山
+KB_Department code blank on JV
+PBI_SV_Change Chassis＃(＠Chugoku)
+NV_税確定修正_青森
+PT_Sales order M050107822 recovery in Chugoku
+SV_Change PO Cost(Only Siebel)
+SV CSS契約に係る各除外フラグが移行されていない
+NV_見積の支店長名が違う_岡山
+SV_Recovery JC (Incorrect Internal Work)(＠Iwate)
+SV_Planned Expense Bill To Account Code issue(＠Iwate)
+NV_社内工事の活動が完了とならない_四国
+VO_リサイクルステータス更新_岩手
+CR_NV_袈装発注ステータス制御
+CR_NV_登録完了後の発注を可能とする
+SV_Change Expense Order Status(＠Chugoku)
+VO_部品オーダーマップ_函館
+SV_活動のステータスが ”予約要求” のまま推移しない。
+SV_Change Activity Status(Internal Work Request)
+SV_Change PO Cost(Only Siebel)
+UV FDP中国 販売見積、受注、Power BIでの利益が違う２
+"SV_Change JC, WO and JCO Status(Cancel)"
+"SV_Change JC, WO and JCO Status(Cancel)"
+SV_Change PO Cost(Only Siebel)(@Okayama)
+CMVM_FDP顧客・車両データー提供(岩手ふ・和歌山ふ・四国ふ・沖縄)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+UV FDP中国 KB連携エラーのVIN#修正依頼
+Com_Inbox daily recovery(28.Apr-03.May)
+PT_PO N000201132 Recovery in Hakodate Prod
+SV_Chassis＃(Key＃)issue(＠Chugoku)
+SV_The Customer Name on the invoice is incorrect.(＠Chugoku)
+CMVM_沖縄_取引先区分変更
+SV_Change Chassis#(Key＃)(＠Chugoku)
+KB_Replace Segment2 in JV
+NV_見積ステータス変更_中国
+VO_マスタ更新（小型）_沖縄
+PT_Patrs Price update for 1st May. 2025
+UV FDP四国 中古車販売見積の承認を却下しても一次承認済となっている
+CMVM_ランスケ情報から顧客登録が出来ない（中国）
+NV_諸費用請求キャンセル_中国
+NV_諸費用請求キャンセル_中国
+KB_Consumption tax JV not created
+VO_リサイクルステータス更新_中国
+KB_Department code blank on JV
+KB_Replace Segment2 in JV
+UV FDP岩手 見積の承認ルートが作成されていない
+VO_マスタ更新（外色）_岡山
+VO_リサイクルステータス更新_青森
+VO_袈装発注ステータス変更_沖縄
+NV_見積ステータス変更_中国
+SV_Recovery Planned Expense(＠Okinawa)
+VO_リサイクルステータス更新_青森
+KB_Wrong posting date SV PO
+KB_Department code blank on JV
+VO_マスタ更新（外色）_岡山
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+SV_Change Tax Exempt Flag(Service Parts)(@Wakayama)
+SV_Change PO Cost(Only Siebel)(@Okayama)
+SV_Change JC and WO Status(Cancel)(＠Okinawa)
+NV_見積承認ができない_中国
+NV FDP中国 Power BI 3-06 Rerportに受注が表示されない
+SV_Change PO Cost(Only Siebel)(@Okayam)
+SV_Change PO Cost(Only Siebel)(@OIwate)
+UV FDP四国 承認WFの変更 20250421
+SV_Add Labor Code(＠Hakodate Original)
+SV_Change PO Cost(Only Siebel)(@Okayam)
+新車見積の部品・社内作業画面の表示が遅い（和歌山）
+KB_Department code blank on JV
+PT_PO Recovery
+CMVM_随時 / 社員マスターUpdate_四国
+Com_Inbox daily recovery (21-26.Apr)
+SV_Total PO Cost Issue(@FDP Common)
+CMVM_FORCEにログイン出来ない（中国）
+NV_諸費用請求キャンセル_中国
+KB_Department code blank JV Recovery
+KB_Replace Segment2 in JV
+CMVM_FDP顧客・車両データー提供(岩手・和歌山・四国・沖縄)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+SV_Change Planned Expense Status(@Okinawa)
+SV_Change Labor Code and Name(＠Wakayama)
+NV_諸費用請求キャンセル_中国
+"SV_Recovery Expense Order(Price ""0"")(＠Hakodate)"
+SV_Change Labor Line Item Status(＠Wakayama)
+VO_マスタ更新（外色）_岡山
+VO_リサイクルステータス更新_青森
+SV_Payment Term is Blank
+SV_I cannot issue an Individual Invoice(＠Chugoku)
+VO_リサイクルステータス更新_青森
+車検証修正画面でエラーになる
+CMVM_FDP中国_顧客LBC情報の解除No2
+CMVM_随時 / 社員マスターUpdate_中国
+VO_架装発注のシャシ型式が違う_中国
+KB_Wrong posting date SV PO
+NV_見積承認者が表示されない_中国
+PRODに合わせてUAT環境修正
+KB_BB order JV duplicated
+KB_Department code blank on JV
+VO_シャシオーダーが出荷済となっていない_中国
+CMVM_随時 / 社員マスターUpdate_青森
+PJCR_SV_Service Related Change
+PJCR_PT_Extranet Portal FDP Data
+PT_D2S SO number not received
+VO_リサイクルステータス更新_青森
+CMVM_随時 / 社員マスターUpdate_岩手
+CMVM_ 車両マスタ・顧客マスタのデータ抽出_FDP中国
+CMVM_随時 / 社員マスターUpdate_沖縄
+VO_マスタ更新（OPT価格）_四国
+KB_Department code blank on JV
+CMVM_FDP中国_顧客LBC情報の解除
+KB_Wrong posting date SV PO
+Com_Inbox daily recovery(14-19.Apr)
+KB_JV created with wrong Segment2 value and wrong Chassis PO
+VO_マスタ更新（外色）_岡山
+KB_Chassis GR JV not created
+CMVM_随時 / 社員マスターUpdate_FDP_ALL
+NV_新車受注一覧画面が操作できない_四国
+VO_マスタ更新（架装発注書）_沖縄
+CMVM_随時 / 社員マスターUpdate_沖縄
+INS_Cannot select over 10 orders on Spread sheet creation
+CMVM_随時 / 社員マスターUpdate_四国
+SV_Change PO Cost(Only Siebel)
+車検証修正画面でエラーになる
+VO_TOB受付時間外にデータ送信されている
+INS_Missing Approval request
+VO_マスタ更新（小型）青森
+KB_Zero amount JV created
+CMVM_随時 / 社員マスターUpdate_青森
+VO_マスタ更新（S架装大中小）_岡山
+VO_マスタ更新（S架装大中小）_7社
+SV_Change Service Billing Rate(@Aomori)
+SV_Recovery JC Header Chassis#(Key＃)(＠Wakayama)
+CMVM_FDP顧客・車両データー提供(岩手ふ・和歌山ふ・四国ふ・沖縄)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+VO_シャシオーダーTOB再送信_沖縄
+UV FDP四国 売上後に架装購入オーダーが作成できない
+PT_N038022729 not migrated in FDP Chugku.
+PT_N035174038 D2S allocation failed in FDP Chugoku
+UV FDP岡山要望 UV Sales Quote 2nd Page
+UV FDP青森・函館要望 SC FDP NV-UV-Parts-Description
+NV_見積シャシ価格が表示されない_青森
+SV_Change Position Code Name(Only Common Code)
+"SV_""掲載しない"" does not work  (FDP)"
+SV_Modify a group of planned expenses
+PT_PO action and txns recovery
+CMVM_随時 / 社員マスターUpdate_中国
+NV FDP中国 注文の変更の取消
+SV_Change PO Cost(Only Siebel)
+KB_Replace Segment2 in JV
+SV_Change PO Cost(Only Siebel)
+CMVM_随時 / 社員マスターUpdate_沖縄
+VO_リサイクルステータス更新_青森
+SV_Invoice Vehicle Owner issue(＠Chugoku)
+SV_Recovery Payment Term(JCO Header)
+PT_Replenishment order was created without any lines
+INS_Wrong fee on Liability Insurance
+SV_Add Service Discount Master(@Okayama)
+VO_架装発注キャンセル_岩手
+SV_Change Planned Expense Status(@Chugoku)
+KB_Wrong posting date SV Sales posting & PO
+Com_Inboxdaily recovery(07-12.Apr)
+VO_リサイクルステータス更新_青森
+KB_TOB invoice issue
+UV FDP中国 中古車入庫取消依頼
+SV_Change JC and WO Status(Cancel)
+NV_見積改訂が受注へ反映されない_岡山
+NV_見積ステータス変更_中国
+VO_架装発注キャンセル_岩手
+CMVM_随時 / 社員マスターUpdate_四国
+整備画面の作業がグレーアウトになり変更出来ない
+Internal Order haven't been printed out
+Automatic print was not output
+CMVM_随時 / 社員マスターUpdate_函館
+CMVM_随時 / 社員マスターUpdate_中国
+CMVM_随時 / 社員マスターUpdate_四国
+KB_Bulk invoice details creation
+UV FDP中国 在庫車両がPBI 2-01 から消えた
+NV_承認フロー更新_岡山
+KB_Add Shop code mapping Siebel to KB
+UV FDP和歌山 Power BI 2-06でデータが重複している
+610008944: UV_wrong_profitin 2-06_520345671
+Apr 2024 release
+KB_JV not ctreated TOB invoice
+KB_Liability insurance JV duplicated
+CMVM_定期 / 社員マスターUpdate_岡山
+VO_マスタ更新（小型S架装）_7社
+VO_マスタ更新（小型S架装）_岡山
+PT_Price master not updated in FDP
+SV_Change Labor Code and Name(＠Wakayama)
+UV FDP中国 入庫検収済の架装発注の取消依頼（KB取消済）
+SV_Change JCO line Item(＠Wakayama)
+VO_販売報告がTOB送信されていない_岩手
+CMVM_顧客LBCコード紐付け依頼（中国）
+VO_架装発注ステータス戻し_沖縄
+INS_Voluntary Insuranse LV not send to KB
+INS_定期保有データ未更新
+VO_リサイクルデータが表示されていない_中国
+PT_The latest prices are not displayed
+SV_Change JCO line Item Amount(＠Wakayama)
+N_納車承認エラー_岡山
+SV_Change the amount of expenses
+SV_Change JCO line Item Amount(＠Wakayama)
+KB_Wrong Project code in JV
+NV_納車承認エラー_沖縄
+SV_Change Quote Status(＠Hakodate)
+KB_Wrong posting date SV PO
+VO_マスタ更新（S架装）_岡山
+VO_マスタ設定（S架装）_7社
+CMVM_定期 / 社員マスターUpdate_中国
+CMVM_定期 / 社員マスターUpdate_四国
+CMVM_定期 / 社員マスターUpdate_沖縄
+KB_JV not created for Chassis GR & Cost posting
+SV_Change PO Cost(Only Siebel)
+CMVM_沖縄_取引先区分変更
+Com_Inboxdaily recovery(31.Mar-05.Apr)
+SV_Change JC Status(＠Iwate)
+SV_Add Job Card Template(＠Shikoku)
+CMVM FDP車両マスタ　初度登録年月日一括変更
+NV ふそう中国　営業担当者一括変更
+PT_Cycle Count batch job process in Okinawa
+INS_Spread sheet JV not sent to KB
+NV_見積ステータス変更_中国
+NV_見積ステータス変更_中国
+CMVM_FDP顧客・車両データー提供(岩手ふ・和歌山ふ・四国ふ・沖縄ふ)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+VO_リサイクルステータス更新_青森
+SV_Change JC and WO Status(Cancel)(＠Wakayama)
+SV_Change PO Cost(Only Siebel)(@Okinawa)
+SV_Change PO Cost(Only Siebel)(@Aomori)
+NV_見積ステータス変更_中国
+VO_リサイクルステータス更新_青森
+SV_Change Service Billing Rate and Cost Rate
+PT_Cycle Count batch job process in Hakodate.
+KB_Bulk invoice details not printed
+PT_Patrs Price update for 1st Apr. 2025
+KB_Double byte charactor in JV
+KB_All JV not sent to KB
+NV_トレーラー車台番号反映_和歌山
+PT_Update Discount master in Chugoku
+PT_D2S replenishment order not created
+VO_リサイクルステータス更新_青森
+SV_Change JC and Line Item Type(＠Aomori)
+VO_リサイクルステータス更新_沖縄
+VO_マスタ更新（外色）_青森
+VO_リサイクルステータス更新_沖縄
+SV_Change PO Cost(Only Siebel)(@Aomori)
+VO_リサイクルステータス更新_沖縄
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Recovery Payer Account Code (＠Wakayama)
+KB_Bulk invoice data I/F
+INS_Change Bank transfer fee
+KB_Replace Segment2 in JV
+"SV_Recovery Expense Order(Price ""0"")"
+VO_リサイクルステータス更新_岩手
+PT_Set LOV for MWH print in Shikoku
+FDP四国 下取車の入庫時の仕訳が違う拠点の部門コードになっている
+VO_リサイクルステータス更新_青森
+VO_リサイクル　TOB送信されていない_中国
+NV_諸費用請求キャンセル_中国
+VO_リサイクルステータス更新_岩手
+VO_リサイクルステータス更新_青森
+VO_架装発注キャンセル_中国
+PT_Cycle Count batch job process in Iwate.
+NV_売上計上となっていないが売上の仕分が作成されている_沖縄
+NV_売上完了時の仕分が重複作成されている_沖縄
+Com_Inbox daily recovery(24-29.Mar)
+KB_Liability insurance JV duplicated
+VO_リサイクルステータス更新_青森
+CMVM_随時 / 社員マスターUpdate_中国
+SV_Change Lubrication Master Item(@Aomori)
+SV_Change Service Billing Rate(@Aomori)
+SV_Change PO Cost(Only Siebel)
+KB_Vendor code blank on JV
+PT_Price master not updated in FDP
+KB_JV not created for Chassis GR & Cost posting
+SV_Change PO Cost(Only Siebel)(@Aomori)
+PT_PT_D2S SO order number is not set
+SV_Change Work completion date/time(JC Header)
+SV_Change Labor Code and Name(＠Wakayama)
+SV_Recovery PO(＠Aomori)
+INS_Re-trigger JV to KB with correct customer code
+VO_マスタ更新_大型OPT金額_四国
+SV_Change PO Cost(Only Siebel)(@Wakayama)
+NV_部品オーダーの金額が表示されていない_和歌山
+VO_リサイクルステータス更新_岩手
+回収条件（休日フラグ）が商蔵奉行の内容と異なる
+SV_Wrong posting date SV PO
+SV_Journal Vector Recovery ＠Service PO
+KB_Liability insurance JV not created
+NV_税確定エラー表示_和歌山
+NV_諸費用請求重複作成_和歌山
+KB_Wrong posting date SV PO
+KB_Wrong posting date SV PO
+PT_Cycle Count batch job process in Aomori.
+SV_Add Lubrication Master Item(@Hakodate)
+PT_The Cost price for MK658033 is incorrect
+KB_Wrong posting date SV PO
+KB_Wrong posting date SV PO
+VO_リサイクルステータス更新_岩手
+CMVM_随時 / 社員マスターUpdate_中国
+NV_見積ステータス変更_中国
+CMVM_FDP顧客・車両データー提供(岩手・和歌山・四国・沖縄)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+CMVM_随時 / 社員マスターUpdate_四国ふ
+PT_FDP Chugoku Annual Cycle Count batch process
+Com_Inbox daily recovery(17-22.Mar)
+PT_Stop replenishment jobs on Sunday_March 2025
+VO_リサイクルステータス更新_岩手
+PT_Unnecessary 7904VD Branch are displayed in D2S Ship to LOV
+SV_Change JC Close Approver Position(＠Wakayama)
+"PT_PT_PBI_DLS 5-10 shipment, The x_iden_cat_parts field is blank. *JPN 顧客グループ column"
+VO_マスタ更新_大型_函館
+SV_Change Tax Exempt Flag(Service Parts)
+KB_架装発注_日付(CSJS005)違い連携エラー
+PT_Can't open ASCENT
+NV_承認フロールート違い_四国
+CMVM_全FDP登録地マスターUpdate依頼
+VM_VM data Issue (added to All VM)
+CMVM_SCと全FDPの車両マスタに大量の同じ在庫前車両がある
+PT_PO was registered twice in D2S
+SV_Change Quote Status(＠Wakayama)
+SV_Recovery Payment Term(JCO Header)
+UV FDP中国 入庫検収が終わっていても購入オーダーが完了にならない
+CMVM_随時 / 社員マスターUpdate_四国
+CMVM_随時 / 社員マスターUpdate_中国
+VO_マスタ更新_大型バス_沖縄
+SV_Change JC and WO・PO Status(Cancel)
+SV_Change PO Cost(Only Siebel)
+SV_Change of association with JC and Chassis#(＠Chugoku)
+UV FDP中国 VIN#に全角が含まれて居る為、KB連携エラー
+VO_リサイクルステータス更新_岩手
+UV FDP中国 売上済の移行データの購入オーダーが受注に紐づかずに移行されている
+SV_Approval Issue(JC Close)(＠Aomori)
+UV FDP青森 受注画面の購入オーダータブで「プール原価発注の登録」ボタンがActiveになっている
+NV_諸費用請求キャンセル_中国
+UV FDP中国 VIN#のハイフンがジャーナルでハイフンになっている
+CMVM_随時 / 社員マスターUpdate_沖縄
+CMVM_随時 / 社員マスターUpdate_四国
+VOマスタ更新_大型ZF
+VO_マスタ更新_大型_四国
+UV FDP岡山 入庫せずに販売できている
+VO_マスタ更新_eキャンター_中国
+SV_Change JC Status(JC Close)(＠Chugoku)
+VO_マスタ更新_大型_中国
+VO_マスタ更新_大型バスOPT_全社
+VO_マスタ更新_大型_青森
+SV_Change PO Cost(Only Siebel)
+VO_リサイクルステータス更新_岩手
+UV FDP中国 整備への予約要求が終わっていないのに売上完了になっている
+NV_マスタ更新_大型_岩手
+VO_マスタ更新（S架装）_7社
+VO_マスタ更新（S架装）_岡山
+CMVM_ 車両マスタ・顧客マスタのデータ抽出
+VO_架装発注ステータス変更_和歌山
+NV_マスタ更新_大型_岡山
+VO_リサイクルステータス更新_沖縄
+PT_Price master not updated in FDP
+CMVM　ふそう中国　回収担当者名（10ST/10SU）一括変更
+SV_Change Quote Status(＠Wakayama)
+VO_リサイクルデータが表示されていない_中国
+SV_Change Tax Exempt Flag(Service Parts)
+Com_Inbox daily recovery(10-15.Mar)
+NV_見積ステータス変更_中国
+SV_Change PO Cost(Only Siebel)
+CMVM_随時 / 社員マスターUpdate_中国
+CMVM_FDP顧客・車両データー提供(岩手ふ・四国ふ・沖縄ふ・和歌山ふ)
+CMVM_FDP顧客・車両データー提供(岡山ふ・函館ふ・青森ふ)
+NV_車台番号が更新されていない_中国
+VO_マスタ更新_外色_四国
+PT_Update Discount master in Shikoku
+SV_JC Creator Specification Change
+KB_RT Invoice shop code error
+SV_Change PO Status(＠Iwate)
+SV_Change Quote Status(＠Wakayama)
+SV_Change WO Status(＠Wakayama)
+SV_Change Generic Labor Description(＠Hakodate)
+VO_リサイクルステータス更新_岩手
+UV FDP岩手 登録完了を承認済に戻して欲しい
+NV_見積に下取車消費税が反映されない_中国
+PT_D2S SO order number is not set
+VO_リサイクルステータス更新_函和歌山
+KB_Wrong posting date SV PO
+SV_函館 JCの登録番号変更
+UV FDP岡山 部品の購入オーダーが作成できない
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM　Wave3_４社の締切日不具合
+CMVM 和歌山ふそう　顧客データ抽出依頼
+NV_諸費用請求キャンセル_中国
+INS_10 digit master change
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Cost(Only Siebel)
+CMVM_随時 / 社員マスターUpdate_全FDP
+NV_見積ステータス変更_岩手
+KB_Customer address Blank in KB I/F
+Com_Inbox daily recovery (03-08.Mar)
+PT_D2S Stock check not working
+VO_マスタ更新_外色_青森
+"SV_Recovery Expense Order(Price ""0"")"
+INS_e-JIBAI I/F mapping
+NV_オプション99の原価が表示されない_中国
+VO_シャシ出荷実績日誤り_岡山
+NV_仕様書出力でエラー表示_中国
+INC4510017	NV_Multiple Trade-In PO Issue for Lot Sales
+INC4503087	PT_UOE sales order customer code created with blank
+INC4489767	VO_架装発注_一括承認依頼エラー
+"INC4404087	PT_When user click the fulfill all button, no shipments are created M036515112"
+INC4363269	UV_Wrong BB Vendor Code on BB PO
+INC4357142	VO_承認者が表示されない
+SC Feb release 2025
+"INC4223562	PT_PTChangeSlip, The text in the signature field on the bottom page is incorrect."
+INC4156672	NV_Blank the Tax on the Quote
+SC Jan release 2025
+INC4114554	SV_JCO Parts Line Item Issue(Cancel Flag)
+INC3819818	PT_Pickup PW branch screen queries are still slow after INC3737686 release.
+INC4090522	SC_Shaken Expense RF status error. 1-A37OSX7. JC#I034910931
+INC4134433	UV_VIN# un-match the Quote and PO
+INC4015844	UV_Sales Order Status Wrong
+INC3904220	TOB回答が表示されない
+SC Dec release 2024
+INC4103266	NV_Quote Revised Button In-Active
+INC4031968	NV_Profit un-match between Quote and Sales Order
+"INC4081541	PT_When purchase order is sent to D2S, it is not registered according to the line number."
+INC4015780	PT_When open Stock Transfer Shipment Receiving screen slow
+"INC4052228	PT_When user click the Sync WO button, an error message appears"
+INC4026195	UV_Customer Information Blank on SO
+INC4043323	PT_Order line Copy Issue on Internal order.
+INC3938694	VO_部品金額が表示されていない
+INC4021582	PT_The total amount for NonGen PO sheet delivery slip is incorrect
+INC3885638	SV_Internal Return creating error. Related Incident INC3586861.
+INC3994515	NV_Duplicated Chassis Line Items
+INC3986226	PT_EC_Parts_Discount's Adjustment type cannot be changed
+INC3968457	PT_Sync WO button re-pricing issue
+CMVM_随時 / 社員マスターUpdate_函館
+SC Nov release 2024
+KB_Wrong project code in JV
+INC4242736	NV_Wrong Trade-In Total Price on Power BI 3-06 Report
+NV_見積ステータス変更_岩手
+SV_Change the Approval Details field
+CMVM_随時 / 社員マスターUpdate_四国
+NV_承認フロー更新_岩手
+SC_JC Chassis#(Key#) has been migrated incorrectly
+KB_Vendor code blank on JV
+PT_D2S SO number not returned from D2S
+CMVM_回収担当情報が勝手に変更される
+KB_Wrong posting date SV PO
+NV_見積からVC画面が開かない_中国
+NV_架装発注ステータス変更_岩手
+UV FDP岩手 PBI Report2-05 2-06の利益が合わない
+VO_リサイクルステータス更新_函館
+NV_見積ステータス変更_岩手
+INC4510017	NV_Multiple Trade-In PO Issue for Lot Sales
+SC Feb 2025 Incident
+INS_Spread sheet approved without In-Box approval
+VO_リサイクルステータス更新_沖縄
+KB_Wrong posting date SV PO
+NV_納車承認エラー_四国
+VO_リサイクルステータス更新_沖縄
+NV_諸費用請求キャンセル_中国
+UV FDP和歌山 入庫検収を権限のないロールで承認依頼した為、キャンセルにする
+"PT_Even if the price is changed in the LPP master, it will not be reflected on the JPN screen."
+SV_Change Parts Number(＠Wakayama)
+NV_諸費用請求キャンセル_中国
+SV_GW Approval Issue(＠Chugoku)
+VO_架装発注の明細が発注時と違う_岡山
+CMVM　ふそう中国　顧客マスタ（売掛不可ユーザー）抽出
+CMVM　ふそう中国　回収担当拠点（10SX/10SY）一括変更
+SV_Change Quote Labor Cost(＠Okinawa)
+UV FDP四国 税確定でエラーメッセージが出て出来ない
+NV_見積と注文書で販売金額が合わない_中国
+VO_リサイクルステータス更新_沖縄
+"SV_Recovery Expense Order(Price ""0"")"
+UV FDP岡山 中古車購入オーダーのステータス変更
+VO_シャシオーダーが正しく更新されていない_中国
+SV_Change Labor Code Name
+SV_Change JC and Expense Status(Cancel)
+CMVM_定期 / 社員マスターUpdate_四国
+NV_部品オーダーの倉庫名が読取専用にならない
+PT_Internal order M000037807 recovery in Shikoku Prod
+SV_Change Internal Activities Status(UV)
+VO_リサイクルステータス更新_四国
+SV_Change WO・PO Price
+NV_納車承認エラー_中国
+NV_納車承認エラー_岩手
+VO_リサイクルステータス更新_中国
+SV_Change PO Price
+VO_架装発注キャンセル_函館
+VO_マスタ更新（S架装）_7社
+VO_マスタ更新（S架装）_岡山
+VO_マスタ更新（外色）_四国
+PT_Duplicate shipment charge line on monthly billing detail line.
+VO_リサイクルステータス更新_四国
+PT_Update View matrix.
+KB_Voluntary Insurance JV recovery
+CMVM　ふそう中国　回収担当拠点（10ST/10SU）一括変更
+CMVM_FDP顧客・車両データー提供(岩手ふ・和歌山ふ・四国ふ・沖縄ふ)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ）
+CMVM_FDP中国_取引先区分変更依頼
+SV_Change PO Cost(Only Siebel
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+UV FDP岩手 税確定が出来ない為、登録依頼のリカバリ
+NV_諸費用請求キャンセル_中国
+NV_納車承認エラー_岩手
+SV_Change PO Cost(Only Siebel)
+KB_Kanji Charactor in JV
+SV_Change PO Cost(Only Siebel)
+INS_Missing approval request
+CMVM_定期 / 社員マスターUpdate_中国
+SV_Change Parts Name(Comments)
+SV_Change Parts Net Quantity
+SV_Change PO(WO) Status(Cancel)
+SV_Change JC and WO・PO Status(Cancel)
+VO_リサイクルステータス更新_四国
+VO_リサイクルステータス更新_岩手
+SV_Change Quote Status
+VO_マスタ更新（後付）
+VO_架装発注の明細が発注時と違う_岡山
+PT_FDP Okayama Annual Cycle Count batch process
+PT_Add an online working day for Chugoku Prod to process the cycle count process.
+PT_D2S SO for N000010548 is not reflected in Wakayama
+CMVM_随時 / 社員マスター(プリンター)Update_和歌山
+VO_リサイクルステータス更新_四国
+NV_諸費用請求キャンセル_中国
+FDP沖縄_顧客サービスリクエスト却下依頼
+KB_Unknown JV sent to KB
+VO_架装発注キャンセル_沖縄
+UV FDP和歌山 販売見積の諸費用金額が更新できない
+VO_架装発注ステータス変更_沖縄
+VO_架装発注キャンセル_和歌山
+NV_ViewMatrix更新
+SV_請求書の住所表示が間違っている。
+NV_税確定が完了にできない_中国
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Organization (PO Header)
+SV_Recovery Payment Term(JCO Header)
+NV_諸費用請求が作成でできない_中国
+NV_諸費用請求が作成できない_中国
+PT_Patrs Price update for 1st Mar. 2025
+KB_Wrong Department code on JV
+NV_諸費用請求キャンセル_中国
+NV_諸費用請求キャンセル_中国
+UV FDP中国 販売見積と受注の利益が不一致
+CMVM_FDP_顧客作成リクエストが承認者不明となっている
+INS_Duplicated daily settlement
+SV_Change PO Cost(Only Siebel)
+SV_Change Parts Number(＠Hakodate)
+SV_Change JC and JCO Status(Cancel)
+KB_Account code blank on JV
+NV_納車承認エラー_岩手
+VO_マスタ更新（シャシ価格）_沖縄
+KB_RT Invoice recovery
+UV FDP中国 商談の架装の選択で選べない架装があり、在庫を紐づけられない
+VO_架装発注キャンセル_沖縄
+NV FDP中国 Power BI 3-06レポートで下取合計と下取損益合計が０円になっている
+VO_リサイクルステータス更新_岩手
+VO_シャシオーダーが表示されない_中国
+VO_マスタ更新_大型バス　オプション追加
+KB_Wrong posting date SV Re-edit
+KB_Wrong posting date SV PO
+NV_シャシ・オプション価格が表示されない_沖縄
+PowerBI ふそう中国 受注データ検索時不具合
+PT_The list price is displayed in the sales price for individual invoices created in KB
+CMVM_ダミー回収担当者の業務で取引許可フラグがONになっている
+SV_Expense Line Item Billing Code Issue
+VO_リサイクルステータス更新_岩手
+CMVM_随時 / 社員マスターUpdate_中国
+CMVM　岡山ふそう　顧客売掛情報抽出の件
+SV_Change Payer Value(JC and Quote More Info)
+KB_Wrong posting date SV PO
+VO_リサイクル　TOB回答が反映されていない_和歌山_岡山
+VO_架装発注キャンセル_沖縄
+NV_受注ステータス変更_中国
+VO_リサイクルステータス更新_岩手
+CMVM_随時 / 社員マスターUpdate_中国
+VO_シャシオーダー　TOB送信_四国
+PT_Issue with reverting after changing D2S ship to on Internal order screen.
+NV FDP中国 本部の人が見ても受注のキャンセルボタンが非表示の為、キャンセルできない
+SV_Change Tax Exempt Flag(Service Parts)
+FDP岡山 受信箱の承認待ちの画面に却下したものが残っている
+SV_Change PO Cost(Only Siebel)
+CMVM_FDP顧客・車両データー提供(岩手ふ・和歌山ふ・四国ふ・沖縄ふ)
+INS_Cannot link Spread sheet
+VO_リサイクルステータス更新_四国
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+PT_Update Discount master in Wakayama Prod
+CMVM_随時 / 社員マスターUpdate_中国
+KB_RT SV Invoice error
+SV_Change Individual Invoice Print Flag (Null -> N)
+VO_リサイクル　TOB回答が反映されていない_中国
+VO_リサイクルステータス更新_岩手
+CMVM_随時 / 社員マスターUpdate_四国
+NV　ふそう中国　営業担当者一括変更
+VO_車台番号が更新されていない_中国
+NV_マスタ更新_小型オプション_函館
+PBI_INS_Missing record on 6-02
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM_随時 / 社員マスターUpdate_中国
+VO_架装発注ステータス変更_中国
+UV FDP青森 架装発注の購入オーダーが作成できない
+CMVM_随時 / 社員マスターUpdate_岩手
+INS_Cannot process daily settlement
+SV_Change Payer Value(JC and Quote More Info)
+KB_Insurance JV not sent to KB
+KB_D2S invoice data not created
+SV_Change PO Cost(Only Siebel)
+PT_D2S SO is not updated in Iwate N000004872
+VO_リサイクルオーダーの表示_四国
+VO_リサイクルステータス更新_四国
+PT_Update View matrix.
+SV_Change JC and WO Status(Cancel)
+SV_Add Lubrication Master Item(@Shikoku)
+"INC4081541 - PT_When purchase order is sent to D2S, it is not registered according to the line number."
+PT_Migrate from SC version to FDP version for N037011630.
+SV_Consumption tax rounding is incorrect(＠Aomori)
+CMVM_随時 / 社員マスターUpdate_中国
+VO_マスタ更新（型式　MC3）_岩手
+SV_Approver UID is Blank(＠Wakayama)
+NV_見積ステータス変更_岩手
+PT_PO# N000309970 recovery
+CMVM ふそう中国 買掛ユーザーブロックフラグが機能していない
+UV FDP中国 承認依頼が受信箱に入らない（承認履歴上では承認者へ飛んでいる）
+SV_I can't open the document I attached in FORCE in FALCON
+KB_TOB invoice posting date issue
+PBI_PT_The “入庫日” does not exist in the 5-08 receiving report filter.
+NV_オプション金額0円表示
+VO_リサイクルステータス更新_函館
+VO_マスタ更新（S架装）_7社
+VO_マスタ更新（S架装）_岡山
+KB_Customer code blank on JV
+VO_マスタ更新（外色）_四国
+VO_リサイクルオーダーの表示_和歌山
+610008401 - Add order staff name
+520322203 - Reservation slip JC/WO Issue
+520319400 - CR 0790 Reservation Auto Print Issue
+"SC Incidents Feb 2023, Mar2024, Apr 2024"
+PBI_INS_6-02_Wrong vlalue set
+VO_諸費用請求の承認者違い_岩手
+PT_PO#N00003333 recovery in Shikoku Prod
+PT_Add an online working day for Okayama Prod to process the cycle count process.
+CMVM_車両マスタの整備担当者リカバリー
+VO_リサイクルステータス更新_岩手
+"SV_Recovery Expense Order(Price ""0"")"
+UV FDP四国 査定依頼の承認ルートが違う
+UV FDP中国 下取の購入オーダーが重複している
+VO_諸費用請求ステータス更新_岩手
+NV_見積_承認者が表示されない_岩手
+SV_Change PO Item Name(＠Hakodate)
+NV_見積ステータス変更_岩手
+NV_他の担当者の受注が表示される_四国
+UV_Power BI_複数回入庫時の表示
+CMVM_随時 / 社員マスターUpdate_中国
+UV_Power BI_入庫日・入庫価格
+VO_リサイクルステータス更新_四国
+SV_Change Order Price Issue(Individual invoice：Price Change)
+e-JiBAi mapping to USER ID
+NV_見積　商談台数修正_岡山
+SV_Change Individual Invoice Print Flag(N->Y)
+NV_受注ステータス変更_中国
+PT_JV was created for the wrong account.
+NV_PowerBI_担当者コード空欄_中国
+NV_シャシオーダー作成ボタンが押せない_中国
+NV_ViewMatrix更新
+VO_リサイクルステータス更新_四国
+UV FDP岩手 在庫車の査定依頼がキャンセルになっている為、戻す
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+CMVM ふそう中国 買掛ユーザーブロックフラグ一括更新
+SV_Delivery Slip Sheet Issue (Create Date)
+VO_リサイクルTOB送信ボタンが押せない_中国
+UV FDP中国 中古車買取見積に支店長名が表示されない
+NV_見積ステータス変更_中国
+SV_Recovery Payment Term(JCO Header)
+SV_CR_Change Individual Invoice Mapping(Location：HQ)
+CMVM_随時 / 社員マスターUpdate_中国
+UV UVIS連携の販社コードが間違ってる
+NV_納車承認エラー_岩手
+PT_Reservation slip issue
+NV_諸費用請求キャンセル_中国
+VO_マスタ更新（シャシ）_四国
+KB_Kanji Charactor in JV
+CMVM_FDP顧客・車両データー提供
+SV_Change JC UID(Created By)
+INS_Cannot link Spread sheet
+NV_諸費用請求の承認者が表示されない_中国
+NV_納車承認エラー_岩手
+SV_Planned Expense Approval Issue(Approver UID is blank)
+NV_受信箱の承認依頼削除_四国
+SV_Change Failure Code(＠Wakayama)
+CMVM_随時 / 社員マスターUpdate_中国
+VO_マスタ更新　大型MC2_沖縄
+UV FDP岩手 中古車受注の登録依頼が無いのに納入依頼を完了出来た
+NV　ふそう中国　架装工事付属品発注書 印刷数変更
+PT_PO:N036830420 does not exist
+"PT_When a PO with a parent order is entered, the processing of the parent order is not updated."
+KB_Kanji Charactor in JV
+NV_見積改訂が受注に反映されていない_中国
+INS_Cannot link Spread sheet
+UV FDP中国 中古車在庫の移動の件
+VO_マスタ更新_大型バス_沖縄
+UV FDP中国 中古車在庫画面でBlankの項目が存在する
+SV_Change PO Cost(Only Siebel)
+SV_Change JC Created By UID
+SV_JC Created By Issue(DUMMYSA)
+VO_リサイクルオーダーが受注にマップされていない_岩手
+VO_シャシオーダーの作成に時間がかかる_中国
+UV FDP青森 割当ボタンを押しても購入オーダーが１つも出てこない
+PT_FDP chugoku UOE user's main printer change
+VO_架装発注キャンセル_青森
+PT_Multiple Replenishment Order Creation Batch Process on February 3
+NV IBOSからSIEBELへデータ連携されない
+NV IBOSの画面が開かない
+CMVM_随時 / 社員マスターUpdate_中国
+VO_シャシオーダーが更新されていない_沖縄
+CR_KB NV&UV RT Invoie for Registration fee
+VO_架装発注ステータス戻し_中国
+PT_PO Transaction Recovery in FDP Chugoku
+NV_ViewMatrix更新
+UV FDP中国 中古車在庫以外の車両が中古車在庫画面に出ている
+SV_Change Lubrication Name(＠Wakayama)
+PT_Parts Quote Sales Staff IDs were not converted during migration
+【Chugoku】 車両マスタ・顧客マスタのデータ抽出
+NV_PowerBI_3-21B_エラー表示
+VO_リサイクルデータが表示されていない_岡山
+VO_架装発注キャンセル_四国
+SV_Discount Master Update(＠Iwate)
+PT_Stock transfer PO is still approved in FDP Chugoku even though it is completed in the SC version.
+NV_特販フラグの承認フロー_中国
+INS_Fuso Chugoku - Wrong e-JiBAi code mapping & unable to use e-JiBAi
+VO_移行対象のシャシオーダーが表示されない_中国
+VO_移行対象のシャシオーダーがない_中国
+VO_架装発注キャンセル_函館
+CMVM　ふそう中国　顧客承認フロー変更
+SV_Labor Status Issue(Customer Approved)
+PT_D2S allocations were not processed in order in Okinawa
+VO_マスタ更新_オプション金額_和歌山
+VO_リサイクル券番号空欄_中国
+PBI_ODI load delay on 31th Jan night.
+VO_リサイクルステータス更新_岩手
+VO_TOB受信データ確認_岡山
+Com_Update Role view matrix
+CMVM　ふそう中国　社員マスタ更新
+UV FDP中国 中古車在庫の査定番号と仕入区分がBlankの物がある
+PT_Replenishment order batch created multiple POs with no lines
+SV_Change Parts Internal Return Order Status
+VO_シャシオーダーが表示されない_青森
+NV_納車承認エラー_岡山
+CMVM_定期 / 社員マスターUpdate_沖縄
+KB_Account code I/F
+UV FDP四国 買取見積のステータスを承認済に戻す
+VO_リサイクルステータス更新_岩手
+KB_Remove Kanji charactor on JV for recovery
+KB_Department code blank on JV
+PT_D2S allocation reprocess recovery
+SV_Add Labor and Position Code(＠Hakodate)
+SV_Add Billing and Cost Rate Master(＠Iwate)
+NV_マスタ更新_外色_岡山
+CMVM_定期 / 社員マスターUpdate_四国
+VO_リサイクルオーダーの表示_沖縄
+CLONE - UV FDP青森 中古車商談に紐づけたい在庫が表示されない
+UV FDP青森 岩手 プール原価マスタの修正とリカバリ
+PT_Internal order M000004327 recovery in Okinawa Prod.
+PT_PO#N000007486 recovery.
+VO_架装発注キャンセル_沖縄
+PBI_SV_Real-Time Branch Issue(Sales Price Mismatch)
+VO_リサイクルステータス更新_四国
+CMVM　四国ふそう　顧客買掛情報一括変更
+VO_リサイクルステータス更新_和歌山
+VO_リサイクルステータス更新_四国
+VO_リサイクルオーダーの表示_四国
+VO_リサイクルオーダーの表示_四国
+UV FDP青森 中古車商談に紐づけたい在庫が表示されない
+VO_マスタ更新_シャシ価格_沖縄
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+SV_Change Planned Expense Status(Completed)
+VO_マスタ更新_大バスOPT_四国
+SV_Location Code (Department Code) Investigation
+VO_リサイクルステータス更新_四国
+VO_架装発注ステータス戻し_函館
+INS_Spread sheet approved without approval
+VO_TOB受信データ印刷修正_四国
+INS_Spread sheet cancelled
+PT_Location Number field always blank on Sales Return ship.
+SV_Non-Chargeable Cost Issue
+SV_New Purchase Order Specifications (Non-Tax Compatible)
+VO_リサイクルオーダーステータス更新_岩手
+KB_Wrong Tax flag & Tax rate for Revise Sales Posting
+VO_リサイクルステータス更新_四国
+SV_Change PO Cost(Only Siebel)
+PT_EXP_CHRG_TO of Expense return does not match between UI and JV.
+SV_Change Tax Exempt Flag(Service Parts)
+CMVM_随時 / 社員マスターUpdate_四国ふ
+VO_リサイクルオーダーステータス更新_岩手
+AMS_CR_PT_Change Barcode receiving screen.(SC Ver 610007207 and 610008711)
+VO_リサイクルステータス更新_四国
+VO_リサイクルオーダーが表示されていない_四国
+SV_Change Order Button Issue(Active Condition)
+INS_Missing approval request
+NV_ビューマトリックス更新_岩手
+SV_Recovery Payment Term(JCO Header)
+UV FDP和歌山 プールコストが原価が０円になる
+PT_N000211942 recovery
+SV_PO Issue(AP Non-Tax：Y)
+SV Change JC Status(Closed)
+VO_架装発注キャンセル_沖縄
+PT_Patrs Price update for 1st Feb. 2025
+NV_注文書の金額違い_四国
+SV_Change WO and Labor Status(Not Work)
+UV FDP岩手 中古車在庫が受注キャンセルで売上完了になる
+NV_見積_関連見積キャンセル_四国
+【随時】Okinawa 社員マスタ更新
+VO_登録地マスタ更新_四国
+UV FDP四国 買取見積の査定番号が変わってしまう為、入庫間違いが発生
+VO_架装発注_承認者が表示されない_岩手
+【Iwate】 車両マスタ・顧客マスタのデータ抽出
+NV_見積ステータス変更_四国
+UV FDP四国 中古車在庫取消依頼
+VO_リサイクルオーダーのステータス更新_四国
+KB_Kanji Charactor in JV
+UV FDP青森 在庫車のAR#の修正
+【随時】Shikoku 社員マスタ更新
+VO_税確定画面の項目不足_四国
+PBI_SV_Real Time Report Issue(Service)
+SV_Change PO Cost(Only Siebel)
+VO_架装発注キャンセル_岡山
+VO_リサイクルオーダーのステータス更新_四国
+UV FDP青森 中古車入庫取り消し依頼
+"SV_Recovery Expense Order(Price ""0"")"
+NV_承認フロー更新_四国
+NV_承認フロー更新_岡山
+VO_リサイクルオーダーのステータス更新_四国
+KB_Department code blank on JV
+VO_マスタ更新_大型MC1　OPT価格_和歌山
+CMVM　四国ふそう　郵便番号一括変更
+VO_マスタ更新_小バスオプション_和歌山
+VO_マスタ更新_小バスオプション_岩手
+PBI Adding User for Shikoku Prod App
+PBI Adding User for Iwate Prod App
+UV FDP沖縄 和歌山 中国 特定条件での査定依頼承認WF不具合
+PT_Transaction Recovery In Okayama Prod
+KB_Tax flag set on Recycle posting
+VO_リサイクルオーダーのステータス更新_四国
+UV 注文書の付属品明細の追加架装で品名が表示されない
+KB_Unknown bulk update on CMVM
+VO_リサイクルオーダーのステータス更新_和歌山
+SV_Individual invoice issue(Chassis＃)
+VO_マスタ更新_大バス_四国
+顧客の登録処理が進まない
+SV_Change PO Cost(Only Siebel)
+INS_Missing approval request
+UV CR confirmation Add Field and autoset the Re-sale price
+VO_マスタ更新_小型OPT_和歌山
+INS_Cannot link Spread sheet
+【随時】四国 社員マスタ更新
+SV_Service Quote Issue(Customer Address)
+INS_Cannot link Spread sheet
+VO_リサイクルオーダーのステータス更新_四国
+KB_Vendor account wrong Payment condition
+SV_Individual Invoice Issue(＠Shikoku：Bank Information)
+SV_Change PO Cost
+VO_マスタ更新_シャシ価格_沖縄
+VO_リサイクルオーダーのステータス更新_函館_和歌山
+"SV_Recovery Expense Order(Price ""0"")"
+VO_リサイクルTOB受信が反映されていない_沖縄
+INS_Cannot link Spread sheet
+VO_マスタ更新_中型_沖縄
+CMVM 四国ふそう　回収情報抽出依頼
+UV 中古車販売見積の中古車コメント欄が30文字しか入らない
+"PT_If printed with IWTF_50_P09, the print position is misaligned."
+"PT_When UOE order is created, the auto-printed delivery slip is not output."
+NV_受注ステータスが更新されない_岩手
+UV 受注承認時にエラーが出て承認依頼が出来ない
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+CMVM_四国ふそう社員マスターエクスポート画面について
+SV_An error screen appears when Input JC
+INS_Cannot link Spread sheet
+SV_Add Billing and Cost Rate Master(＠Shikoku)
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Siebel is running slow
+CLONE - NV_承認フロー更新（四国）
+SV_Individual invoice issue(＠Iwate)
+Dealer code error on Shikoku Fuso Kagawa
+INS_Cannot select Insurance company on Spread sheet
+CLONE - RF UV 呉サービスセンターの下取入庫時の部門コードがSCではなくSになっている
+UV FDP和歌山 中古車入庫取り消し依頼
+KB_Kanji Charactor in JV
+KB_Weight tax amount gap
+NV_マスタ更新_LDT、HB_和歌山
+NV_受注ステータスが更新されない_四国
+SV_Change Approval Matrix(＠Wakayama：Over Discount)
+SV_Journal Vector Issue(Change Order：Payer Change)
+KB_Miss match Invoice amount and JV for Outsourcing order
+CMVM_随時 / 社員マスターUpdate_岩手ふ
+VO_リサイクルオーダーステータス更新_函館
+CMVM_随時 / 社員マスターUpdate_四国ふ
+NV_受注ステータスが更新されない_四国
+SV_Weight Tax Fee Mismatch
+INS_Revert the status and delete the approval history
+PT_Cannot drill down using the WO number on the internal order details screen.
+VO_シャシオーダーが表示されない_青森
+VO_マスタ更新_バス_沖縄
+NV_受注ステータスが更新されない_和歌山
+NV_受注ステータスが更新されない_和歌山
+KB_0 amount JV created
+INS_Spread sheet linkage error
+VO_マスタ更新_外色_和歌山
+UV 中古車課長からの査定依頼の承認WFが動かない
+SV_JC is not displayed (white screen)
+SV_Change Labor Line Item(Tax-Exempt Flag)
+SV_Change JC and WO Status(Cancel)
+SV_Planned Expense Approval Issue
+CMVM_随時 / 社員マスターUpdate_函ふ（プリンター）
+VO_架装発注ステータス更新_四国
+VO_マスタ更新（大型シャシ価格）_和歌山
+INS_Revert the status and delete the approval history
+PT_ The print output for the 1-click solution is not being generated.
+SV_Change Approval Matrix(＠Iwate FUSO)
+SV_Planned Expense Issue
+PT_D2S SO number for N000001011 is not reflected.
+AMS_CR_SV _Cross Dealer Process Issue
+SV_Change Position Code setting
+INS_Cannot set Self-contract flag
+NV_マスタ更新_外色_岩手
+SV_整備見積画面の拠点名称不一致
+NV_マスタ更新_外色_四国
+"【随時】Iwate, Shikoku　の人事異動"
+CMVM_随時 / 社員マスターUpdate_函ふ
+NV_注文書1_社名サイズ
+NV_購入プラン_社名サイズ
+VO_架装発注_承認で拒否を選択するとエラー表示される_四国
+NV VCのOptionが重複して表示されている
+INS_Cannot link Spread sheet
+VO_シャシオーダーが表示されない_函館
+UV 売上後に架装買取オーダーの作成、Mappingができない
+NV_マスタ更新_登録手数料_沖縄
+PT_Sales Return not created from M000003330
+NV UV  岩手ふそう　新車・中古車承認フロー更新の件
+NV_見積_承認者が表示されない_岩手
+Printer_adding avaliable user for Iwate FDP
+UV 中古車在庫取消依頼
+SV_Change PO Cost(Only Siebel)
+INS_Cannot select Agency code 愛媛
+VO_マスタ更新_オプション_岩手
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新_小型オプション_四国
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ
+NV_承認フロー更新_岡山
+VO_マスタ更新_大型オプション_青森
+SV_Dealer Code is blank
+"SV_Recovery Expense Order(Price ""0"")"
+VO_架装発注キャンセル_岡山
+PT_D2S shipment not received
+VO_シャシオーダーが表示されていない_HB
+SV_Re-Edit JC Recovery
+SV_Service Master Update(Labor・Lubrication・Template)
+VO_リサイクルデータが表示されていない（沖縄）
+【随時】Wakayama 人事異動
+NV_承認フロー更新（四国）
+KB_PT Real time invoice Payment date issue
+VO_リサイクル_ステータス更新（和歌山）
+INS_Cannot change Order status
+CMVM_随時 / 社員マスターUpdate_四国ふ
+"PT_In FDP shikoku, PO recovery"
+INS_Add Insurance 10 digit master
+NV_マスタ更新_LB（和歌山）
+【随時】Wakayama プリンタ設定
+和歌山ふそう田辺支店部品課　プリント不可
+PT_Update View matrix.
+SV_Change Service Price(Lubrication and Discount)
+UV 納車完了承認が終わっているのに納車完了承認中のままになっている
+CMVM_定期 / 社員マスターUpdate_岡ふ・青ふ
+NV 納車完了承認が終わっているのに納車完了承認中のままになっている
+UV 社外架装発注の購入オーダー承認を誤って営業スタッフが実施した
+AMS-CR_INS_Commision fee tax rounding for JV
+SV_Change PO Cost(Only Siebel)
+CR_KB add Tax flag for JV and Vendor account I/F change
+NV_2024_Order_2
+EJIBAI-WEB id delete from Seibel
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+NV_納車承認エラー_青森
+UV 社外架装発注の購入オーダー作成ができない
+KB_Traid-in profit&loss account issue
+PT_Patrs Price update for 1st Jan. 2025
+VO_架装発注キャンセル_青森
+PT_D2S Invoice Calendar for 2025
+2025年シャシ請求＆車両抹消処理スケジュール
+[Wave2]Insurance Parameter cofiguration
+SV_Change PO Cost(Only Siebel)
+KB_Department code blank on JV(SV)
+SV_Recovery Parts Internal Order(Parent Order#)
+CLONE - UV 諸費用請求書に自賠責保険料の項目名が表示されない
+SV_Recovery JCO Labor Line Item(Tax Amount)
+AMS_CR_VO_シャシオーダーTOB送信時の動作変更
+UV 納車依頼の承認依頼時にマッピング漏れのエラーが発生する
+SV_System was fried at Customer Approval
+SV_JCO Recovery
+VO_架装発注先の検索が遅い
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+UV 販売見積のステータスが再承認中になっている
+P-CR_SV_Change Journal Vector(Tax/Non Tax Sub Total)
+CLONE - NV_IBOS架装金額表示
+CLONE - UV 販売見積書の整備・部品の定価金額が合わない
+PBI_SV_The 1-10A report does not show any  JC Settlement Date data for December 16th
+PBI_NV_Duplicate records display on FDP-Okayama 3-06 report.
+UV FDP青森 入庫検収の承認WFが動かない
+VO_リサイクルオーダー重複リカバリー_岡山
+UV_受信箱の承認依頼がエラーで消えない / Cannot completed In-Box Request
+VO_架装発注キャンセル_青森
+UV Purchace Order Status Update
+SV_Change Chassis＃
+SV_Change JC Type(12->11)
+SV_Change Tax Exempt Flag(Service Parts)
+NV_UV_架装発注書の注意事項位置調整
+NVUV Expense Invoice and Service Expense Invoice BIP Issue
+CLONE - NV_担当者変更ができない
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Cost(Only Siebel)
+SV_Recovery Planned Expense(Group ID)
+UV FDP青森 入庫検収の承認WFが動かない
+PT_Update Discount master in AOMORI
+SV_Change PO Cost(Only Siebel)
+SV_Change Tax Exempt Flag(Service Parts)
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+KB_Bulk invoice data not created
+VO_架装発注キャンセル_岡山
+SV_Work completion date/time Issue(JC Header)
+VO_マスタ更新_HDT MY19_函館
+VO_マスタ更新_MDT MC8_函館
+KB_JV not created for Chassis GR
+NV/UV_Traid-in GR validation
+CLONE - NV_見積_改訂ができない
+CLONE - VO_シャシオーダーが表示されない
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Cost(Only Siebel)
+【AMS-CR】NV TOBのD21A実行不具合
+CLONE - NV_見積_改訂ができない
+SV_The JV does not have actual expenses.
+SV_Re-Edit Function Issue
+INC3940846	PT_An error message appears when clicking the WO Sync button
+INC3881221	UV_PO mapping failed
+INC3850044	SV_Duplicate Sends to Falcon
+"INC3780039	PT_After changing ""D2S ship to"", if click the Order button to revert to the original value."
+"INC3852239	PT_Even after INC3802238 release, FDP recall menu is still slow to open"
+"INC3808661	PT_When changing the D2S Ship to Branch, the inventory and organization were not changed."
+INC3843122	PT_The price was not set in the record
+INC3815801	PT_Order confirmation screen Export error
+INC3788448	NV_Can not transfer the SO to same Branch Sales Staff
+INC3809705	UV_NV Sales Order Number Null on Assessment Request
+SC October release －10th & 24th Oct 2024
+VO_マスタ更新_外色・オプション金額_青森
+UV 見積のステータスを一時承認済に戻す（Mgrが誤って承認依頼のリカバリ）
+KB_JV Recovery for Hakodate 11/29
+UV 見積の内容が受注に連携しない
+VO_税確定金額修正_函館
+SV_Change PO Cost(Only Siebel)
+SV_Change WO and JC Status(Cancel)
+NV_受注よりPOをアンマップ
+VO_Trailer_架装発注ができない
+VO_リサイクルオーダー重複_青森
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+SV_Change PO Cost(Only Siebel)
+VO_TOB受信データ確認_函館
+SV_Error when approving a quote
+NV Sales Quote - Body Building name the max char length is 30 which is different from SC
+VO_納入代行_実額請求書が確定金額になっていない_岡山
+VO_架装発注キャンセル
+PT_Price master not updated in FDP
+VO_マスタ更新_第一営業日（販売転記マスタ）
+VO_トレーラーオーダー_ステータス変更_青森
+VO_トレーラーオーダー_ステータス変更_青森
+PT_Patrs Price update for 1st Dcember
+PT_Add D2S location code.
+CR_KB_AR account linked KB without SR approval
+PT_D2S allocation failed
+PT_Stop Replacement Jobs_December
+NV_受注よりPOをアンマップ
+VO_マスタ更新_シャシ価格_岡山
+SV_Change Order (Price Change) Issue
+CMVM_FDP青ふ　中古車承認フロー追加 AND 社員マスターUpdate
+KB_Bulk invoice data not created
+NV_見積有効フラグ変更_青森
+SV_Change WO Status(Not Work)
+"PT_PO return N000265564, D2S SO# is not reflected"
+NV_受注よりPOをアンマップ
+SV_Change WO and PO Status(Cancel)
+UV FDP UAT8のバグMFTBCFCR-170が本番でも発生すると言う調査結果の為、起票
+SV_Change PO Cost(Only Siebel)
+KB_JV Recovery for Aomori 11/19
+SV_Input Key＃(Chassis＃)
+PT_The price master has not been updated in all FDP Prod.
+SV_FALCON Labor Line Item Recovery
+NV_見積_有効枝番を変更_青森
+VO_マスタ更新（MS MY25）_函館
+SV_Change Order Delivery Slip Issue(Payer Change)
+"PT_In UA4-7, unable to transfer part numbers from ASCENT to SIEBEL"
+UV 査定依頼のステータスをCancelledにしてください
+VO_マスタ更新_外色_函館
+P-CR_SV_Apply Non-Tax Flag to Bulk Invoice.
+CMVM_FDP顧客・車両データー提供
+PT_Update Discount master in AOMORI
+UV 諸費用請求書画面が中古車課で更新不可 Role Matrix Update
+SV_Change JC Status
+青森ふそう　社員マスタ更新
+VO_マスタ更新（外色）青森
+UV 査定有効期限の延長ボタンが表示されていない
+"SV_Recovery Expense Order(Price ""0"")"
+NV_架装発注_仕分
+NV_Power BI_受注重複表示_岡山
+VM_SV_Product Classification Issue(The SC version of Incident is not reflected.)
+UV FDP青森 再販価格設定の価格項目がRead Onlyになっている
+PT_Price master not updated in FDP
+KB_JV linked to KB without Vendor code
+KB_JV Recovery
+KB_Missing JV for NV/UV cost from SV
+VO_車台番号が更新されていない
+UV FDP青森 支払先を入力後にError Messageが発生
+SV_Service Claim Branch Code Issue
+VO_シャシオーダーが表示されない_青森
+PBI_SV_PBI Filter Issue (Service)
+SV_Change PO Cost(Only Siebel)
+SV_An error message appears when sending Field Fix claim data to FALCON.
+UV FDP岡山 誤って見積をキャンセルにした為、作成中に戻す
+CMVM_FDP顧客・車両データー提供(岡ふ・函ふ・青ふ)
+CLONE - NV_見積_承認時エラー表示
+NV_担当者変更_岡山
+NV_受注担当者変更ができない
+SV_Lubrication Line Item Price Issue (Non-rechargeable)
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新_小型金額_函館
+NV_見積キャンセル_岡山
+PT_Cost price not updated
+VO_マスタ更新_大型オプション金額
+SV_Change PO Cost(Only Siebel)
+VO_架装発注キャンセル_岡山
+VO_マスタ更新_中型OPT
+NV_請求書のユーザー名とコードが異なる
+岡山ふそう　承認フロー変更
+UV FDP函館 中古車受注が作成できない
+UV FDP函館 関連見積がキャンセルできない
+VO_TOBへ自動送信されていない
+CMVM_FDP顧客・車両データー提供
+NV_承認フロー違い_岡山
+UV FDP青森 入庫検収依頼を誤ったUIDで作成の為、承認不可
+KB_UV cost posting JV after re-evaluation
+KB_Realtime invoice API validation logic check
+"SV_Recovery Expense Order(Price ""0"")"
+KB_JV view access
+SV_Change PO Cost(Only Siebel)
+CLONE - NV_架装発注ステータス変更_青森
+UV 誤って受注をキャンセルにした
+SV_Change Individual Invoice Print Flag(Y)
+岡山ふそう　社員マスタ更新
+"PT_When purchase order is sent to D2S, it is not registered according to the line number."
+NV_架装発注ステータス変更_青森
+PT_Patrs Price update for 1st Nov.
+UV FDP函館 承認依頼ロールを間違えた為、査定依頼がキャンセルできない
+PT_Set the main printer in FDP Okayama
+SV_Change WO(Labor)Status(Cancel)
+UV 販売見積の受信箱の承認アイテムの「お客様名_仕入れ先」が違う
+INC3777115	VO_架装発注RF連携エラー
+INC3771748	UV_Cannot automatically Update Customer on Purchase Order
+INC3722034	VO_受注にシャシオーダーが2つマップされている
+INC3737686	PT_Pickup PW branch screen queries are still slow after INC3625034 release
+INC3717021	UV_Vehicle Status Wrong
+INC3593035	VO_持込後付オーダーがRF連携されていない
+INC3648969	VO_IBOS架装_オーダーステータスとRF連携が合っていない
+INC3648812	VO_リサイクルのTOB送信ボタンが押せない
+INC3642862	UV_Sales Order Approval WF not working
+INC3727658	PT_BO name has not been changed on Stock transfer receiving screen
+INC3667178	SV_JC has disappeared within Siebel.
+INC3667178	SV_JC has disappeared within Siebel.
+"SC September Release : 10th, 19th Sep 2024"
+CMVM_随時 / 社員マスターUpdate_岡ふ・函ふ・青ふ
+PT_Price master not updated in FDP
+SV_Change PO Cost(Only Siebel)
+SV_Add Lubrication Master Record
+SV_Change JC Status(Maintenance Started)
+VO_マスタ更新_大型金額_青森
+PT_Stop Replacement Jobs_Novenber
+PT_The print was not printed in Aomori Prod.
+VO_マスタ更新_外色_青森
+VOマスタ更新_バス_岡山
+VO_架装発注キャンセル_岡山
+UV In-Box Approval Error
+青森ふそう　社員マスタ更新
+NV_税確定金額修正_函館
+SV_Update the Individual invoice flag
+PT_The FVP flag for the material master has been removed
+NV_3-05新車在庫の詳細
+UV 販売見積の明細がブランク
+NV_PBI_承認済見積
+VO_税確定エラー_函館
+UV 中古車購入オーダーの添付ができない (SR)
+UV 中古車購入オーダーの添付ができない
+PT_The FVP flag for the material master has been removed
+VO_マスタ更新（大型バスMS）青森
+SV_Change JC Status(Delivery Completed)
+CMVM_FDP顧客・車両データー提供
+PT_Price master not updated in FDP
+UV FDP函館 入庫検収依頼を誤ったUIDで作成の為、承認不可
+SV_Change PO Cost(Only Siebel)
+KB_Chassis PO Cost posting issue
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM_随時 / 社員マスターUpdate_岡ふ・函ふ・青ふ
+SV_Recovery Payment Term(JCO Header)
+SV_An unknown view exists in JCO.
+PBI_SV Real Time (Work Shop) Issue
+NV_納車承認エラー_青森（#20241000047697）
+KB_Recycle posting date issue
+KB_Wrong account code on JV for SV cost
+SV_Actual labor hour total Mismatch(WO/Claim)
+SV_Change Parts Internal Return Order Status
+SV_JCO Payment Term Error
+KB_PT_Sorting of lines on KB individual invoice differs from SIEBEL delivery slip.
+SV_Position Code Issue(WO Header)
+VO_マスタ更新_大型オプション_函館
+KB_Recycle posting date issue
+PT_Update Discount master in Aomori
+PT_Sales Return Slip print error
+AMS-CR_SV_Negative Tax on Service Line Item
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Cost(Only Siebel)
+VO_リサイクルオーダー重複_青森
+"SV_Siebel's Non-Tax is displayed as ""10%"" in the invoice tax rate."
+PT_Parts Quote Approval flow create issue
+KB_EoM invoice detail date request (Hakodate)
+SV_Change Order Issue(Payer Finance Account Code)
+FDP EC CR
+[CR] : Voluntary Insurance implementation and data sharing with KB
+INC3721946	UV_Can not Add Line Items on Sales Quote
+INC3625034	PT_Search on the Pickup PW branch screen is very slow
+INC3658473	PT_The WO field on the internal order delivery slip is incorrect.
+INC3638481	VM_SV_Product Classification Issue
+INC3668424	VO_リサイクル料金と料金属性が表示されていない
+INC3619906	NV_Quote Approval WF Customer Account Error
+INC3642862	UV_Sales Order Approval WF not working
+INC3472476	UV_ sales order export mismatch
+INC3614536	PT_July 23rd Replenishment Order issue
+INC3586861	SV_Internal Return creating error.
+INC3546565	UV_Can not stock-in the Vehicle
+"SC August Release : 7th, 9th, 22nd, 23rd Aug 2024"
+KB_EoM invoice detail date request
+CMVM_FDP岡ふ　顧客・車両データー提供
+SV_Recovery Payment Term(JCO Header)
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新_外色_岡山
+SV_JC numbering error
+KB_Missing JV for NV PO GR＆GI
+UV ARとVehicle Master StatusのUpdate
+NV_販売価格0円へ修正_青森
+UV 販売見積から受注が作成でエラー
+SV_Change Tax Exempt Flag(Service Parts)
+CMVM_FDP函ふ・青ふ顧客・車両データー提供
+SV_Issues Regarding Tax Fractions
+UV 中古車MgrのロールとWF追加
+UV FDP函館 入庫検収依頼を誤ったUIDで作成の為、承認不可
+SV_WO and PO statuses were mismatched.
+UV_SV Activity Status Update
+KB_Account code blank on JV (Hakodate) 1st Sep
+"SC Incident INC3780039--PT_After changing ""D2S ship to"", if click the Order button to revert to the original value."
+KB_Missing Tade-in loss JV
+VO_マスタ更新（外色）_函館
+SV_New prices of oils and fats are not reflected
+PT_Stop Replacement Jobs_October
+KB_Account code blank on JV (Hakodate)
+SV_Change Line Item Type
+SV_Recovery JC(UV Internal Order)
+NV_注文書の金額違い（#20240900047143)
+SV_Change PO Cost(Only Siebel)
+SV_Change Labor Line Item Status
+VO_マスタ更新（シャシ価格）_函館
+KB_Account code blank on JV (Aomori)
+NV_部品オーダーマッピング_函館
+NV_UAT環境シャシ作成
+CMVM_FDP岡ふ　顧客・車両データー提供
+VO_リサイクルオーダーのステータス更新
+VO_マスタ更新_小型OPT追加
+VO_マスタ更新_大型金額_函館
+SV_Lubricant Master Sales and Cost Price Change and New Lubrication＃
+VO_マスタ更新_小型金額_函館
+PT_Alternate Parts Master extract
+NV_見積ステータス変更_青森
+SV_Lubricant Master Sales and Cost Price Change and New Lubrication＃
+SV_Lubricant Master Sales and Cost Price Change
+SV_Change Tax Exempt Flag(Service Parts)
+PBI_SV_Real Time Branch Issue(Reset Button Issue)
+SV_Change PO Cost(Only Siebel)
+SV_Change JC and WO Status
+"SV_Recovery Expense Order(Price ""0"")"
+NV_マスタ更新_HDT_シャシ金額更新_函館
+NV_マスタ更新_HDT_OPT金額修正
+NV_マスタ更新_大型バス_青森・函館
+SV_Billing and Cost Rate Master Update
+SV_JCO-Change Parts Status(Canceled)
+NV_オプション金額更新_青森
+PBI_Add ODI load and Dataset refresh plan for Real_Time_Incremental_FDP
+SV_Job Card Template Issue(Lubrication)
+SV_Job Card Template Issue(Remove)
+VO_マスタ更新（後付オプション）青森・函館
+VO_マスタ更新（外色）岡山
+CMVM_FDP岡ふ　顧客・車両データー提供
+VO_シャシオーダーが出荷済となっていない_青森
+NV_オプション金額設定_青森
+PT_1-click print error
+NV_承認フロー設定　青森
+VO_部品オーダー追加ボタンが押せない
+NV_見積のステータス戻し
+PT_Update Discount master in AOMORI
+KB_Vendor account wrong Payment condition
+KB_Account code blank on JV
+INS_Responsible code change on Insurance order
+SV_Change PO Cost(Only Siebel)
+SV_Customer Address Issue(Not-Update)
+VO_マスタ更新（大型MC3OPT価格）青森・函館
+VO_マスタ更新（外色）岡山
+VO_AMS CR_シャシ発注変更のオプション選択対応
+NV_商談・見積の担当者変更ができない_青森
+NV_見積承認依頼でエラー表示_青森
+UV 査定依頼の承認が動かずに承認中のまま進めない
+VO_架装発注キャンセル_函館
+SV_Change JC Chassis＃
+PT_Order confirmation screen Export error
+Printer AOJF_00_P06 change printer driver
+PT_Organization not set correctly when creating purchase return order via upload
+CMVM_FDP岡ふ　顧客・車両データー提供
+AMS-CR_SV_Purchase Order Sheet(Change BIP Comment)
+AMS-CR_SV Change Service Claim Mapping(Dealer Code/Branch Code)
+SV_VM_Vehicle Master Cleansing(Record Remove)
+UV 中古車入庫検収を車両ロールで行ってしまいWFが動かずに承認依頼中になった
+PT_Update Discount master in AOMORI
+VO_架装発注キャンセル_函館
+SV_Tax on Quote line item is incorrect.
+SV_Non-Tax Customer Issue
+VO_外色マスタが反映されていない
+VO_マスタ更新（外色）岡山
+VO_マスタ更新（外色）函館
+VO_架装発注キャンセル（函館）
+PBI_SV_SV_101_105_110_110A_112_112A_115_115A_132 Adhoc Reports No records are displayed in report
+"The price revision data created during the night of March 31, 2024 is not available in KB."
+KB_Daily batch Interface error 9/5
+VO_マスタ更新（税確定　支払先）函館
+NV シャシの仕入時の仕訳とシャシの販売時の仕訳がジャーナルに無い
+VO_リサイクルオーダーのステータス更新
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（大型オプション金額）函館
+VO_マスタ更新（大型オプション金額）青森
+SV_Internal Work Quote Approval ERROR(UV Transfer)
+SV_Change CO(Change Order) Status
+SV_Change Order Status is Not Updated
+KB_Daily batch Interface error 9/4
+顧客マスタ　KBへ想定外のIFを実施しないための空白を埋める
+PT_Internal order M000161075 recovery.
+SV_Change Tax Exempt Flag(Service Parts)
+中古 ダミー在庫の削除依頼（下取車で既に前システムで販売済のもの）
+SV_Changing the Approval Flow Threshold and Approvers(Quote_Over Discount)
+SV_Change the approver of the approval flow(Department Expense)
+SV_Add Billing and Cost Rate Master
+SV_Change Approval Exlcusive Flag
+SV_Change the Approval Flow Threshold(Low Profit)
+PT_Update View roll matrix
+VO_見積シャシ（外色）の営業原価が空欄
+PT_Set AOJF_00_P06 on the main printer of USER-01 in Aomori.
+Com_Can not access Okayama-prod.
+ALL_FORCE Logging in takes a long time (W-2)
+VO_マスタ更新（中型　23年a改訂）青森
+PT_Internal order line status is editable
+PT_Internal order M000160187 recovery
+SV_API tool error (W-2)
+"PT_After changing ""D2S ship to"", if click the Order button to revert to the original value."
+VO_出荷実績日が表示されていないシャシオーダーがある
+Inqury; プリンタの給紙設定　函館ふそう
+PT_Discount master end date is set and disabled in Okayama.
+VO_マスタ更新（外色）青森
+VO_シャシオプションがTOB送信されていない
+KB_Batch error on 31th Aug
+CMVM_Check KB I/F record
+UV SOが売上完了承認が履歴上完了していても売上完了にならない
+PT_Update Discount master in Aomori Prod.
+SV_Inbox Items List - Remove
+SV_Change PO Cost(Only Siebel)
+VO_新規シャシ発注で受付番号が表示されない
+NV_シャシ金額再計算
+INC3587091 - PT_Search on the Pickup PW branch screen is very slow
+INC3550446 - PT_Recall PO location number not sent to D2S
+INC3523254 - CMVM_車両マスターのフル型式が変更できない
+INC3554915 - PT_Manual ship Flag issue
+INC3499490 - Sales order not updated even revised quote status is approved
+INC3387735 - VO_納車承認エラー（A020631712）
+INC3525430 - NV_Wong Value Insurance Line Item
+INC3442997 - VO_税確定ができない
+INC3503986 - NV_Sales Order Status Wrong
+INC3508281 - PT_Slow when opening Return order receeng screen
+INC3492629 - UV_Purchase Price Change to 0
+INC3443668 - NV_Broken Quote
+VO_シャシオーダーが表示されない
+VO_UATのマスタがPRODと異なる
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新（外色）岡山
+PT_Set AOJF_00_P04 on the main printer of USER-01.
+PT_Automatic print is not output from AOJF_00_P06
+SV_Change PO Cost(Only Siebel)
+CMVM Aomori 顧客マスタ追加
+SV_Change Job Card Template
+KB_JV interface error Aomori
+SV_Change PO Cost(Only Siebel)
+SV_Payment Amount Total(Tax) is Mismatch(PO Line Item View)
+VO_マスタ更新（建値変更）青森
+SV_Change Tax Exempt Flag(Service Parts)
+VO_マスタ更新（MFTBCFFR-2476対応）
+VO_マスタ更新（外色）函館
+VO_マスタ更新（架装営業原価）函館
+VO_TOB送信ボタンが押せない
+"SC July Release: 3rd, 10th, 20th and 22nd July 2024"
+VO_マスタ更新（外色）岡山
+VO_マスタ更新（大型c改訂）青森
+VO_マスタ更新（大型MC2）青森
+VO_マスタ更新（大型c改訂）函館
+VO_マスタ更新（大型MC1）青森
+PT_Cycle Count batch job process in Okayama.
+VO_シャシデータ読込（UAT1）
+PT_Update approval flow in Hakodate
+PT_Add Immediate Billing field on the Dealer-Recall Parts Sales screen
+PT_Change Order Slip Consumption Tax is Incorrect
+PT_D2S Maintenance September
+CMVM Aomori 社員マスタ追加/削除
+VO_リサイクルデータが表示されていない
+VO_マスタ更新（大型バスMY25）函館
+AMS-CR_SV_Change Liability Insurance Mapping(Contract Code and Name)
+SV_Change PO Cost(Only Siebel)
+VO_架装発注キャンセルへ更新_岡山
+SV_Add Lubrication Master Item
+CMVM_SV_Vehicle Master Cleansing
+マスタ更新（金額更新）函館
+PT_Can not added parts from ASCENT
+SV_Recovery Payment Term(JCO Header)
+マスタ更新（大型バス）岡山
+CMVM Hakodate 社員マスタ変更/削除
+SV_Change PO Cost(Only Siebel)
+CMVM_FDP岡ふ　社員マスター登録
+CMVM Aomori 営業担当のログイン時の権限変更
+order number count up start not from 1 start from 1500000?
+VOマスタ更新（SLDT）
+VO_マスタ更新（SLDT）
+VO_マスタ更新（S架装）函館
+VO_マスタ更新（大型MC1）函館
+NV_シャシ価格が表示されない
+VO_マスタ更新（大型MC2）函館
+VO_個別のシャシオーダー画面が表示できない
+VO_シャシオーダーのデータ表示
+VO_マスタ更新（大型バス）青森
+CMVM Aomori 売掛情報の与信限度額をNullにする。
+PT_Cannot open ASCNET from Parts Quote.
+CMVM Aomori 社員マスタ追加更新
+"PT_In contact screen, If you enter the customer code directly, an error message will appear."
+CMVM Aomori 売掛情報の変更ができない
+VO_マスタ更新（大型　MC2）岡山
+INS_Insurance order UI issue
+INS_Update Vehicle type master
+INS_Missing Vehicle type master
+AMS-CR_SV_Change Discount Master Contract Type(LOV Text)
+KB_Traid-in JV department code logic check
+MFTBCFFR3-58_沖縄　本社拠点が1000では動かない - DTA Jira
+VO_マスタ更新（外色）
+VO_架装発注　キャンセルへ更新
+VO_シャシ金額が表示されていない
+INS_Order status change
+UV 同じ孫取車の購入オーダーが二つ出来ている
+SV_Syaken Expense Recovery
+UV 同じ下取車の購入オーダーが二つ出来ている
+岡山FDP PBI本番環境リフレッシュ問題
+VO_シャシデータ読込（UAT1）
+UV UV InvetoryからStocked Vehicleの削除
+SV_Claim Parts Issue(Main cause Parts)
+VO_マスタ更新（大型、S架装）
+VO_シャシデータ読込（UAT1）
+EC_Delivery message change for order
+PT_D2S Maintenance August
+NV_見積改訂が受注へ反映されない
+SV_Journal Voucher(Weight Tax)
+SV_Actual Expense is not registered in the Journal
+KB_IF error
+INS_Duplicate JV created on Spread sheet process
+INS_e-JIBAI linkage error on Spread sheet
+CMVM_FDP岡ふ　顧客・車両データー提供
+SV_Change PO Cost(Only Siebel)
+VO_リサイクル確定報告がエラーとなる
+INS_e-JIBAI linkage error
+SV_Liability Insurance Tab Issue
+SV_Liability Insurance Issue(Contractant is Null)
+INC3435050	PT_Very slow when opening Stock transfer receiving screen
+INC3410967	SV_The time it takes for Service History search results to appear varies.
+INC3289483	VO_シャシオーダー重複（同一型式）
+INC3361761	PT_Supplier code was not set when PO was created
+INC3339807	NV_Vehicle Name Blank on Order Sheet
+INC3330254	PT_Recall Sales order approval reject error
+INC3311009	NV_New Record Button is active on NV Quote Screen
+SC June Release:  11 June 2024 and 21 June 2024
+VO_シャシデータ読込（UAT1）
+PT_Add D2S location cade. (SC ver SR: RITM1516176)
+FDP EC CR
+Non repo changes on NV UV New Position CR on UAT-1
+VO_架装発注　キャンセルへ更新
+PT_Update LOV of D2S Ship to based on attached file
+SV_Change PO Cost(Only Siebel)
+SV_SR_Recovery JC Header(Work completion date/time)
+"SV_Recovery Expense Order(Price ""0"")"
+INS_Commission fee tax rounding
+CLONE - NV_UAT6_諸費用請求_請求先の取引先タイプ
+VO_シャシデータ作成（UAT1）
+PT_D2S Maintenance July - Additional Dates
+KB_Pool cost not created on JV
+VO_マスタ更新（大型）
+PT_D2S Maintenance July
+UV Can not create Delivery Completion Request
+AMS-CR_SV_Rounding of Consumption Tax(Master)
+PT_Sales order M000179384 recovery
+INS_Set e-JIBAI ID on Employee master
+"SV_Recovery Expense Order(Price ""0"")"
+CMVM 回収担当拠点不具合
+AMS CR UV_2B 2-01(history) Sales Rep Blank Issue
+CLONE - NV_ロット受注時のIBOS番号枝番違い
+SV_Discount Master is not applied
+SV_Change PO Cost(Only Siebel)
+PBI_NV_3-06 C/# column is shown blank in report.
+CLONE - NV_見積_承認情報
+PT_Sales order M000008893 recovery
+CMVM Issue
+KB_NV invoice cannot create
+SV_Quote Approval Issue(Free Cost)
+NV_見積承認依頼でエラー表示
+PT_Update Roll matrix
+VO_マスタ更新（外色）
+PT_D2S Stop Replacement Jobs - June 30th
+SV_Change PO Cost(Only Siebel)
+PT_CR_Parts Approval Flow Changes
+VO_マスタ更新（外色）
+UV_Automobile Tax update to zero
+UV_Sales Rep Update for PBI Reports
+SV_Change PO Cost(Only Siebel)
+PT_D2S Additional Planned Maintenance June
+VO_請求書の納入先表示
+VO_シャシオーダーがキャンセルに更新されていない
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change Liability insurance premium Price(Planned Expense)
+マスタ更新（大型OPT）
+PT_Reservation slip Internal WO number is not displayed
+SV_Inbox Items List - Remove
+VO_マスタ更新（S架装）
+UV Assessment Request Sales Responsibility update
+VO_架装発注をキャンセルへ変更
+PT_Alternate Parts Master update
+SV_Change Quote Status(GW Approved)
+VO_マスタ更新
+CR_NV_TOB Reconciliation
+PT_Change order Slip Tax rate not display
+KB_Tax caliculated on JV
+"顧客コードが検索出来ない(SC版：PRB1004792, SR:RITM1373738)"
+KB_NV invoice not available
+PT_D2S Maintenance June
+SV_Change JC・WO Status(Cancel)
+VO_マスタ更新（S架装）
+SV_Add Discount Master(Service)
+AMS-CR_SV_Change CO Completion Date Field
+INC3244228:NV_Approved Child Order no changed Status
+INC3249879:PT_Expense return Other WH set wrong
+INC3298358:PT_Uploader screen is slow to file load.
+PRB1004632:拠点コードがSCから更新されている
+"INC3230560:PT_display error message when user click ""Generate Approval"" on parts quote"
+INC3226592:UV_Sales Order Sheet 1 Layout Issue
+INC3197389:UV_Can not issue Expense Invoice (Actual)
+INC3148226:VO_シャシオーダーの車台番号が更新されていない
+INC3167846:UV_Missing Stocked Vehicle on UV Inventory
+"SC release 10 May 2024, 22 May 2024"
+INC3126244: PT_EC order line status is not changed correctly
+CHG1132673: AMS_CR_UV_Delete Price Update Field on Purchase Quote screen
+610008873: UV Add Sales Quote Qty update condition
+SC April Release: 11 April 2024 and 23 April 2024
+Update Canon Dashboard Powershell Script
+Get print job statistics for a specified date ( Feb 29 )
+SV_Change JC・WO Status(Cancel)
+SV_Change Duplicate Parts Internal Return Order Status(Cancel)
+Regarding PAC file setting for your Azure web application removal
+NV 役員用レポートの受注一覧に承認中の受注が表示される
+"SV_Recovery Expense Order(Price ""0"")"
+"SV_Recovery Expense Order(Price ""0"")"
+SV_MGW Approval is skipped (FDP UAT-1)
+SV_Approval flow (approver) is incorrect
+SV_Change Quote Status(GW Approved)
+NV_Invoice customer name issue
+VO_外色の名称違い
+PBI_INS_Liability report not created
+PT_The same part number input validation feature on the Parts Quote screen is not working
+社員マスタの随時更新
+社員マスタの更新
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（外色）
+PT_Supplier code was not set when PO was created.
+SV_JCO-Cancel Line Item Flag Recovery
+VO_マスタ更新（OPT名称）
+VO_マスタ更新（外色)
+VO_外色金額修正
+VO_TCH02で設定していないオプションの金額が表示される
+VO_架装発注ステータス変更
+KB_Batch process error 8th May 2024
+SC April Release
+SV_JC Status is not updated (date is not input)
+SV_Change PO Cost(Only Siebel)
+VO_シャシデータ読込（UAT1）
+PBI_PT_5-08&5-10 Organization(Branch) name issue.
+回収担当者一括変更
+PT_D2S Maintenance May
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Okayama_FDP_PBI_not_updated
+KB_JV archive view creation
+VO_マスタ更新（中型　OPT金額）
+SV_Change JC/WO and PO Cost(Only Siebel)
+PT_Alternate Parts Master update
+SC Incident INC3010073: SV_Tax Amount Issue(Quote/JCO Header)
+SC PR PRB1004792: Customer Code Changed 0C00230420->1000179467
+SC Incident INC3006752: NV_Can not Approval Request
+SC Incident INC2999912: NV Sales Order Not Synced with Quote Latest Revision
+SC Incident INC3018501: NV_Delivery Completion Request does not perform Satus Validation Check of Delivery Request
+"SC March Release: 12 March 2024, 21 March 2024"
+SV_Change PO Cost(Only Siebel)
+VO_マスタ更新（排ガス記号）
+PT_Invice date tax rate issue
+画面使用権限の変更
+PT_Parts Quote slip ande delivery slip line tax value issue.
+PT_D2S Rejection anad Cancel code LOV update.(SC ver RITM1455228)
+SV_UAT_Last_DB_Refresh_issue
+CMVM_Resposible shop code change
+VO_シャシデータ読込（UAT1）
+VO_架装発注承認ボタンでエラー表示
+VO_マスタ更新（S架装）
+SV_Can't go back due to browser back (UAT-1)
+見込み顧客コード削除
+AMS-CR_納入代行請求書のI/F拠点変更
+PT_EC order line status is not changed correctly.(SC ver INC3126244)
+VO_マスタ更新（小型オプション）
+"SV_Recovery Expense Order(Price ""0"")"
+KB_Daily batch Interface error
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Billing Type does not switch.(UAT-1)
+顧客更新の承認依頼が飛ばない
+VO_マスタ更新（S架装）
+VO_マスタ更新（外色）
+SV_Labor Line Item cannot be created from Field Fix Code.(FDP UAT-1)
+SV_Creating JC from Field Fix results in an error(FDP UAT-1)
+SV_Parts Unit Price Issue(not updated)
+PT_D2S Maintenance April
+VO_マスタ更新（外色）
+PT_Update D2S location code.
+社員マスタ随時更新
+VO_マスタ更新（小型バス）
+SV_1-10A_settlement_date
+NV 受注残の担当者を拠点Mgrへ変更する
+VO_マスタ更新（外色）
+VO_架装発注キャンセル更新
+KB_Monthly invoice details Print sequence not correct
+NV_受注・見積　シャシ価格変更
+SV_Change Tax Exempt Flag(Service Parts)
+SV_Change JC and Line Item Type(35: Accident in the Branch)
+UV JCOが受注の購入オーダー一覧でキャンセルにならない
+NV 受注残の担当者を拠点Mgrへ変更する
+SV_Change JC Status(Maintenance Completed)
+SV_Change PO Cost(Only Siebel)
+NV_見積改訂が受注に反映されていない
+"SV_Recovery Expense Order(Price ""0"")"
+VO_部品返品ができない
+SV_Change JC・WO Status(Cancel)
+Azure Retirement: Azure Kubernetes Service 2023-01-02-preview API end of life is 20 June 2024
+IT Vulnerable Item VIT00025311157 has been assigned to your Group
+NV_実粗利益が訂正稟議レポートと見積の金額で不一致
+PT_Add D2S location cade. (SC ver SR: RITM1438613)
+VO_シャシデータ読込（UAT1）
+SV_Change PO Status(Purchase Ordered)
+SV_Change WO and JC Status(Cancel)
+NV_UAT1_操作待ち時間短縮
+VO_架装発注ステータス変更
+NV 改訂見積の承認時エラー/Revised Quote Approval Request Error
+SV_1-10A_settlement_date
+"PT_When creating Cycle count data for KB, unnecessary records exist."
+SV_Change Service Billing Rate and Minor Parts
+VO_シャシデータ読込（UAT1）
+SV_Service Discount Master Issue
+PT_FDP Okayama Annual Cycle Count batch process
+SV_CM_Change Cash Receipt Flag(JC Header and Account Code/AR)
+SV_Change PO Cost(Only Siebel)
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（TCH02）
+KB_納入代行請求書発行エラー
+SV_Change WO and JC Status(Cancelled)
+"SV_Recovery Expense Order(Price ""0"")"
+"SV_Recovery Expense Order(Price ""0"")"
+VO_架装発注ステータスをキャンセルへ更新
+VO_シャシ発注時にSIEBELエラーが表示される
+PT_Alternate Parts Master update
+NV SC Incident INC3006752のFDP版修正
+PT_Auto approval of PO return
+VO_マスタ更新（架装)
+VO_マスタ更新（外色）
+UV INC3011127添付タブの添付物が見積改訂後の見積から見えなくなる
+"SV_Recovery Expense Order(Price ""0"")"
+Requesting Member Permission for A6H_owner
+VO_シャシ定価違い
+UV_2-05_2-06_wrong Maker_field
+VO_架装発注キャンセル
+VO_マスタ更新（シャシ金額）
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新　大型
+CLONE - VO_持込S架装　販社コードが選択できない
+AMS-CR_KB D2S invoice posting date change
+SV_Add Discount Master(Service)
+VO_マスタ更新（S架装、外色）
+SV_SV-Quote Error(UV Internal Work(Transfer))
+"PT_Return Slip Sales, Customer Receiver field not exist."
+PT_Correcting the company logo size on the EC delivery slip
+PT_Update LOV of D2S Ship to (SC Ver SR:RITM1414610)
+VO_マスタ更新（小型　オプション）
+SV_BIP Issue(Negative Amount Tax)
+UV Purchase Order TabのJCOのステータスがキャンセルになっていない、SV側のJCOのStatusはCancelled
+UV SOが売上完了承認が履歴上完了していても売上完了にならない
+PT_Inbox recovery
+Upgrade your AKS cluster to a supported Kubernetes version
+NV 担当者変更機能の変更先リストに営業Mgrと支店長も表示させる
+SV_Change PO Cost(Only Siebel)
+SV_Change Planned Expense Price(Weight Tax)
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（排ガス記号）
+NV 受注残の担当者を拠点Mgrへ変更する
+PT_D2S Maintenance March
+UV 中古車在庫の入庫取消依頼（購入後不具合で入れ替え）
+SV_Add Discount Master(Service)
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（大型）
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（S架装）
+NV_シャシ発注_追加した明細がシャシの下に表示されていない
+AMS-CR_INS_Spread sheet creat button activate
+PT_JPN of EC_delivery slip is incorrect
+NV_シャシ発注_明細追加時の入力位置
+NV_IBOS_回答受信済のIBOSを再度開くことができない
+車両マスタ：整備車両情報　の銘柄のLOVがSC版と異なる
+NV_UAT1_納車承認ができない
+api.mitsubishi-fuso.com expires in 60 Days.
+api-int.mitsubishi-fuso.com expires in 60 Days.
+中古車スタッフからの買取見積承認時にMF SCHQ-Sales-NV-Mgrの承認が出て来ている
+PT_Sales order M000092419 recovery
+VO_マスタ更新（外色）
+PT_Sales order M000092419 recovery
+VO_マスタ更新（大型　追加）
+SV_Change PO Cost(Only Siebel)
+calender of 2024
+SV_BIP Run Report Issue(SV_Delivery Slip)
+PT_Profit total does not include return charge(SC Ver Inc:2905147)
+VO_マスタ更新（S架装）
+NV_受注型式金額更新
+SV_Organize your Inbox
+SV_Service Total Chargeable Cost Mismatch
+VO_マスタ更新（S架装）
+SV_Mileage Mismatch Approval(Rejected)
+NV_見積LOV変更（ナンバー種類）
+社員マスタ随時更新
+KB_NV Sales posting JV not created PO#B000060944
+VO_テスト用シャシデータ読込
+"SV_Recovery Expense Order(Price ""0"")"
+"SV_""Product Name""ERROR in UAT-1"
+VO_NV見積_IBOS送信ボタンを押すとメッセージが表示される
+PT_岡山ふそう様　部品棚卸対応
+SV_BIP Issue(Negative Amount Tax)
+SV_Change PO Cost(Only Siebel)
+NV_受注訂正（見積改訂）
+VO_マスタ更新（シャシ年式）
+UV Power BIの仕入区分で「孫取」が空白かUVトレードインになっている
+VO_受注型式変更
+AMS_CR_SV_1-01_10A_12A_15A_wrong salesprice
+VO_マスタ更新（S架装）
+SV_Change PO Cost(Only Siebel)
+VO_シャシ状況確認画面のメモ欄が入力できない
+SV_Remove duplicate Parts Internal Return Order
+SV_Change WO Status(Cancelled)
+SV_Change WO Status(Working)
+SV_Change JC Status(Working)
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change PO Cost(Only Siebel)
+PT_D2S Maintenance February
+SV_Change Planned Expense Price(Weight Tax)
+NV_24年モデルのキャンペーン対応
+"SV_Recovery Expense Order(Price ""0"")"
+VO_マスタ更新（外色）
+SV_Change Planned Expense Price(Weight Tax)
+CR_SV_JC Re-Edit Function Update
+UV 受注が改訂した見積と紐づいていない
+VO_マスタ更新（TCH02）
+SV_Change WO Status(Working)
+VO_マスタ更新（外色）
+PT_Update Discount master for Okayama 23rd Jan
+"UV 中古車受注一覧の""受注報告""に未受注が表示され、”売上報告""に受注が表示される"
+PT_Fixed tax rate is not set on Part dealer sale order screen.
+KB_Insurance JV account code validation change
+VO_マスタ更新（大型）
+SV_Change Planned Expense Price(Shaken stamp)
+SV_Change Planned Expense Price(Weight Tax)
+NV_3-06_missing_SO
+VO_架装発注キャンセル
+個別請求書の転送項目調査
+PT_Line Discount % is incorrectly displayed.(SC ver INC2801425)
+NV_chassis price update
+KB_Ins JV not created
+PT_D2S Maintenance January - CHANGE
+VO_マスタ更新（外色）
+PT_N000079092 was sent to D2S twice.
+"SV_Recovery Expense Order(Price ""0"")"
+NV_再承認の却下時の修正
+UV_2B_2-05_2-06_different_profit
+UV 売上報告の利益がSiebelと違う
+VO_シャシ状況確認画面の営業担当者名での検索
+VO_マスタ更新（中型、小型）
+１２月末　２０日締から末締変更ユーザの件
+"SV_Recovery Expense Order(Price ""0"")"
+UV M版で販売済の下取車の入庫取消
+VO_マスタ更新（バス）
+VO_受注型式変更
+SV_Add Discount Master(Service)
+SV_Change Planned Expense Price(Weight Tax)
+First Reminder: Virtual machines or virtual machine scale sets are running on images that will be deprecated soon
+SV_Change PO Cost(Only Siebel)
+Change API key kength
+VO_受注型式変更
+VO_マスタ更新（外色）
+SV_Change PO Cost(Only Siebel)
+SV_Change PO Cost(Only Siebel)
+SV_Change Planned Expense Price(Weight Tax)
+NV_Quote approval flow change
+社員マスタ随時更新の件
+NV_注文書が作成できない
+UV 中古車架装発注のステータスをキャンセルにする
+Canon Server: Windows Activation and Windows Update
+To Clarify SIEBEL Interfaces
+To Clarify Azure Resources Settings
+PT_Parts# 3124054500 Unable to add to Quote.
+UV 車両受領書と納品書の会社名がMFTBCになっている
+PT_Material master has not been created.
+UV 受注の承認依頼ボタンを押してもWFが作成されない
+UV 受注の承認依頼ボタンを押してもWFが作成されない
+SV_Change Planned Expense Price(Liability insurance premium)
+社名変更のSIEBEL→奉行連携について
+VO_マスタ更新（S架装　HDT）
+UV 受注承認依頼のWFが動いていない為、進行中に戻す
+PT_D2S Maintenance January
+KB_SV-MGW cost JV master change
+VO_マスタ更新
+SV_Change PO Cost(Only Siebel)
+UV 架装発注がキャンセル出来ない BB PO cannot Cancel
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Change Duplicate Parts Internal Return Order Status(Cancel)
+SV_Change PO and JC Status(Cancel)
+SV_Change PO and JC Status(Cancel)
+各種マスタ随時更新の件
+VO_テスト用シャシデータ読込
+UV 諸費用請求書がキャンセル出来ない為、キャンセルして欲しい
+KB_Wrong account code with class on JV
+VO_マスタ更新_HDT
+NV_chassis price update
+KB_Department code blank on JV
+KB_Department code blank on JV
+KB_CR_Insuranse JV implement
+NV_PT sub quote issue
+PT_An error message is displayed when the fulfill all button is clicked.
+VO_テスト用シャシデータ読込（UAT1）
+PT_D2S Shipment not received
+NV_emmision code change
+Retirement notice: Transition to a new method of internet access for your VMs in Azure
+Action required: Azure Instance Metadata Service (IMDS) attested data customers
+NV_受注残シャシ金額の変更 12/06
+PT_D2S Shipment not processed.(SC Inc#520353812
+PT_D2S Maintenance December
+KB_SV-MGW cost JV master change
+SV_ChangePO Cost(Only Siebel)
+SV_Expense Order Recovery(Planned/Actual)
+UV 売上後の架装発注の購入オーダーが作成されない
+Need to know vm server roles and k8s resources
+SV_Change Service Quote Approvers(High Price)
+VO_架装発注POステータス変更
+UV 中古車受注一覧のレポート選択の値が間違っている
+SV_Service Order Recovery(November-EOM)
+SV【岡ふ_整備部門】Siebel処理落ちについて
+KB_UID作成
+VO Application Gateway Settings
+SV_ChangePO Cost(Only Siebel)
+SV_Change JC Status
+VO_マスタ更新（2024年 Sales Posting master）
+NV_consumption master change
+Retirement of Azure IAM Service Principal
+VO_TOBファイル読込（DT01）
+NV&UV Cost data export
+SV_Change PO Cost(Only Siebel)
+SV_Service Quote Approval Issue(Free Cost)
+VO_TOB受信データ印刷が白紙で出力される（D21L）
+VO_TOB受信データ印刷が出力されない（D21L）
+PT_D2S Maintenance November
+PT_PO return N000050255 not created Reserve action txns
+勘定奉行への担当者情報連携不具合（勘定奉行側データ取込エラー）
+SV_Change WO Status(Cancelled)
+SV_Change WO Status(Cancelled)
+UV SR MFTBCFFR-1974販売商談に在庫車両が紐づかない リカバリ
+UV 販売商談に在庫車両が紐づかない
+PT_During Cycle count negative issue.(SC Ver. Inc#520350687)
+PT_KB_Duplicate Cycle count record data sent to KB on November 1st
+SV_Error is displayed when changing JC Status(Delivery Completed)
+KB_JV master change for Parts expense
+SV_Change Quote Status
+SV_Change Registration Number
+SV_Change JC Status
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Mban_1-02_Mban_button_link
+VO_架装発注ステータスをキャンセルへ変更
+VO_架装発注ステータスをキャンセルへ更新
+NV_Mban_button_name
+SV_Add Discount Master(Service)
+SV_Mban_1-01_unrequired_space
+UV_Mban_2-06_columns_ missing
+KB_Parts inventory price gap
+UV AMS-CR 610008423 販売見積却下の時に進行中へ戻すボタンの追加
+SV_Mban_1-01_columns_missing
+UV SR 販売見積を更新できない為、却下から進行中に戻して欲しい
+NV_Mban_3-06_U/#_format
+UV_Mban_2-06_filter_disappears
+PT_Cancel issue during Expense approval(SC Ver Inc:520350365)
+車両マスタ データ抽出
+車両マスタ　データ抽出
+UV_Mban_2-06_unreqiuired_columns
+UV 販売見積書の整備・部品の定価金額が合わない
+PT_Price change data of  end of September for KB is incorrect
+VO_TOB受信データ印刷修正
+UV_Mban_2-06_remove_time_from_date_field
+VO_UAT1　シャシデータ読込
+NV_Mban_3-06_remove_'.00'from_money_related_column
+VO_マスタ更新_LB
+KB_Bulk invoice data for EoM (Closing date change 20 > EoM)
+NV_Mban_3-06_character_corruption
+NV_Mban_3-06_wrong_sequence
+NV_Mban_3-06_column_name_English
+SV_Organize your Inbox
+SV_Add Discount Master(Service)
+NV_UV_SV_Expense Sheet Company Stamp Issue
+SV_MGW Approval Issue(Approver Side)
+SV_Error is displayed when changing JC Status(Delivery Completed)
+UV AMS-CR 610008914 販売見積から整備見積を消せなくする
+SV/KB_Change Order Tax Mismatch(Journal)
+SV_Change CO Date
+KB_Monthly invoice details not created and wrong customer name
+KB_SV-Payer change JV
+VO_TOBバッチファイルの処理タイミングにより未処理となるデータがある
+社員マスタ随時登録の件
+PT_PO return Transaction not created
+PT_PO return N000041249 recovery
+SV_Change Order(Payer Change)Issue
+PT_D2S Maintenance November
+KB_SV-PO Vendor code blank on JV
+UV 納車完了承認完了後、売上完了にならない
+PT_Return order JV recovery for 20th Oct
+PT_M000037596/O000023100 JV recovery
+SV(KB)_Line Item Sales Price Mismatch(Sales Data)
+SV(KB)_Line Item Sales Price Mismatch(Sales Data)
+PT_KB_Department Code (CSJS300) of Change order is incorrect
+PT_KB_JV for sales return order is not created correctly
+SV_Change Registration Number
+SV_Change Registration Number
+AMS-CR_SV_Change Expense Sheet
+VO_シャシ状況確認画面の日付表示がTOBデータと異なる
+PT_Add expense approval flow
+NV_請求書の金額が表示されていない
+NV_Chassis price update 10/26
+"SV_Recovery Expense Order(Price ""0"")"
+SV_Add Discount Master(Service)
+UV 中古車からの部品オーダーに明細に乗っていない部品がある
+VO_リサイクルデータが表示されていない
+NV_Chassis price update
+NV_マネジメントレポートの画面で作成中の受注が検索される
+画面使用権限の更新
+AMS-CR_KB_Project code change in JV
+PT_Not receive D2S SO number
+PT_Tax Exemption Flag issue in PO
+UV_注文書の金額がおかしい
+SV_Rounding of Consumption Tax (UAT-1)
+SV_API tool import error (Code 502 Bad Gateway)
+SV_Individual Invoice interface and Mapping Issue
+KB_SV_Posting date of Service PO is Null ​
+NV_マネジメントレポート画面で受注のデータが出てこない
+NV_受注残シャシ金額の変更 10月販売分
+SV_Change JC Settlement Date/Time(JC Header)
+NV_新車受注訂正一覧の画面で対象の受注が表示されない
+KB_Department code '0000' set in JV
+KB_Department code '0000' set in JV
+NV_改造のマイナス金額が承認情報の粗利益に反映していない
+"KB_PT_In the case of GR canceled BANS, JV master change"
+UV SR 査定依頼の承認ルート変更 査定額500万円以下
+"KB_PT_In the case of GR canceled BANS, JV is incorrect"
+NV_諸費用請求書の金額が明細と相違
+SV_Change JC Status(Canceled)
+KB_Posting date issue on KB I/F
+VO_マスタ更新_大型・小型_オプション追加
+VO_View Matrix更新
+PT_PO Shipment transaction does not exist
+PT_PO recovery
+PT_Right-align PO screen fields
+"SV_""Invoice-Header Comment"" Text is not reflected in the Invoice."
+VO_マスタ更新（中型　S架装）
+PT_Stop replenishment jobs on 2nd&4th Sunday Oct.
+VO_シャシ型式変更（JH25）
+SV_JC Closed Date Mismatch
+NV_下取の消費税が注文書に反映しない
+PT_D2S Invoice mismatch screen issue
+VO_マスタ更新（バス　オプション名称・外色名称）
+SV_Approver Mistake(31: Inspection:Chargeable)
+TLS Server certificate should be issued by an approved CA
+KB_Monthly invoice tax amount gap with delivery sheet
+SV_Unable to approve SV-Quote. (UV Internal Work)
+NV_請求書の金額がおかしい-MFTBCFFR-1831
+SV_1-10A_actual_labour_hour
+PT_Update View Matrix
+PT_Non Gen POsheet Deliveryslip total amount issue
+SV_Total Cost Mismatch(SV-Quote)
+"SV_Recovery Expense Order(Price ""0"")"
+"SV_Recovery PO(Price""0"")"
+KB_NV Trade-in Vendor code issue
+SV_1-01_10A_12A_15A_wrong salesprice
+KB_TOB invoice vendor code & posting date issue
+SV/PT_Parts Internal Order(Inventory Name/Requested Branch is NULL)
+NV_後付フラグのリカバリ
+VO_TOB受信データ出力の動作と表示
+NV_JCT_注文書のリサイクル料がおかしい
+NV_JCT_適格登録番号の項目が受注の画面にない
+UV FDP JCT 中古車見積の特別値引が＋で計算されている
+UV 中古車受注の購入オーダーに整備JCO内の部品オーダーが割当される
+NV_実額の諸費用請求書の金額訂正
+NV_諸費用請求書の自賠責の期間が帳票と画面で相違
+KB_UV Sales posting issue on Internal parts
+【AMSCR】NV/UV_売上後の見積の制御
+NV_recovery for JV
+PT_PO return recovery
+PT_PO line tax rate is blank
+NV_入庫額のリカバリ
+【AMSCR】NV_下取の仕訳の金額がおかしい
+NV_消費税が空白になる
+VO_納車承認エラー（A000002015、A000004204、他）
+CLONE - VO_シャシ販売報告（DJ2L）TOB送受信されていない
+VO_受注の売上計上承認時にエラーメッセージが表示される
+NV_実額の諸費用請求書のキャンセル
+VO_マスタ更新
+NV_3-06_missing_SO
+SV_Recovery JC (Internal Order)
+KB_PT PO Vendor code not set in JV
+SV_Validation Check Issue(NV Internal Work)
+SV_Recovery JC (Re-Edit)
+PT_Update Discount master
+PT_The location number is not displayed on the Stock transfer slip.
+NVUV_FDP JCT CR Auto Diplay Tax Registration Number on Quote
+SV_Add Discount Master(Service)
+KB_JV data export for MFTBCFFR-1805
+AMS-CR_SV_Change JC Re-Edit Function
+VO_マスタ更新（オプション金額）
+KB_Missig consumption tax on SV Re-Edit JV
+NV_オプション名称が見積画面と見積書で異なる
+SV_Change WO Status
+PT_Change Vew matrix
+NV_諸費用請求書の口座名義が途中で切れている
+NV_受注残シャシ金額の変更 9月販売分
+KB_EoM user account in 20th closing
+KB_Missing Parts shipment in 20th closing
+KB_CS AR posting Department Code issue
+SV FDP JCT Service History Amount Mismatch
+SV FDP JCT Total Amount is Mismatch(CO_Correcting Delivery Slip)
+FDP版FORCE タイムアウト時間変更
+NV_3-06_duplicated_SO
+UV FDP JCT Sales Order Sheet for Auction
+PT_5-02_Stock_Inventory_fiter_data_error
+NV_active flag change
+Error from D2S for PO Creation
+KB_Monthly invoice issue
+買掛先登録/変更のSR画面から１項目を削除する
+PT_PO allocation received at the same time. N000013519
+NV_実額の諸費用請求書の宛先が空白
+test bug
+UV 中古車販売見積に支店長名が表示されない
+NV_福祉車両の問題
+SV FDP JCT Miscalculation Total Tax(BIP：Quote)
+NV_バスの注文書で値引きが消えている
+NV_請求書-下取が複数台ある場合の消費税がおかしい
+NV_値引きなしの注文書の金額がおかしい
+NV_SC incident#520342705 トレーラーの注文書の修正が反映していない
+SV FDP JCT Dummy Parts Default Price Issue
+SV_AMS-CR_Change extraction conditions for Pick Account List
+PT_recivng SO confirmation failures from D2S
+VO_FDP JCT　架装発注書修正２
+PT_JCT_PO Invoice BIP. Incorrect shipment charge calculation
+PT_GR wrong parts number recovery
+UV 中古車見積で孫取タブに明細を作成すると査定番号を紐づけない限りエラーで進めなくなる
+UV 中古車受注の担当者変更時にエラーメッセージが出て変更できない
+PT_ASCENT connection issue. *Same SC ver. Inc:520344519
+NV_注文書フィードバック
+UV FDP JCT Body Bouilding Order and Invoice
+VO_FDP JCT　架装発注書修正
+KB_NV＆UV Sales GI Journal posting issue
+SV_JCT_Individual invoice issue
+PT_PO allocation failed N000003001
+PT_PO cancel line issue recovery
+UV FDP JCT Sales Quote UAT Bugs and Adjustment
+CM_SV_Account Master Issue
+VO_NV見積　外色の金額が表示されない
+KB_AMS-SR_Parts cycle count new field for final confirmation date
+UV 買取契約書に消費税が表示されない
+VO_シャシ販売報告（DJ2L）TOB送受信されていない
+NV/SV_FALCON Interface ERROR(Fast Registration)
+【AMSCR】NV_受注後見積改訂で後付のチェックを外すと受注でチェックが外れない
+KB_UV Sales Journal posting issue
+KB_NV Sales Journal posting issue
+KB_NV Sales Journal posting issue
+UV FDP JCT Sales Order Sheet for Directe Sales Case UAT bugs
+KB_Sammary invoice amoung gap on parts return
+PT_ Return PO Confirmation not received
+KB_CS sammary invoice 20th closing date export
+PT_AMS-CR Cycle count posting date
+"PT_When Parts Mgr create a PO return, the shipment is not created."
+PT_AMS CR Regarding the PO return screen Apply SC Ver. AMS CR to FDP Ver.
+PT_PO return N000010650 recovery
+UV 売上完了の中古車受注に部品オーダーが割当られているが、中古車では発注していない
+KB_PT cycle count Profit & Loss amount gap
+VO_リサイクルオーダーのステータスをキャンセルへ更新
+CMVM_登録番号リカバリー
+PT_There is a record with blank Customer code in Internal order.
+NV_3-06_missing_SO
+VO_納入代行の請求書に消費税が記載されていない
+SV_AMS-CR_Add LOV Per View
+operation time change: CPI - Proxy Sever Migration - System Downtime Alert -09th September 2023
+PT_PNC Product master does not exist
+VO_車両識別番号（車台番号）が表示されていないシャシオーダーがある
+CMVM_サポートデスク新任者の社員マスタ登録
+NV_車両代請求書に登録、納入年月日が出ない
+PT_PO return D2S SO receive delay   N000006338
+VO_登録依頼完了時にエラーメッセージ表示
+PT_Run Other Cycle count batch job and send it to KB also
+VO_登録依頼リカバリー（A000001531）
+SV_Add Account Code(AP：Service Dummy)
+SV_SR_Recovery JC Header(Work completion date/time)
+SV_Add Approver(ReーWork/Free Service)
+VO_Recycle Fee Order　ステータス更新
+SV_BIP Issues on multiple pages(Quote/Delivery Slip)
+PT_Stop replenishment jobs on 2nd&4th Sunday_Sep2023
+VO_マスタ更新_後付オプション金額更新
+UV SR 非在庫車両の査定依頼の500万以上の承認WF実装
+PT_Clicking on a PO return order from the PO confirmation screen opens the PO screen.
+PT_Return Slip MFTBC 1 click print issue in PO return screen
+SV_SR_Recovery JC Header(Work completion date/time)
+KB_Blank department code in journal
+PT_Cycle count list issue. *SC Ver Incident:520330213
+SV_Unnecessary Approval Flow was executed
+【SR】ALL_ホーム画面の赤枠の表示項目の詳細について
+"PT_D2S Reject reason ""FJ"" error N000002634"
+PT_Update Discount master for Okayama 4th Sep
+VO_シャシ金額が提供したマスタと異なる
+PT_ D2S stock orders recovery
+PT_Sales order M000003216 recovery
+"PT_D2S SO not Received PO return N000003836,"
+SV_Run Report settings are different from UAT-1.
+SV_The selected BIP other than JC is converted to PDF
+NW_見積から受注作成時に自動オーダーボタンを押すとエラー表示される
+PT_Approval flow of Branch Cycle Count Others Request Change threshold
+PT_Approval flow of Branch Cycle Count Others Request Change threshold
+Enable packet capture on Canon dms server
+CMVM_NV 仕掛データの新担当者設定
+PT_Branch Cycle Count Others Request issue
+UV SR 査定依頼500万円超の最終承認者が経理課長になっている為、修正
+PT_Update Discount master for Okayama 1st Sep
+VO_見積へのIBOS番号入力でエラー表示される
+CMVM_社員マスタ定期更新
+KB_Blank vendor code in Journal
+NV_オプション価格更新
+UV 入庫が完了しているのに商品簿価が表示されない
+VO_TOB受信データ印刷修正（D21G　車台番号連絡）
+PT_D2S SO receive delay N000002360
+NV_オプションはマスタに登録されているが金額が出ない
+VO_マスタ更新（外色）
+VO_マスタ読込修正（後付オプション）
+VO_受注済シャシ状況が表示されない
+PT_Update Discount master after parts LPP Material master migration on 31th Aug.
+【SR】NV_車名の更新
+VO_マスタ更新（後付オプション）
+VO_TOB受信データ印刷修正（D21N）
+NV_注文書の車名が空白-調査依頼
+【AMS CR】NV_注文書がずれる
+SV_Billing Rate Master Upload(For PROD)
+PT_Stop replenishment jobs on 2nd&4th Sunday
+Release
+PT_AMS CR Apply SC AMS CR#610008069. Regarding D2S allocation delay issue
+SV_AMS-CR_Maximum mileage specification change
+VO_シャシオーダー変更（MFTBCFFR-1636）修正までのリカバリ
+VO_シャシオーダーの注文区分を”M”とした時の必須項目
+SV_Price List does not switch automatically(SV)
+KB_Wrong Journal generated
+Request to change the Printer Object Name
+SV_Role Matrix(Service Template)
+CMVM_AMS_CR_電子車検証取り込み不具合対応
+CMVM_車検証データの ”有効期間を満了する日” を更新する
+本番-CMVM_FDP_顧客承認フローがおかしい
+SV_Calculation results are not reflected from Product Master
+SV_Line Item Calculation Issue(SV Quote)
+VO_リサイクルCUTのTOB送信ボタンをアクティブにする
+PT_Update Discount master for Okayama
+SV_AMS-CR_Multiple Cancellation Of WO line Item
+PT_PO allocation and PO shipment JPN screen issue
+PT_D2S allocation delay. N000001159
+【AMS CR】NV_新車見積の支店のフィルターを選んだ際にレコードが表示されない
+UV 入庫価格を誤った為、入庫取消と評価替え取消
+VO_シャシオーダー変更がTOBエラー回答となる
+PT_Delivery slip issue
+SV_BIPが両面印刷されます
+SV_Field Mapping is incorrect (Quote Line View)
+SV_Direct Print Issue (multiple sheets)
+【SR】NV-新車見積の承認フローの更新
+COM_Printer Setting Change
+NV-受注がキャンセルされているが受注後訂正承認のフローが流れる
+電子車検証での車両マスタ更新不具合
+PT_D2S shipment not received.
+PT_D2S allocation not received. N000001142
+PT_FORCE ASCENT pricing issue
+CMVM_社員マスタ更新
+PT_Reservation slip automatic printing problem on barcode receipt screen
+NV_マネジメントレポートの建値の金額相違
+CMVM_社員マスタエクスポート画面表示不具合
+VO_シャシオーダーのステータスが”発注済”に変更されている
+PT_Delivery slips were not automatically printed when barcode receiving were processed.
+VO_シャシオーダーのステータスが”発注済”に変更されている
+UV CR ミッションタイプとミッションコードの項目を分割する
+PT_Issues with form fonts and line spacing
+UV 査定依頼がキャンセルできない / Assessment Request Status stuck
+【CR】SV/NV/UV_Incident_Payment terms logic change(Expense Sheet)
+PT_5-02_Stock_Inventory_suppliercode_blank
+VO_TOB受信データの表示データがずれている
+SV_AMS-CR Service BIP
+SV_Incident_ダイレクトプリントに時間が掛かる
+UV 車両マスタの「シフト」の項目を全てNullにする
+PT_Can't connect to ASCENT
+TOBから販社間振替が送信されない
+UV 車両マスタから査定依頼に車両を紐付けできない Unable to link vehicle from UV vehicle master to assessment request
+PT_Update Discount master for Okayama　部品＿岡山様のディスカウントマスター更新
+VO_クエリーアシスタントで選択できない項目がある　Some items cannot be selected in the VO_Query Assistant
+PT_5-02_Stock_Inventory_data　在庫データ
+PT_D2S SO # not return (PT_D2S SO#応答なし
+PT_D2S stock check issue
+UAT2-UV Sales Order ScreenにChange Order Tabが表示されている
+UAT2-CMVM_Landscape検索から顧客作成後編集できない
+UAT2-UV EoL VehicleのRecycle FeeがSales Quoteに10円入ってくる
+UAT2-NV(VO)_シャシ状況画面の在庫車の表示・非表示が選択できない
+UAT2-CMVM_電子車検証修正画面でエラーが表示され、処理が進まない
+UAT2-CMVM  サービスリクエストに営業承認者が表示されない
+UAT2-NV 承認情報タブが特販課長のポジションで閲覧不可
+UAT2-NV オプションの営業原価が出ない
+UAT2-UV Sales Quote ScreenでRe-Sale Price以下の販売金額が入力してもValidation Messageが表示されない
+UAT2-NV 諸費用請求書がずれる
+UAT2-CMVM_ロール：バススタッフ　で取引先（顧客マスタ）が表示されない
+UAT2-UV Dealer Sales Sales Order Sheetのリサイクル料の※印が無くなっている
+UAT2-CMVM_承認依頼が 支店 工場長 に 届かない
+UAT1-UV UAT1のSales Order Sheet 2が表示されない
+UAT2-UV UAT1とUAT2のSales Order SheetのCompany Nameが違う
+UAT2-CMVM_承認フローが正しく動作しない
+UAT2-UV Sales Quote画面にUV Trade-InのTabが無い
+UAT2-UV Opportunity画面にNon-stocked VehicleのTabが無い
+UAT2-UV UID D8SHIISHが社員マスタから消えている
+UAT2-PT approval flow on the Quote screen does not work correctly.
+UAT2-PT User ID and position fields are hidden after switching other positions
+UAT2-CMVM_売掛情報更新処理で回収担当表示されない
+UAT-SV_JC Creator not updating
+UAT-SV_ Branch 10 Price List Issue
+UAT-SV_Discount Matrices Issue
+UAT2-SV_Discount Matrices Issue
+UAT2-UV 支店長代理が承認WFにある
+UAT2-NV(VO)_架装発注書修正
+UAT2-NV(VO)_IBOS架装発注の明細が複数入力できる
+UAT2_NV(VO)_一括注文書の項目が足りない
+UAT2-NV(VO)_架装発注書が部分的にSCインボイス対応表示となっている
+UAT2-NV(VO)_シャシオーダーの架装業者名に受注のユーザー名が表示される
+UAT2-NV（VO）一括注文書でシャシ型式が入力できない
+UAT2-NV（VO）シャシオーダー画面のTOB送信ボタンが押せない
+UAT2-UV 販売見積の孫取タブの孫取消費税が下取消費税になっている
+UAT2-NV view matrix通りになっていない
+UAT2-PT  New record addition is enabled on the Inventory screen.
+UAT2-UV 新車営業スタッフが中古車在庫一覧画面で商品簿価が見える
+UV-Training bug 販売見積の登録手数料（課税）に１行入力すると明細が閉じてしまう為、再度明細を開く必要がある
+UV-Training bug 買取見積の使用者の欄が表示されない
+UV-Training bug 入庫価格を変更しても買取見積の消費税が変わらない
+UV-Training bug 販売見積の整備見積直接入力時に「仕入先コード」がBlankになる
+SV_SVC-29_Line Discount Updates and Unit Issues
+COMMON_FDP_PBI_Home_screen
+SV_1-15A_Change_Order_status
+SV_1-02_CO_records_missing
+SV_1-15A_Search conditions are set by default
+SV_1-01_10A_12A_15A_Japanese_column_受付区分in_English_PBI
+SV_1-05_Japanese_column_車両入庫日in_English_PBI
+SV_1-15A_claim_paid_date_format
+SV_1-02_settlement_date_format
+SV_1-15A_duplicate_settlement_date
+KB_SIT_16 仕訳金額のマッピングが誤っている
+㎅_SIT_11 住所が一部漏れている
+KB_SIT_11 利用状態のセット内容に誤りがある
+SV_FALCON Interface Issue
+SV_1-15A  Inconsistent display of amounts.
+車検証修正画面：JSONファイルからの項目転送不具合
+車検証修正画面：車両マスタ更新の不具合
+車検証修正画面：画面項目不具合
+"KB_SIT_25 支払先の銀行口座の""当座""表記が出ていない"
+KB_SIT_24（納入代行）1ページに収める
+KB_SIT_26 返品の請求書合計値がマイナス表示になっていない
+PT_Processed a cycle count batch job but the status is not change to complete.
+KB_SIT_26 運賃の明細に消費税が表示されていない
+ALL_Attachments File specification (Query)
+SV_15A Remove requested title remains
+"SV_15A Presence of ""X_"" in front of added title"
+SV_1-15A Additional requested Field does not exist
+KB_SIT_税区分と税率が異なる
+SV_1-02 Goodwill Field Mapping (Query)
+SV_1-15A Filter screen configuration is different from other screens
+SV_1-12A Wrong unit description in title
+SV_1-10A_Discount Amount Issue
+PT_PBI_5-10 Order type filter issue
+PT_PBI 5-02 Brancn field and External inventory issue
+PBI_PT_5-08 Order type filter issue
+KB_SIT_24（納入代行）型式にフル型式を表示する
+PT_PBI_5-02 Stock inventory issue
+PT_PBI_5-02 在庫明細
+SV_1-01_Existence of unnecessary margins
+KB_SIT_24 欄を左揃えにしてほしい
+KB_SIT_24 支払日がおかしい
+KB_SIT_25 請求書の「お支払日」が空欄になっている（前回は入っていた）
+PT_PBI Remove Real time PT report
+PT_PBI_Real time report
+SV_1-05 Missing Record
+SV_1-15A Record does not exist
+SV_1-12A Record does not exist
+SV_-10A Record does not exist
+SV_1-02 Record does not exist
+SV_1-01 Record does not exist
+3-21 ジョブカードオーダート部品オーダーが表示されない
+KB_SIT_25 請求書の車台番号に打刻型式が漏れている
+KB_SIT_25 請求書の税率が中央に位置づけされていない
+KB_SIT_25 請求書のロゴの問題
+"KB_SIT_25 請求書のTEL,FAX番号のフォントサイズが小さい"
+KB_SIT_25 請求書の型式にダミーコード”FUSO-Gen”が表示されている
+KB_SIT_24（納入代行）担当者氏名に”-”ハイフンが表示されている
+KB_SIT_25 請求書の登録年月日がBlank
+KB_SIT_25 請求書の郵便番号に郵便マークが無い
+KB_SIT_28 請求明細に運賃の表示がない。
+KB_SIT_28 出庫支店担当者の名前の頭に「-」がついている
+KB_SIT_28 8％と8%軽で２行になっている
+KB_SIT_28 返品オーダーM001219301の請求明細がありません。
+PT_5-08 Receiving issue
+PT_5-08 Receiving
+PT_5-10 shipment detail issue
+PT_5-10 出荷明細
+KB_SIT_24（納入代行）下側の”岡山三菱ふそう自動車販売株式会社”を削除
+KB_SIT_24（納入代行）税率の表示位置を中央に修正
+KB_SIT_24（納入代行）”三菱ふそう車を”を”弊社より”に修正
+KB_SIT_24（納入代行）電話番号、FAXが部署マスタのBIP電話番号、BIP Fax番号と異なる
+KB_SIT_24（納入代行）口座名義が途中で切れている
+KB_SIT_24（納入代行）支払日が表示されていない
+"KB_SIT_24（納入代行）金額に”,”カンマが表示されていない"
+KB_SIT_24（納入代行）登録番号に”陸事名””分類番号””かな”が表示されていない
+KB_SIT_24（納入代行）車台番号にC/#が表示されている
+KB_SIT_24（納入代行）登録日に予定日が表示されている
+KB_SIT_24（納入代行）作成ユーザーと部署が異なる
+KB_SIT_24（納入代行）請求先郵便番号
+KB_SIT_24（納入代行）岡山ふそう印が印刷すると不鮮明となる
+KB_SIT_24（納入代行）岡山ふそう印が印刷すると不鮮明となる
+KB_SIT_24 型式に排ガス記号が表示されていない
+KB_SIT_24 ロゴの問題
+KB_SIT_24 車台番号に打刻型式が漏れている
+KB_SIT_24 登録番号に登録地、分類番号、かなが漏れている
+KB_SIT_24 税率が中央に位置づけされていない
+KB_SIT_24 郵便番号の問題
+KB_SIT_24 商品名が空白
+"KB_SIT_24 TEL,FAX 番号のフォントサイズが小さい"
+KB_SIT_24 登録年月日に登録予定日が入っている
+SV_Service Flag and Not Invoice Flag Issue
+PBI_UV_2-06_2 検索項目に「Profit＿Rate＿fdpの合計」と言う項目が追加されている
+PBI_UV_2-05 既存検索項目の「査定番号」が英語になっている
+マネジメントレポート画面のLOVがおかしい
+KB_SIT_28 請求明細が作成されない
+UV-08-02 孫取の消費税が計算されずに空白になる
+PBI_UV_2B_2 補修費が小数点第２位迄表示されている
+PBI_UV_2-06 孫取台数と孫取損益がSiebelと全件一致しない
+KB_SIT_28 請求書鑑の金額欄が空白になっている
+KB_SIT_28 運賃・返品手数料が明細にない
+KB_SIT_28 お客様注文番号などがセットされていない
+KB_SIT_28 支払日が間違っている
+KB_SIT_24 納入代行の納入年月日が納車実績日になっていない
+KB_SIT_24 納入代行の型式がブランクになっている
+KB_SIT_25 下取頭金が孫取価格になっていない
+KB_SIT_25 下取車のリサイクル料がマイナス表記になっていない
+KB_SIT_26 送料の金額にカンマがない
+KB_SIT_26 送料が0なのに表示されている
+KB_SIT_26 出庫支店担当者の氏名の前にーが付いている
+KB_SIT_26 返品手数料の金額にカンマがない
+KB_SIT_26 売上返品だが明細金額がマイナスになっていない
+KB_SIT_26 運賃・返品手数料が明細に含まれていない
+KB_SIT_26 支払条件の支払日がセットされていない
+KB_SIT_26 税抜金額が全て0になっている
+KB_SIT_26 受注先の住所が表示されている
+KB_SIT_26 担当部署名がセットされていない
+KB_SIT_26 お客様注文番号に受注番号がセットされている
+KB_SIT_27 担当部署の項目のセットの確認
+KB_SIT_24&25&26&27&28 文字の上下がかけている個所がある
+KB_SIT_24&25&26&27&28 文字のフォントタイプが統一されていない
+KB_SIT_24&25&26&27&28 全体的に文字が小さい
+KB_SIT_27 問い合わせ先の電話番号とFAXが正しくセットされていない
+KB_SIT_27 支払条件の支払日がセットされていない
+KB_SIT_27 受付担当者に不明な担当者がセットされている
+KB_SIT_27 請求先名に支払人がセットされている
+KB_SIT_27 個別・月次請求フラグの判定が違う
+UV-12-08 売上後の訂正で売価変更を行ったが、受注の売価が変わらない
+UV-14-02 商談に査定依頼が紐付けられない
+SV_Unmatched Approval Flow (Quote/JC closed)
+SV_Receipt LOV disappears.
+SV_Transporter WO validation check is not performed.
+UV中-01-05 商品簿価が林部長の特販ロールで見れない（UVと同じ設定にするべき）
+UV-02-02 見積一覧がデフォルトフィルタで全件表示になっている
+PBI_UV_2-05 入庫価格と利益がまた小数点第２位迄表示されている 2回目
+PBI_SV_1-12_日報明細表
+NV_リサイクル券のレポートが選択できない
+UV-Training bug 見積用車両引当区分がYの査定依頼で車台番号が空白なのに重複査定があるとエラーが発生する
+UV-Training bug 販売見積の一次承認済後に価格変更承認が出来ない
+重量税が計算されない
+VCを開くと車台色が選べない、オプションがない
+諸費用請求書のグループ番号が回収方法、支払日、請求先が同じなのに分かれてしまう。
+プール原価が営業スタッフに見えている
+NV 支店長代理が支店長として出てくる
+PBI_UV_2B_2 孫取台数と孫取損益軽が小数点第２位迄表示されている
+PBI_UV_2B_2 全てのデータに孫取台数と孫取損益計が表示されている
+PBI_UV_2B for MFTBCFFR-1129
+PBI_UV_2-06 for MFTBCFFR-1128
+Ad-hoc execution for MFTBCFFR-1119
+PBI_UV_2-05_3 入庫価格が小数点第２位迄表示されている
+PBI_UV_2-05_2 孫取台数と孫取損益計が空白
+PBI_UV_All 所属拠点名 所属部署名の部署名が無いレポートと拠点名が無いレポートがある
+PBI_UV_2-05 査定番号の項目が英語タイトルになっている
+PBI_UV_2-05 for MFTBCFFR-1127
+SV_50_13_S01 Cannot call JC# from PQR
+SV_50_18_S35 File Attach Issue
+Ad-hoc execution for MFTBCFFR-1286
+Ad-hoc execution for MFTBCFFR-1294
+Ad-hoc execution for MFTBCFFR-1288
+Ad-hoc execution for MFTBCFFR-1315
+Ad-hoc execution for MFTBCFFR-1314
+Slow FDP UAT while JC creation/FDP-UAT1環境が遅い件
+PBI_UV_2-01（履歴） 「システムタイムスタンプの日付」が全てBlank
+PBI_UV_2-01（履歴） 補修費用に小数点2位が表示されている
+PBI_UV_2-01（履歴） for MFTBCFFR-1130
+FDP-UAT1 environment is slow/ FDP-UAT1環境が遅い件
+Slowness while adding line items on the PO screen and Parts Quote screen
+KB_SIT_05_01 評価益がマイナスの雑収益になっている。仕訳は＋金額でなければならない
+KB_SIT_05_01 部門コードが0000ではなく2703になっている
+KB_SIT_05 for MFTBCFFR-1310
+SV-P01 仕入先MFTBCで買掛計上の勘定科目が異なる
+SV_50_14_S38 Feedback data from FALCON is not updated.
+SV_50_18_S35 Parts Claim cannot be sent.
+Ad-hoc execution for MFTBCFFR-1291
+SV_50_14_S38 Wrong field mapping
+SV_50_14_S38 Wrong field mapping
+SV_50_14_S38 Feedback value from FALCON
+SV_50_14_S38 Payment Amount Field is incorrect
+Ad-hoc execution for MFTBCFFR-1292
+Ad-hoc execution for MFTBCFFR-1290
+Ad-hoc execution for MFTBCFFR-1293
+Ad-hoc execution for MFTBCFFR-1289
+Ad-hoc execution for MFTBCFFR-1287
+NV-S01 返品オーダーが完了しているのに売上時に原価計上されている
+NV Delay performance -( Chassis order Option creation)
+D2S Timeout error
+KB_SIT_03_02 売上後の販売価格変更の仕訳が発生しない
+KB_SIT_03_01 原価仕訳とリサイクル料の仕訳が起きていない
+PT-S09 経費以外の勘定コードに部課コードがセットされている
+NV-S01 売上時にリサイクルの計上が漏れている
+0000G29509　の取引先が奉行のマスタに無い為、エラーが発生しています。
+MDIS Ad-hoc execution for MFTBCFFR-1308
+NV-S01 仕訳の貸借で金額が異なる
+KB_SIT_08 部品倉移
+承認済見積（前日分） データが反映されていない
+Ad-hoc execution for MFTBCFFR-1124
+3-06C データが反映されていない
+Ad-hoc execution for MFTBCFFR-1123
+3-06B データが反映されていない
+3-24 データが反映されていない
+Ad-hoc execution for MFTBCFFR-1121
+3-06B 3-06C 項目名が変わっていない
+3-06B 追加した項目の位置がおかしい
+Ad-hoc execution for MFTBCFFR-1122
+3-21 データ反映されていない
+Ad-hoc execution for MFTBCFFR-1120
+3-06 粗利益と販売利益の金額が違う
+3-06 販売利益の小数点以下が表示されている
+3-06 データ反映されていない
+KB_SIT_04_02 孫取車の消費税の買掛仕訳が出来ていない
+KB_SIT_04_01 下取車の消費税の買掛仕訳が出来ていない
+KB_SIT_02（シャシ出荷）仕分が作成されていない
+Insurance Performance Testing
+税率０％の仕訳データの税率が１０％として画面上表示される。
+税率15％のテストデータの取込みができない。
+部門コードに販社コードがセットされる。
+MDIS Ad-hoc execution for MFTBCFFR-1312
+MDIS Ad-hoc execution for MFTBCFFR-1311
+MDIS Ad-hoc execution for MFTBCFFR-1309
+MDIS Ad-hoc execution for MFTBCFFR-1307
+代表車種コードに「Trailer」がセットされる
+MDIS_Ad-hoc execution for MFTBCFFR-1306
+KB_SIT_07 入庫
+KB_SIT_06
+NV-P07-2 借方の取引先コードが空白、リサイクルの仕訳が作成されている
+NV-S04 アンマップでクラス、車台番号が空白
+PBI_UV_2-02 「入庫顧客コード」「入庫顧客名」「販売先名」「受注番号」「車両形状詳細」がBlank
+PBI_UV_2-02 「入庫社員コード」が全てBlank
+PBI_UV_2-02 for MFTBCFFR-1126
+3-06 項目名が変わっていない
+PBI_UV_2-01（在庫） 「社員コード」の値が全てBlankになっている
+Ad-hoc execution for MFTBCFFR-1117
+KB_SIT_04 for MFTBCFFR-1309
+Ad-hoc execution for MFTBCFFR-1306
+KB_SIT_10
+KB_SIT_09
+KB_SIT_08
+KB_SIT_07
+KB_SIT_06
+KB_SIT_05
+KB_SIT_04
+KB_SIT_03
+KB_SIT_02
+KB_SIT_01
+SV-S08 Goodwillで有償・無償原価の取り扱い変更
+SV_50_12_S01 IFNV053(NV Warranty Registration)
+Service Performance Test
+UV Performance Test
+NV Performance Test
+Parts Performance Test
+PBI_UV_2-01（在庫） 補修費用の項目の金額が小数点第２位迄表示されている
+"SV_50_01_S52 JC Status ""Delivery Completed"""
+PT_SIT_システム連携テスト D2S返品
+SV_50_21
+SV_50_20
+SV_50_19
+SV_50_18
+SV_50_17
+SV_50_16
+SV_50_15
+SV_50_14
+SV_50_13
+PT_BP004_システム連携テスト D2S返品
+Monitoring Test
+Backup & Recovery Test
+SV_50_01_S21 Quote approver is unknown.(MGW)
+Data Migration Test
+SV_50_01_S24 Acceptance Base Sheet value is blank
+SV_50_01_S01 Duplicate JC Type LOV (22/23/26/27)
+SV-S03-02 売上先変更で仕訳が作成されていない
+Service Performance Test
+New Vehicle performance test
+Parts Performance test
+NV-P02 消費税の仕訳が作成されなくなった
+SV_50_01_S25 Weight tax web access will be out of hours.
+Insurance Performance test
+NV-SIT01（TOB）販社間振替(SC→FDP)のバッチファイル読込に問題
+UV-Gen 諸費用請求書に３税以外の金額のみが表示されている
+UV Performance Test_FDP
+Ad-hoc execution for MFTBCFFR-1203
+Ad-hoc execution for MFTBCFFR-1202
+Ad-hoc execution for MFTBCFFR-1201
+Ad-hoc execution for MFTBCFFR-1200
+Ad-hoc execution for MFTBCFFR-1199
+Ad-hoc execution for MFTBCFFR-1198
+SV_50_05_S33 Draft Claim Control
+Ad-hoc execution for MFTBCFFR-1196
+Ad-hoc execution for MFTBCFFR-1195
+NV-SIT01（TOB）持込S架装　送信データの日付関係に問題あり
+NV-SIT01（TOB）出荷計画変更の送受信が確認できない
+NV-SIT01（TOB）販社間振替の送受信ができていない
+PT_Material Master not updated correctly
+SV-S06-01 社有車整備で売上計上の仕訳が作成されている
+SV-S06-04 仕損じ、フリーサービスの仕訳勘定コード誤り
+BP002_S01 Step 3 UVIS 車種の項目が、売上後に空白になっている為、UVIS取り込みエラー
+NV-SIT01（TOB）リサイクル確定報告のTOB→SIEBELの受信が確認できない
+PT_duplicate SO number create in D2S
+見込顧客を作成するときにエラーが表示される
+Ad-hoc execution for MFTBCFFR-956
+NV-SIT02（IBOS）IBOSで完成報告を入力したがSIEBELのステータスが変わらない
+NV-P01 仕訳内容が誤っている
+"NV-04,05-納入代行のマップ、アンマップの仕訳が起きない"
+NV-MLIT 抹消、廃車情報が連携されていない
+UVIS BP002_S01 Step 2 商談と紐づけても商談フラグがUVISに連携されない
+PBI_UV_All 新規追加の項目が全て英語名になっている
+C/#連絡のバッチファイルが作成できない
+Ad-hoc execution for MFTBCFFR-1183
+SV_50_06_S35 Claim Submit ERROR(Vehicle)
+SV_50_06_S07 FALCON IF ERROR(Coverage)
+Ad-hoc execution for MFTBCFFR-1197
+PBI_UV_2-01（在庫） 4月10日に入庫した履歴や在庫車が出てこない（毎日バッチ更新はしていない？）
+PBI_UV_2-01（在庫） 3.	中古車のＦＤＰ ＣＲで追加した仕入区分の”孫取”が空白で表示されている
+PBI_UV_2-01（在庫） 仕入や在庫のレポートの担当者を表示する「社員コード」が全て空白で表示されている
+"PBI_UV_2-01（在庫） 2.	所属拠点名所属部署名が全て""__NOT_APPLICABLE__ ""で、ＦＤＰ版のマスタから値を持って来ていない"
+"PBI_UV_2-01（在庫） 検索項目にSC, RSCが全てのレポートに残っている。（ＦＤＰ版は表示項目と共に消える想定）"
+PBI_UV_2-01（在庫） for MFTBCFFR-1125
+NV-P01 Chassis CarryIn-S-Body（持込S架装）仕訳が作成されていない
+Ad-hoc execution for MFTBCFFR-1193
+Ad-hoc execution for MFTBCFFR-1192
+Ad-hoc execution for MFTBCFFR-1104
+SV-S01 仕訳が作成されていない
+NV-SIT02（IBOS）見積の架装にIBOS枝番を取得する”Primary IBOS#”の項目がない
+PT_D2S SO number of PO return is not returned
+NV-Cannon Print-レイアウトがpdf出力時と違う
+Expence Invoice 諸費用請求書がPDFで検証したものと違う
+Ad-hoc execution for MFTBCFFR-1187
+BP002_S02 for MFTBCFFR-1190
+NV-SIT02（IBOS）見積作成でSIEBELからIBOSが開かない
+Ad-hoc execution for MFTBCFFR-1184
+NV-Cannon Print-諸費用請求書が印刷されない
+Ad-hoc execution for MFTBCFFR-1194
+PT_ASCENT search using PNC shows English version
+車台番号アンマッチデータが取り込まれない
+Ad-hoc execution for MFTBCFFR-954
+PT_BP004_SIT_システム連携テスト
+BP002_S01 for MFTBCFFR-1189
+NV-SIT01（持込後付発注）TOB送信時エラー表示
+NV-SIT01（TOB）発注変更の入力ができない
+Ad-hoc execution for MFTBCFFR-1183
+Ad-hoc execution for MFTBCFFR-1186
+SV_BP005_Sprint-E_S12 SV_Delivery Slip BIP
+Ad-hoc execution for MFTBCFFR-1185
+SV_50_12
+SV_50_11
+SV_50_10
+SV_50_09
+SV_50_08
+SV_50_07
+SV_50_06
+SV_50_05
+SV_50_04
+SV_50_03
+SV_50_02
+SV_50_01
+PT_BP004_システム連携テスト
+BP002_S02
+BP002_S01
+BP001_SIT05
+BP001_SIT04
+BP001_SIT03
+BP001_SIT02
+BP001_SIT01
+SV-S09 税確定で仕訳が作成されていない
+PBI_SV_1-10_日報明細表（有・無別）
+PBI_PT_ALL
+PBI_SV_ALL
+SIEBELを受注承認したがIBOSが発注確認中にならない
+Ad-hoc execution for MFTBCFFR-950
+Ad-hoc execution for MFTBCFFR-1105
+PBI_SV_1-15A_整備月報明細
+PBI_SV_1-32_48時間修理サービス
+PBI_SV_1-15_整備月報明細
+PBI_SV_JCO_エラーリストレポート
+PBI_SV_WO_1-15
+PBI_SV_WO_1-10
+PBI_SV_オーダ毎値引_PG用
+PBI_SV_拠点日報
+PBI_SV_JC_入庫件数_推移
+PBI_SV_クローズ件数推移
+PBI_SV_JC 状況_ ハブスポ順
+PBI_SV_JC状況_拠点コード順
+PBI_PT_パーツ詳細レポート-5-08-入庫明細
+PBI_PT_パーツ-詳細レポート-5-10-出荷明細
+PBI_PT_5-02-在庫明細
+PBI_PT_リアルタイム-詳細レポート-部品レポート
+PBI_PT_リアルタイム-詳細レポート-Real_Time_Parts
+PBI_PT_Fill-Rate_Report
+PBI_PT_FIMS_Export_Dashboard
+PBI_PT_常備非常備別-在庫金額一覧
+PBI_PT_パーツ詳細レポート-With_Lubricant
+PBI_PT_パーツ詳細レポート-Normal
+PBI_PT_パーツ詳細レポート-顧客軒数
+PBI_PT_パーツ詳細レポート-顧客明細集計
+PBI_PT_パーツ詳細レポート-担当別外販合計
+PBI_PT_パーツ詳細レポート-4品目出庫高
+PBI_PT_パーツ詳細レポート-4品目担当別
+PBI_PT_パーツ詳細レポート-品目・向け先別
+PBI_PT_パーツ詳細レポート-品目別
+PBI_PT_パーツ詳細レポート-5-10-棚卸明細
+PBI_PT_パーツ詳細レポート-5-08-入庫明細仕掛
+PBI_PT_パーツ詳細レポート-5-10-出荷明細仕掛
+PBI_UV_2-01（履歴）
+PBI_UV_2B
+PBI_UV_2-06
+PBI_UV_2-05
+PBI_UV_2-02
+PBI_UV_2-01（在庫）
+PBI_NV_承認済見積(前日分)
+PBI_NV_3-06C
+PBI_NV_3-06B
+PBI_NV_3-24
+PBI_NV_3-21
+PBI_NV_3-15
+PBI_NV_3-05
+SIT_D2Ssample
+dasda
+"PT-P03,P06,P07 税率毎の仕訳が作成されていない"
+"PT-P05,P04-4 拠点コードが異なる"
+NV-S06 納入代行のPO原価計上がない
+PBI_NV_3-06
+"Error message appears when clicking the ""Send IBOS"" button"
+Cost of sales is not displayed from the quotation results.
+IBOS quote numbers are not being taken
+Ad-hoc execution for MFTBCFFR-950
+Bulk Invoice - SMDO102
+Bulk Invoice - SMDO021
+Bulk Invoice - SMDO002
+Parts Inventory - BZDO002
+"Journal Voucher - CSJS200, CSJS300"
+Parts Inventory file - Header
+Journal Voucher - CSJS200、CSJS300
+Journal Voucher - CSJS308、CSJS208
+Journal Voucher - CSJS209、CSJS309
+Journal Voucher - CSJS201、CSJS301、CSJS202、CSJS302
+Journal Voucher - Date Formats
+Journal Voucher - CSJS005
+"Vendor Master - HMSU052, HMSU051"
+Vendor Master - HMSU050
+Vendor Master - HMSU002
+"Customer Master - HMCU058, HMCU057"
+Customer Master - HMCU056
+Customer Master - HMCU002
+PIC Master - Duplicate records
+Supplier Master - CDBC170
+Supplier Master - CDBC169
+Supplier Master - CDBC168
+Supplier Master - CDBC165
+Supplier Master - CDBC164
+Supplier Master - CDBC163
+Supplier Master - CDBC006
+Supplier Master - CDBC002
+Supplier Master - CDBC163
+PT-P02 BANS入庫で仕訳内容が異なる
+PT-P04-3 返品入庫_BANSで仕訳内容が異なる
+NV-P01　Return Order-Chassis仕訳が作成されていない
+All track 本体価格が抜けている明細が複数作成されている
+NV-S05 社内工事の部門が異なる
+NV-P01 PO - Chassis Order仕訳が作成されなくなった
+NV-P03 トレーラ、フォークリフトの貸方の勘定科目が異なる
+UV-P02 中古車買取入庫でリサイクル料の仕訳が貸借逆になっている。勘定コードが間違っている。
+UV-S04 UV-S05 マップ・アンマップでリサイクル料が2倍になっている
+Ad-hoc execution for MFTBCFFR-1020
+PT_Tax rate not set when using uploader
+UV-P02 UV-P01 中古車入庫の消費税が調整後の消費税で計上されていない
+NV-S06 納入代行の税率、セグメント１、セグメント２がセットされていない
+UV-P01 下取入庫で貸方の取引先コードがセットされていない。PO - AP PostingUVの金額が車両代＋消費税になっていない。PO - RecycleUV の仕訳内容が異なる（057-00/210-10が正しい）。
+NV-P02 Modification Order（シャシ改造） 発注先がMFTBCの場合の勘定科目コード(CSJS301)、補助科目コード(CSJS302)が、”270-00”ではなく”210-10”となっている
+HitachiGW 認証情報が不正です。Time stamp error
+UV-S02 売上後訂正で仕訳されない
+SV-S04 売上金額ZEROで売上計上の仕訳明細が作成されている
+PreSIT_SIEBEL_KB
+PT-S08-1 経費計上でセットする部門の変更
+SV-S08 Goodwillの無償原価の仕訳が作成されていない
+SV-S06-06 クレームの仕訳が作成されていない
+SV-S06-04 仕損じの仕訳が作成されていない
+SV-S06-03 その他の仕訳で勘定科目がセットされていない。また無償原価の仕訳が作成されていない。
+SV-S06-02 構内事故の仕訳が作成されていない
+SV-S06-01 社有車整備の仕訳が作成されていない
+SV-S03 売上後変更の仕訳が作成されていない
+PreSIT_FALCON
+"SV-S01 42:フリーサービス,45：仕損じ再作業,51：クレームの仕訳が作成されていない"
+PT_The department code of the journal for KB was not set correctly.
+PT_Hinmoku and Price Group Item Control Flag issue
+Ad-hoc execution for MFTBCFFR-1014
+Ad-hoc execution for MFTBCFFR-1013
+PT_Other Cycle count approval issue
+SIebel side response error
+UV-610008112-18 Related Incident#520302776
+UV-520305773-32 税確定をクリックすると部品版棒の値を入力してくださいとエラーが出る
+NV-E02（仕様書の表示金額修正）社内工事が表示されない
+PT_JPN changed to a different name.
+PT_Change JPN of Hinmoku PT Discount Group
+PT_During Cycle count issue
+UV-610008112-18 整備見積金額が整備と不一致
+PT_Sprint E_CR check
+incident#520318170 ジョブカードと新車明細で金額が合わない
+PT_Sprint E_Incident check
+BP002_E01 for MFTBCFFR-1017
+Ad-hoc execution for MFTBCFFR-1016
+Ad-hoc execution for MFTBCFFR-1015
+SC version e JIBAI is also same issue of FDP FORCE.(e-JIBAI to SIebelへ貼り付けできない)
+"After bug fix, spread sheet linkage error"
+SV_BP005_Sprint E_Incident
+PT_BP004_Sprint E_Incident
+PT_BP004_Sprint E_CR
+BP002_E01
+BP001_E02
+BP001_E01
+BP001_E04
+BP001_E03
+NV-P01 借方・貸方とも勘定科目コード、補助科目コードが表示されていない
+UV‗SC PROD incident 520324225
+PT-S04 売上返品の消費税仕訳の勘定コードの貸借が逆で計上されている
+PT-S03 売上後変更で勘定科目がブランク
+SC_Stock Order D2SがSCとFDPのデータ振り分けができない/D2S cannot sort SC&FDP data
+NV-S04 持込後付1の仕訳銀額が原価ではない
+Price Master is old
+NV-S04 アンマップの赤黒で金額が異なる、部門が空白
+Ad-hoc execution for MFTBCFFR-954
+NV-P01 Chassis CarryIn-S-Body（持込S架装）の仕訳なし
+集計表が作成されずデータ連携エラー
+FDP PCからe-JIBAIの接続できない
+情報連携APIが接続できない
+Ad-hoc execution for MFTBCFFR-956
+Ad-hoc execution for MFTBCFFR-949
+PT-P07 金額が1円差額あり
+PT-P05 出荷と受取処理両方で仕訳データが作成される
+PT-P04-4 仕訳データ作成されない
+Ad-hoc execution for MFTBCFFR-949
+Ad-hoc execution for MFTBCFFR-953
+PreSIT D2S_STFP Connection Issue
+Ad-hoc execution for MFTBCFFR-939
+Ad-hoc execution for MFTBCFFR-950
+NV-P01 Chassis CarryIn-S-Body（持込S架装）の仕分が表示されない。
+送信ファイル名が違う
+MQ疎通テスト
+MQ疎通テスト
+"10_IFPT033_Return GR Confirmation, D2S response with Cancel status"
+NV-P01 持込後付のGRの仕訳が起きていない
+NV-S06 納入代行の消費税金額が抜けている
+NV-S05 アンマップで消費税が含まれている、VIN#表示なし
+NV-S04 シャシのVin#が表示されていない
+NV-S01 持込後付、改造の原価計上がない
+NV-P01 勘定科目コード(CSJS301)、補助科目コードCSJS302) ”270-00”ではなく”210-10”となっている
+PT-P02 BANS入庫で仕訳が作成されない
+UV-S05 アンマップで架装やプールコストの仕訳が作成されない
+UV-I01 評価替の仕訳勘定が異なる
+Test_Ascent
+"Due to web ID aucentication error, can not login Sompoweb (confirming Hitachi)"
+e-JIBAIからSiebelへのデータの戻し（転記）に失敗する。情報が反映されない。Data return (posting) from e-JIBAI to Siebel fails. Information is not reflected.
+Ad-hoc execution for MFTBCFFR-951
+Ad-hoc execution for MFTBCFFR-951
+Ad-hoc execution for MFTBCFFR-951
+"漢字住所、カナ住所、漢字氏名、カナ氏名の情報がe-JIBAIに反映されない（貼りつかない）Kanji address, Kana address, Kanji name, Kana clan name information is not reflected (not pasted) in e-JIBAI."
+Ad-hoc execution for MFTBCFFR-951
+Test Execution D2S
+FDP-PT-15 MFTBCFFR-699:PT_Change of Criteria Conditions for Approval Flow
+FDP-PT-14 MFTBCFFR-733: PT_Other Cycle count approval issue
+FDP-PT-13 MFTBCFFR-725: PT_ Add Hinmoku PT Discount Group in Parts and UOE Quote line
+FDP-NV-31 BIP Changes
+FDP-NV-30 Removal of fields from PO tab
+FDP-PT-19 MFTBCFFR-784:PT_Not display unnecessary field in Quote. 見積書の不要なフィールドを表示しない
+FDP-PT-18 MFTBCFFR-773: PT_LPP Price Registration Validation Changes
+FDP-PT-17 MFTBCFFR-773: PT_Change Expense Charge To to Department Master
+PreSIT_UVIS
+PreSIT_uSonar
+PreSIT_Truckonnect
+PreSIT_TOB
+PreSIT_Print
+PreSIT_MLIT
+PreSIT_INS
+PreSIT_IBOS
+PreSIT_FALCON
+PreSIT_ASCENT
+20230320TOB
+PreSIT_D2S
+Ad-hoc execution for MFTBCFFR-923xxxx
+Ad-hoc execution for MFTBCFFR-923 test2
+sample of defect
+Ad-hoc execution for MFTBCFFR-923 for trakconn
+UV-CR 社外架装見積から社外架装発注をしようとするとErroが表示される。（購入オーダーは作成される）
+UV-Gen 訂正稟議で自賠責保険を追加したが、自賠責の関連項目が連携されない
+NV-21 出荷日が更新されない
+PT-P01 仕訳データが作成されていない
+SV-P02 取引先コードに発注先がセットされていない
+SV-P02 補助科目コード(CSJS202)にも05630がセットされている
+SV-S01 工賃、部品、油脂、外注の勘定コードが空白（貸借両方）
+SV-S01 消費税が021-30で計上されている
+PT-S02 日付CSJS005のフォーマットが異なる
+PT-P07 日付(CSJS005)が空白、勘定コード誤り
+PT-P03 勘定コードが270-00になっている。
+Ad-hoc execution for MFTBCFFR-919
+NV-25 原価合計が販売価格、税諸費用を追加しないと計算されない
+sample
+NV-P02 Modification Order（シャシ改造）の仕訳がない。
+PT-P05 出庫元部門コード(CSJS300)がコードでなく名称入っている
+SV_24_S12 Acceptance Sheet/Acceptance_Multiple Vehicle Sheet Issue
+SV_24_S10 Service Request MEMO Mapping Issue
+S24_01_S04 The detail table of CO_Correcting_Delivery_Slip is incorrect.
+SV_24_01_S01 Total Sales Price Issue
+SV_25_01_S02 Change Order BIP Issue(CO_Correcting_Delivery_Slip/CO_Delivery_Slip)
+SV_25_01_S05 Quote Approval Issue
+SV_25_01_S05 Incorrect Amount in Quote Header (List Price/Discount/Sales Price)
+SV_25_01_S05 JC cannot be closed. (Amount unmatch ERROR between Quote and JCO)
+SV_24_01 Cannot create PDF of Delivery Slip
+FDP-PT-16 MFTBCFFR-697:PT_add Sort Order for Hinmoku Code Applet
+PT-P05 金額が定価になっている
+PT-S02 勘定コードがセットされていない（貸借両方）
+NV-P01 本体金額が原価ではなく建値合計が表示されている。
+NV-P01 セグメント２がVIN#ではなくC/#が表示されている。（貸借両方）
+NV-P01 勘定コードがHDB、LDB、1.5tが38-80（新車その他）と車種別になっていない
+UV-P01 下取時のリサイクル料が2倍で計上されている
+NV-P04 勘定コードが間違っている（正：271-00）
+NV-P03 勘定コードが032-70でセットされている（正：038-80  新車 その他　）
+NV-P03 勘定コードと部門コードがセットされていない（貸借両方）
+"NV-S04, NV-S05  マップ・アンマップで勘定コード・部門コードがセットされていない"
+NV-S05 部門に000000000Oがセットされている。
+NV-S01 原価計上（トレーラー本体）の科目がセットされていない（貸借両方）
+NV-S01 シャシ以外の原価計上が27000で計上されている
+NV-S01 原価計上（シャシ、社内工事、部品、社外工事）　取引先コードが岡山ふそうになっていない
+PT_Fields in the D2S information section are not displayed
+UV-I01 評価替で仕訳されない
+UV-S05 アンマップで仕訳されない
+PT-P07 GRキャンセルで仕訳されない
+SV_026_01_S07 Incorrect calculation of Calculate Target Flag
+SV_26_01_S09 The change target of Calculate Target Flag does not match the BRD.
+Ad-hoc execution for MFTBCFFR-809
+UV-P04 GR仕訳データなし
+NV-P05 社内工事のGRの仕訳が無い
+NV-S06 納入代行の仕訳が起きていない
+PT_Parts warehousing cancellation not working
+NV-S01 下取の仕訳が一部出来ていない
+NV-S01 納入代行手数料が原価から漏れている
+PT-P03&PT-P06仕切価格の計算が誤っている
+PT-S08経費の仕訳がすべて定価（売価）になっている
+SV_26_01_S06 Error message displayed on JC Close
+UV-Gen 個別原価振替で社内工事を依頼しても車台番号がJCに連携されない。
+UV-Gen 諸費用請求書の承認WFが承認履歴に出てこない為、承認中のまま。
+SV_25_S03 Error Message Displayed when Approval MGW
+NV-P07 税確定の仕訳データが作成されていない
+PT-P05 仕訳データが作成されていない
+PT-P04 仕訳データが作成されていない
+PT-S10 仕訳データが作成されていない
+SV_24_01_S01 BIP Issue
+UV-Gen 既存のジョブカードタイプのLoVが２重になっている。
+PT-S04①消費税の金額誤り
+UV-Gen 査定依頼の査定目的を孫取からUser買取に出来ない。
+UV-P02①マッピング金額が違う
+PT-S01①在庫計上において部門コードが設定されていない
+PT-P03 ③勘定科目がセットされていないレコードがある
+PT-P03 ②GR消費税の仕訳が出来ていない
+PT-P03 ①GRの金額がおかしい
+UV-P02 ①中古車買取GRの仕訳が作成されていない
+SV_24_01_S15 Wrong Report(Not Use)
+SV_24_01_S20 Wrong LOV in Report Name
+SV_24_01_S19 Wrong LOV in Report for Applet
+SV_24_01_S18 Wrong LOV in Report for Applet
+SV_24_01_S17 Wrong LOV in Report for Applet
+SV_24_01_S16 Wrong LOV in Report for Applet
+SV_24_01_S15 Wrong LOV in Report for Applet
+PT_Shipment charge save issue
+UV-Gen 孫取車の下取消費税が表示されない。
+PT_Accept/Process button issue
+NV20（TOBデータ印刷）D21E
+NV20（TOBデータ印刷）D21L
+NV20（TOBデータ印刷）D21G
+NV20（TOBデータ印刷）D21J
+BP002_D02 execution for MFTBCFFR-800
+NV20（TOBデータ印刷）D21C_2
+NV20（TOBデータ印刷）D21N_2
+NV20（TOBデータ印刷）D21A_2
+UV-15-07 過去入庫分のPOが全て表示される為、要件が実装されていない。
+Ad-hoc execution for MFTBCFFR-808
+Ad-hoc execution for MFTBCFFR-807
+Ad-hoc execution for MFTBCFFR-806
+Ad-hoc execution for MFTBCFFR-804
+Ad-hoc execution for MFTBCFFR-797
+UV-Gen 商談番号からドリルダウンするとエラーになり、商談詳細へ行けない。
+UV-15-03 「引渡完了」を選ぶとError Messageが発生し、JCを完了できない。
+NV-25 承認情報BIP問題サマリー
+NV20（TOBデータ印刷）D21C
+UV-Gen 売上後に車両のステータスが在庫のまま。
+NV20（TOBデータ印刷）D21N
+NV20（TOBデータ印刷）D21A
+NV20（TOBデータ印刷）画面表示権限の設定
+UV-15-08 加修費合計が架装発注受入後も加算されない
+Ad-hoc execution for MFTBCFFR-798
+UV-Gen 購入オーダーをドリルダウンすると違う購入オーダーが開く
+UV-Gen 社外架装見積から社外架装発注をしようとするとErroが表示される。（購入オーダーは作成される）
+PT_incorrect JPN of internal order sheet
+PT_FDP-recall sales screen does not changed to approved automatically.
+PT_Incident check
+NV-25 承認情報タブの問題サマリー
+Ad-hoc execution for MFTBCFFR-799
+UV-15-02 ジョブカードの「更新見積もり」ボタンが押せないので、見積金額を中古車在庫に返信できない
+BP002_D01 execution for MFTBCFFR-801
+SV_Incident check
+SV_27_01
+SV_26_01
+SV_25_01
+SV_24_01
+SprintD_PT-06
+PT_Incident check
+BP002_D01
+BP002_D02
+BP001_D01
+BP001_D02
+BP001_D03
+【CR】見積書、購入プランの担当者欄の表示変更
+【CR】受注の購入オーダータブの金額関係項目を非表示とする
+UV-Gen 訂正稟議で未登録から登録にしたが、用途区分が中古車受注に引き継がれない。
+UV-Gen 承認後の販売見積の車両特別値引が整備工賃分合わない。
+UV-Gen 販売見積の関連見積にドキュメントタイプが消えて添付ができない。
+PT_LPP Price Registration Validation Changes
+NV14-19 キャンセル時のエラーメッセージがおかしい
+PT_Not display unnecessary field in Quote. 見積書の不要なフィールドを表示しない
+UV-11-26 売上完了後に架装を追加し、検収前の購入オーダーを残してキャンセルしようとした場合のエラーメッセージが間違っている。
+UV-Gen 諸費用請求書の諸費用支払日をセットしても明細には１日前の日付がセットされる。
+UV-Gen 販売見積の岡山ふそうのロゴが欠けている。
+PT_BIP report for Internal fix
+PT_BIP report for customer fix
+PT_the Manual ship and Delivery Notification Slip flag for GR timing issue
+PT_View name incorrect
+PT_Barcode receiving view issue
+PT_manual ship flag issue
+PT_Delivery Notification Slip did not print automatically.
+PT_Change Expense Charge To to Department Master
+PT_Delivery Notification Slip cannot be changed
+PT_Order sheet print one click button error
+PT__JPN wrong on Parts Quote and UOE quote
+PT_Parts warehousing cancellation screen issue
+PT_Customer name is wrong on change order
+PT_PO confirmation export error
+NV-21（シャシ状況確認画面）オプション・受注の情報表示修正
+PT_Unnecessary fields
+PT_Reservation slip Customer name is not displayed
+PT_Stock transfer slip issue
+PT_Delivery slip Customer name issue
+PT-12
+"PT_PO return Tax rate , type not stored"
+PT_Sales Return Amount Total(Excl.Tax) is incorrect.
+UV-06-05 売上後訂正しかしていない販売オーダーが受注訂正にも表示されている。
+UV-Gen 販売見積画面の諸費用（非課税）に他社加入自賠責の費用が加算されていない。
+NV-08 レポート問題のサマリー
+Ad-hoc execution for MFTBCFFR-669
+UV-06-04 期間が選択した期間と違う期間が印刷されている。
+BP002_C04 execution for MFTBCFFR-677
+PT_The total amunt of the type consumpiton tax is incorrect.
+FDP-SV-27 Remove Net operation time reset functionality​
+FDP-SV-26 Calculation logic change for Minor Parts fee & Disposable fee
+FDP-SV-25 Default display change for Quotation/Delivery slip/Change Order
+FDP-UV-19 Sales Rep field change on UV entities
+UV-11-25 既に受注時に作成した架装発注が売上後の追加架装発注と一緒に再作成された。
+FDP-NV-29 Change order of line items on Order Sheet BIP
+FDP-NV-28 Operating cost management of pool cost.
+FDP-NV-27 Enable output of quotations and purchase orders only after approval.
+FDP-NV-26 Creation of Order Sheet
+NV-14 購入オーダーのチェックが引っかかりキャンセルできない
+UV-Gen 買取契約書受領時に支払先が自動設定されていない為、エラー。
+PT_tax exemption flag issue
+Ad-hoc execution for MFTBCFFR-672
+NV21(シャシ状況確認画面)項目表示と形式を変更
+UV-13-08 注文書の付帯費用の金額が合わない。
+"UV-13-08 販売見積の""内 消費税""が合わない。"
+NV-24 売上後変更で追加した整備工賃が発注できない
+PT_Other Cycle count approval issue
+UV-13-07 販売見積の手入力した孫取の消費税金額がヘッダの項目に反映しない。
+Ad-hoc execution for MFTBCFFR-682
+UV-CR 査定依頼の項目の配置を入れ替えて欲しい。
+UV-16-09 JCをクローズの為、承認依頼をすると中古車課長へ承認が飛ぶ。
+NV23-1(架装発注書)販社名がマスタ設定と違う
+NV23-4(架装発注)どのステータスでも消費税が手入力で変更できる
+PT_Can not create change order
+PT_ Add Hinmoku PT Discount Group in Parts and UOE Quote line
+UV-13-08 注文書の明細の金額が消費税を自動計算している。
+UV-16-05 販売見積の整備工賃が二つに分かれている。
+NV-24 実粗利益が違う
+"UV-18-06 買取契約書の車両代 ""計""と""支払金額""に消費税額が入っていない。"
+PT_Change error messages for LUMF parts
+PT_Tax amount is incorrectly displayed.
+NV21-1(シャシ状況画面)画面名と表示位置修正
+NV-21-2(シャシ状況画面)表示するタイプとステータス
+NV21-3（シャシ状況画面）在庫画面の表示フラグが空欄の明細がある
+NV-10 実額の諸費用請求書のタイトルが変更されない
+UV-16-06 整備工賃から予約要求の為の活動が作成できない。
+NV-22 車両mgrが架装発注を作成できない
+PT_Need fix of delivery slip
+PT-11 Change BIP report
+NV-24 予約要求画面に説明欄がなく何の作業かわからない
+UV-07-14 注文書２の文字の大きさを注文書１と合わせて欲しい。
+UV-13-01 登録手数料（課税）の消費税の初期値がBlankで、承認時にErrorになる。
+NV-21-1　新規画面の表示項目が不足している
+SV_11_01_S01 FALCON Claim# Field (Editable)
+NV-10 Expense invoice feedback summary
+UV-Gen 販売見積書に販売価格が出てこない。
+Ad-hoc execution for MFTBCFFR-681
+MFTBCFFR-673(BP001_C04)
+PT_Tax rate on parts quote detail lines
+UV-16-02 整備工賃が見積画面上で計算されない。
+PT_Change of Criteria Conditions for Approval Flow
+UV-16-03 整備工賃を見積に直接追加するアプレットの項目名がBRDと違う。
+PT_add Sort Order for Hinmoku Code Applet
+NV-24 24-2 部品・社内作業のテキスト変更
+PT-03
+UV-13-01 販売見積の販売価格に対する消費税の初期値が0円のまま。
+NV-14 14-1 売上変更タブが残っている
+Ad-hoc execution for MFTBCFFR-671
+NV-24 24-4 整備工賃の金額の表示がレポートで違う
+"UV-11-11 売上後にキャンセルを行うとステータスが""販売キャンセル""になっている。BRDは""売上キャンセル""。"
+BP002_C03 execution for MFTBCFFR-676
+"UV-18-06 買取見積書の""御見積金額""と""（内 消費税）""に手入力で変更した消費税が反映していない。"
+BP002_C02 execution for MFTBCFFR-675
+NV-10 登録手数料（非課税）-車庫証明（非課税）がなくなっている
+BP002_C01 execution for MFTBCFFR-674
+Ad-hoc execution for MFTBCFFR-670
+SV_23_01
+SV_11_01
+SprintC_PT-12
+SprintC_PT-11
+SprintC_PT-03
+BP002_C04
+BP002_C03
+BP002_C02
+BP002_C01
+BP001_C04
+BP001_C03
+BP001_C02
+BP001_C01
+BP001_C05
+SV_04_01_S01 Character Bug(Maintenance Contract Master)
+【CR】WO費目変更時の純作業時間リセット排除
+SV_09_06_S27 Change Order Button does not activate
+SV_09_06_S27 Re-Edit Control
+【CR】見積・納品・売上訂正報告書のデフォルト表示の変更
+Ad-hoc execution for MFTBCFFR-512
+SV_04_01_S01 Change JCO UI Layout(Add)
+FDP-SV-24 Change BIP Formats
+FDP-PT-06 Change data creation logic to match last purchase cost method
+FDP-UV-15 Manage inventory repair as individual cost.
+"FDP-NV-25 Profit and loss information"" section layout on SO screen"
+FDP-NV-20 Print functionality to be implemented for the files being received from TOB.
+FDP-UV-18 Consumption tax to be editable on Purchase Quote
+FDP-UV-13 To allow manual renewal of Consumption Tax.
+FDP-SVC-23 FDP to use Extranet to fetch Data after Siebel is down. Same as current FORCE
+FDP-PT-12 Copy 2 SC version Phase 3 Kaizen CRs to FDP
+FDP-PT-11 Change BIP Format
+FDP-NV-24 Change in Internal Work Request Functionality
+FDP-NV-19 Automatic display of tax and expenses. New Master Data for Environmental Tax.
+FDP-NV-15 Total Amount Invoice to be sent to KB
+FDP-NV-10 Expense Calculation - Include Registration Fee.
+Ad-hoc execution for MFTBCFFR-623
+SV_09_05_S29 Controlling the Re-edit Button and Change Order Button
+Ad-hoc execution for MFTBCFFR-610
+【CR】注文書でオプション、その他を順番に並べる
+SV_09_04_S19 Move Total PO Cost Manual Field
+Ad-hoc execution for MFTBCFFR-609
+Ad-hoc execution for MFTBCFFR-613
+NV-08 マネジメントレポートの修正
+Ad-hoc execution for MFTBCFFR-612
+Ad-hoc execution for MFTBCFFR-611
+UV-06-04 役員レポートレイアウト調整（岡山ふそう確認後）
+"UV-07-15 中古車在庫リストアプレットの[入庫先顧客名], [入庫先顧客コード]が空白のまま"
+SV_09_02_S47 Unable to change WO Status in WO form applet
+Ad-hoc execution for MFTBCFFR-607
+NV-07 7-2 一次架装の金額が仕様品明細の金額に含まれている
+NV-09 9-5 登録依頼書の修正
+NV-09 9-8 納品書と車両受領書で販売会社が表示されない
+SV_09_01_S108 Quote is no longer calculated
+"UV-06-03 一覧画面の[旧購入区分], [旧販売担当者]に受注訂正をしていなくても値が表示されている"
+NV-07 7-4 オプションが一部注文書に反映しない
+NV-07 7-9 注文書に住所が表示されない
+NV-07 注文書の金額の位置がずれている
+SV_09_09
+SV_09_01_S069 WO List View screen switches
+SV_09_03_S03 Change Order Create Button does not become Active.
+PT_Change Change order Screen
+Ad-hoc execution for MFTBCFFR-608
+SV_09_01_S130 JC closing is possible regardless of WO Status. (Re-edit)
+SV_09_01_S130 Unable to approve (Re-Edit)
+SV_09_01_S46 An error message was displayed when JC was closed
+NV-06 6-1 受注前改訂で販売利益を変えていないのに承認フローが支店長までではない
+NV-06 6-1 役員承認のフローが抜けている
+SV_09_08
+SV_09_07
+SV_09_06
+SV_09_05
+SV_09_04
+SV_09_03
+SV_09_02
+SV-09-01: 再編集時に自社メカWOが追加不可(INT/WO can't added)
+Ad-hoc execution for MFTBCFFR-597
+SV-14: 帳票のタイトルが間違っている
+Ad-hoc execution for MFTBCFFR-598
+UV-06-04 レポートの文字が小さく訂正報告一覧に[訂正日]の項目が無い
+"NV-08 8-22,23 訂正のレポートで訂正日がない"
+NV-08 訂正レポートでrev.2で受注になったものが表示されてしまう
+NV-08 自賠責が０円の場合保険付保が有で表示される
+SV_14_01
+SV_09_01
+NV-07 バス用の注文書の金額項目がおかしい
+NV-08 8-5 マネジメントレポ―トのUIの表示のバグ
+UV-01-01 査定依頼の画面で、意味が分からないValidation Messageが表示される
+UV-Gen 一次承認された販売額を承認額より上にしても「承認額を下回る金額は入力出来ません」のエラーが出る
+NV-06 6-7 利益額に数量が反映されていない
+NV-06 購入プランが販売利益の設定額を満たしていても出力できない
+NV-08 8-24 最後の一枚が空白でpdfが作成される
+UV-06-10 受注報告で複数ページの印刷を行うと１ページの途中から別ページに飛ぶ
+（シャシPO）受注からシャシPOを作成すると、明細の費用が全て営業原価が表示される。
+UV-07-04 受注承認後に孫取の購入オーダーが作成されるが、新車の様に[発注契約書受領済日]がBlank
+"UV-07-04 販売注文の[孫取価格合計]が""孫取価格""になっている"
+"UV-07-07 販売見積の[孫取価格合計]が""孫取価格""になっている"
+UV-07-14 中古車注文書（共通）の金額とレイアウトの指摘
+"UV-07-05 販売見積、受注の中古車孫取タブの孫取価格が""孫取入庫価格""になっている"
+（シャシPO）明細のオプション金額に営業原価が表示されている
+UV-WF 販売見積の再承認で承認できない
+UV-07-13 販売見積のマッピング、レイアウト、ロゴがおかしい
+UV-07-11 孫取価格が総合計（請求額）からマイナスされていない。
+Different error messages between JC and WO(Negative Test)
+Quote-Service Flag(Default)
+UV-07-04 中古車販売見積の中古車孫取タブの年式、打刻型式、C/＃が表示されない
+UV-Gen 商談に紐づけた販売車両を外せない
+MF FS Template Parts & Tools Viewが非表示になっていない
+MF Service Opportunity List Viewが非表示になっていない
+MF Service Request List View
+【実際の経費一覧】の画面を削除
+JC フォームアプレットの変更
+承認フローのしきい値が正しくない
+マイナー部品/交換部品の貯蔵(マスタの名称修正)
+JCとWOとでエラーメッセージが異なる
+JCクローズ時に再承認が実施されない
+JCクローズ後に書類が添付できなくなった
+納品書と見積書の顧客住所のマージンが異なる
+"”掲載しないフラグ""のコントロール"
+"”サービスフラグ""のコントロール"
+見積書の明細
+NV-09 9-9 納車依頼書のテキストとレイアウト問題
+担当者のバリデーションチェック
+JCとWOとでエラーメッセージが異なる
+NV-09 9-2 自賠責加入可否の選択値の日本語名称がおかしい
+UV-06-04 PDFレポートの項目レイアウトと表示漏れ・違い
+UV-06-03 全体の項目名が指定の項目名になっていない、孫取台数の項目が無い
+NV-08 8-18 受注レポートの印刷ボタンを押してもErrorでPDFが作成されない
+（見積）見積承認依頼時の税諸費用追加チェックがされていない
+Ad-hoc execution for MFTBCFFR-513
+（発注）シャシPOのオプション金額空欄
+NV-08 8-3 見積-オーダーの受注日が更新されない
+NV-08 8-3 本部スタッフ以外も受注日を更新できる
+NV-07 7-1 更新された消費税が注文書に反映していない
+UV-07-05 孫取車両の査定を紐づける事が出来ない
+"NV-07 7-4 部品,油脂がその他として表示されていない"
+NV-07 架装名称が注文書に反映されていない
+PT_ Cost price cannot be specified as 0 yen
+"UV-07-04 中古車見積の中古車孫取タブが""下取車""になっている"
+PT_Change JPN of Exemption Tax
+PT_Rmove unnecessary fields on the LPP master screen
+"UV-07-03 孫取のチェックボックスが""下取あり？""になっている"
+PT_Tax type should initially display Consumption Tax
+NV-07 7-3 付属品明細で改造がオプションとして表示されていない
+PT_Sprint_B
+UV-07-01 中古孫取の査定区分が査定依頼に存在しない
+NV06 販売価格が営業スタッフと本部スタッフで違う価格表示になっている
+NV-06 6-13　本部スタッフが承認中に販売価格を更新できない
+（見積）見積改訂後に追加した架装の”原価”が表示されない
+NV-08 8-9 カラムがBIPの項目と同じではない
+UV-10-02 前払請求のタブが消えていない
+UV-06-01 拠点営業スタッフで報告用受注一覧画面が閲覧できる
+BP002_B02 execution for MFTBCFFR-516
+NV-08 8-4 項目の日本語名が違う
+（NV-06 見積）オプション・外色 の金額表示が違う
+UV-06-05 既に売上完了の受注が受注一覧、受注訂正一覧に表示されない
+Ad-hoc execution for MFTBCFFR-514
+NV-06 キャンペーンが追加できない
+UV-06-03 レポートの画面のタイトルが違う
+UV-06-02 レポート種類を選ぶフィルタの選択項目名が違う
+UV-06-05 受注一覧のデフォルト表示が前日分ではない
+UV-06-04 受注レポートの印刷ボタンを押してもErrorでPDFが作成されない
+Ad-hoc execution for MFTBCFFR-511
+BP002_B01 execution for MFTBCFFR-515
+BP004_B01
+BP002_B02
+BP002_B01
+BP001_B03
+BP001_B02
+BP001_B04
+BP001_B01
+【CR】工賃レートを2種類使用可能にする
+Ad-hoc execution for MFTBCFFR-445
+SV04-01：工程管理（Bay Optimization) のボタンが削除されていない
+SV04-01：車検諸費用計画    自賠責保険のタブが消えている
+SV04-01：見積　見積画面・詳細タブの#5 その他情報が消えてない
+SV04-01：WO画面 　7. その他　ステータスコード　と ステータスコードの説明が消えている
+SV04-01：ジョブカード	7. 社内工事　8. Goodwill情報は不要
+Ad-hoc execution for MFTBCFFR-451
+【CR】交換部品管理手数料とマイナーパーツの計算ロジック変更
+Ad-hoc execution for MFTBCFFR-448
+請求先が自動的に表示されない
+Ad-hoc execution for MFTBCFFR-450
+【CR】プール原価の営業原価管理
+見積作成ボタンをクリックしたときのエラーメッセージが異なる(JC/WO)
+エラーのメッセージが意味不明
+"JC タイプを変更した場合フラグが""N""にならない"
+取引停止の顧客コードが選択できる
+顧客コードを削除した場合，顧客名が空白になるまで時間が掛かる
+Ad-hoc execution for MFTBCFFR-449
+JCタイプと費目の組合せが仕様通りでない
+JCタイプ42：フリーサービスが存在する
+【CR】見積書、発注書を承認後にのみ出力可能にする
+予算マスターが登録されていない
+レポート名見積書(A01 顧客用)が消える
+MGW承認
+納引なし理由のLOVがおかしい
+CR 画面の担当者がUIDになっているので、氏名を表示するようにしてほしい。
+UV-01-01 査定依頼の荷台寸法に車両寸法が表示されている
+UV-01-01 査定依頼の必須項目が必須ではなくなっている
+"UV-01-01 査定依頼の床高仕様の選択項目 (LoV) に""超低床""が無い"
+"UV-05-07 入庫後に再販価格設定を行うと[サブ状況]が""商談 (引合なし)""になる"
+WF 中古車マネージャーのロールで作った販売見積、買取見積は承認依頼ができない
+"UV-05-11 中古車商談に査定依頼を引き当てする時、[車名 (銘柄)], [型式] がBlankになる"
+UV-05-04 見積用車両引当区分がYの査定依頼で車台番号が空白なのに重複査定があるとエラーが発生する
+UV-05-08 承認済の見積用車両引当区分がYの査定依頼で項目が消える
+UV-05-07 見積用車両引当区分の査定依頼をUV Mgrが作成し、承認依頼をすると承認が動かない
+NV-01　1-13 購入プラン・見積書　販社名がロゴになっていない
+NV-04 4-4 架装の実原価、架装業者名が必須項目になっていない
+NV-03　3-3 本部IDでログインしたが実原価の項目が表示されない
+NV-03　3-1 外色・オプション・後付オプションの金額が表示されない
+UV-05-04 査定依頼時に見積用車両引当区分がYの場合、車両を引き当て・作成できない
+NV-03　3-1 S架装の選択が表示されない
+NV-03　3-4 シャシの原価に営業原価が表示されていない
+NV-01 1-20 受注の営業担当者が承認された後に変更できる
+NV-01 1-21 受注の担当者が登録依頼書と納車依頼書に反映されない
+UV-01-01 査定依頼のヘッダの項目名が指定と違う
+NV-1 1-21 諸費用請求書の承認フローが担当者に設定されているmgrにいかない
+NV-01 1-22 受注作成時に担当者以外がレコードを作成した際に担当者が引き継がれない
+NV-01 1-21 担当者以外がレコードを作成した際に担当者が引き継がれない
+BP002_A05 execution for MFTBCFFR-375
+UV-05-13 販売見積の[車両本体価格]が再販指示価格ではなく0円になっている
+BP002_A04 execution for MFTBCFFR-374
+Ad-hoc execution for MFTBCFFR-447
+Ad-hoc execution for MFTBCFFR-446
+Ad-hoc execution for MFTBCFFR-451
+UV-01-01 査定依頼上で新規車両を作成時に車両作成画面に[シフト]項目がある
+NV-01 1-12 承認後に販売価格を変更した際に消費税が更新されない
+NV-01 1-19 値引きなし見積フラグの付け替えが承認済みでできない
+SV_04_01
+SV_02_02
+SV_02_01
+SV_01_04
+SV_01_03
+SV_01_02
+SV_01_01
+NV-01 見積 コピーをすると消費税金額が０円でコピーされる
+UV-01-01 査定依頼ヘッダを中古車部門が確認するプロセスがなくなっている為、査定依頼項目の追加メンテができない
+NV-04 body building line item doesn't copied from previous quote
+承認ルートが営業担当者ではなく作成者ベースになっている。
+[担当者所属課コード]と[担当者所属課名]が営業担当者を変更しても変わらない
+"”ボデー形状”の項目名が""元項目[車両形状詳細]""になっている"
+Request-caption change for Bus BIP flag
+opportunity can be seen is changed sales rep's individual filter
+Ad-hoc execution for MFTBCFFR-367
+UV Inventoryに同じAR#が２つある。
+検収依頼に査定項目が無い為、オリジナルとの比較ができない
+入庫検収画面で、[検収依頼作成]ボタンをClickedで作成してもRefleshするまで表示されない
+Ad-hoc execution for MFTBCFFR-368
+layout and total amount issue in NV Quote BIP
+Change JPN of applet title
+Ad-hoc execution for MFTBCFFR-370
+Reserved inventory Qty is incorrect
+PT_Sprint_A
+FDP-SVC-22 GW calculation logic will be changed for FDP version
+FDP-SVC-11 List management claim in process
+FDP-PT-03 Setting tax rates for purchases and sales
+FDP-UV-17 Modification in BB Sheet (BIP).
+FDP-UV-16 Input of Internal work order amount to be done by Sales department​
+FDP-UV-11/14 Sales Revision through Change Order to be implemented
+FDP-UV-08 On Delivery completion Sales posting to be auto processed
+FDP-NV-23 Modification in BB Sheet (BIP).
+FDP-NV-22 BB Purchase Order Approval Flow to be FDP dependent
+FDP-NV-21 New screen to be created for Chassis PO for Sales Staff.
+FDP-NV-14 Revisions after Sales Posting
+FDP-NV-13 Unification of Delivery completion process with Sales posting completed process
+FDP-NV-12 Down payment functionality to be scraped
+査定テンプレートのドロップダウン項目にすべてLoVが無い。
+"査定テンプレートの名称は""査定用詳細項目""と言う名称に変更することになっている。"
+査定タブの名称が「査定(中古車部門用)」になっているが、「査定」のみにして欲しい。
+Consumption tax of UVPO (Tradein) is not updated from NV Quote
+[高さ]の項目の位置が１段上になっている
+[ボデーメーカー]の項目がヘッダに無い
+Consumption tax is not sync to SO
+[キャブ]の項目が[キャビン]になっている
+[ミッション]の項目がヘッダに無い
+consumption tax field is updated to 0 yen after revising
+BP002_A03 execution for MFTBCFFR-373
+BP002_A02 execution for MFTBCFFR-372
+NV Quote BIP issue-summary
+error string difference when incorrect value in consumption tax field
+Operation proft master-multiplication factor digit change
+Default value of Vehicle Consumption Tax is 0 issue
+NV_シャシの原価金額が営業原価になっていない
+保存すると意味が分からないError Messageが出る。
+[定員数]の項目が新車営業スタッフの画面で必須項目になっている。
+"cannot edit ""架装名称"""
+項目[入庫時車検状態]が査定依頼ヘッダに無い
+Ad-hoc execution for MFTBCFFR-369
+新規車両を作成しても車名(銘柄)がBlankになる。
+陸事コードの順番がバラバラ
+項目[ボデー形状]の選択値を増やし、項目名を変更（元項目[車両形状詳細] ）されていない
+車種の選択値が２重になっている
+BP002_A01 execution for MFTBCFFR-371
+BP004_A01
+BP002_A05
+BP002_A04
+BP002_A03
+BP002_A02
+BP002_A01
+BP001_A02
+BP001_A01
+BP001_A04
+BP001_A03
+Approver missing compared to Quote
+Incorrect Approvers Position
+Ad-hoc execution for MFTBCFFR-214
+作業明細のステータスが更新されていない状態で検収完了が可能
+作業のステータスが変更されていない
+JC ステータス変更時にエラー表示
+会社名のロゴ
+Weight Tax Buttonの外部リンク
+Actual Expenseの項目がSC本番と相違している
+Actual Expenseの項目がSC本番と相違している
+Ad-hoc execution for MFTBCFFR-213
+検収完了時のエラー
+見積作成ボタンのエラー
+Ad-hoc execution for MFTBCFFR-177
+FDP_BP004_073_社内返品
+PT_Not display Return order tab in Internal order screen
+FDP_BP004_072_社内出庫
+PT_Other Cycle count not proceed issue
+FDP_BP004_071_棚卸_臨時棚卸
+PT_During Cycle count JPN issue
+FDP_BP004_068_棚卸_年次棚卸
+FDP_BP004_067_マスタ_在庫ステータス変更
+FDP_BP004_066_マスタ_CSVアップロード機能_ロケ番
+FDP_BP004_065_マスタ_ロケ番登録
+FDP_BP004_064_マスタ_CSVアップロード機能_MAXMIN
+FDP_BP004_063_マスタ_MAXMIN登録
+FDP_BP004_061_マスタ_新直購品部番登録(一括)
+FDP_BP004_060_マスタ_直購品部番登録
+FDP_BP004_055_マスタ_レスマスタ登録
+FDP_BP004_044_経費_経費出庫
+FDP_BP004_042_購入返品_直購品返品
+FDP_BP004_038_購入返品_D2S購入返品
+PT_Approval flow issue in PO return
+FDP_BP004_041_購入返品_CSVアップロード機能
+FDP_BP004_035_発注_紐無し直購品
+CLONE - 明細追加でフリーズ
+BP002_005 execution for MFTBCFFR-182
+SVC_LUBR_00_209(Lubricant Master)以外のItemが存在する
+FDP_BP004_034_発注_補充発注(直購品)
+FDP_BP004_032_発注_補充発注(NORM_BANS)
+Ad-hoc execution for MFTBCFFR-212
+PT_Not display Stock transfer shipment view in shipment screen
+duplicate expense invoice error string difference
+FDP_BP004_030_倉移_紐無し
+Ad-hoc execution for MFTBCFFR-175
+FDP_BP004_029_発注_紐無しリコール部品
+リサイクルの資金管理料に※印が無い
+Branch head name is blank in Quotation and Purchase plan
+BP002_004 execution for MFTBCFFR-181
+UV Re-evalution buttonが無い
+BP002_003 execution for MFTBCFFR-180
+FDP-SVC-09 Add Re-Edit functionality of Job Card
+FDP-SVC-14 Improvement of Parts Search shipped memo
+FDP-PT-10 Sales return and Purchase order approval flow change
+FDP-PT-02 PT Inventory Management Changes
+FDP-PT-01 Simplification of the registration screen for direct purchases
+FDP-UV-10 Down Payment Request removal from UV SO.
+FDP-UV-07 New functionality of Magotori (UV Trade-in) to be implemented. To be same as NV Trade-In FORCE SC.
+"FDP-UV-06 screen display and printing of SO reports, SO revision, sales posting reports, and post-sales revision lists for management reports.​"
+FDP-NV-08 Screen for Top Management to confirm already approved Sales Order
+FDP-NV-09 Liability insurance to add in Registration Request Form
+FDP-NV-07 Change Order sheet display contents
+FDP-NV-06 Approval flow of each company/FDP on the basis of new Profit Calculation
+PT_Change order button remains disabled
+FDP_BP004_024_売上訂正
+PT_Return charge issue
+FDP_BP004_021_返品_販売返品(一部返品)
+PT_Other WH issue
+PT_I was able to receive it even though the status was Approved
+FDP_BP004_015_発注_販売紐づき直購品.
+Delivery Completed Approval RequestのWFが違う
+架装発注の変更を承認したが、発注ステータスが変わらない
+UV Sales QuoteのRegistration Feeの消費税計算
+FDP_BP004_010_倉移_販売紐づき倉移出庫
+FDP_BP004_007_入庫_紐切り入庫(NORM・直購品)
+返品オーダータブがない
+了解者の選択が出来ない
+承認依頼ボタンでエラー表示
+変更で入力が出来ない
+”却下”で入力が出来ない
+型式が表示されない
+明細の金額が表示されない
+明細追加でフリーズ
+FDP_BP004_008_販売出庫(運賃有)
+Can't drill down by clicking shipment number
+FDP_BP004_005_発注_本庫倉移発注入庫後キャンセル
+FDP_BP004_003_受注_キャンセル
+Will not display the Entity and approval history tabs in my Inbox
+発注書　発注者名
+Approval work flow-reapproval case issue
+Approval work flow-Sales Order change is not working fine
+Ad-hoc execution for MFTBCFFR-173
+PT_Discount Approval flow does not work correctly
+FDP_BP004_001_見積_承認フロー確認未許可ユーザー
+"Net price of trailer and folklift is not sync to ""車両本体価格"" in Sales Order sheet BIP"
+"Net price of trailer and folklift is not sync to ""車両本体価格"" in Quotation BIP"
+Ad-hoc execution for MFTBCFFR-176
+UV査定承認５００万以上で、役員へ承認WFが飛ばない
+Price of line item can be updated in expense invoice screen
+CLONE - 明細金額
+CLONE - 明細追加でフリーズ
+型式選択
+Ad-hoc execution for MFTBCFFR-172
+Ad-hoc execution for MFTBCFFR-171
+シャシ型式選択
+Total amount line item is not updated
+明細金額
+販社コード
+明細追加でフリーズ
+UV査定承認５００万以上で、役員へ承認WFが飛ばない
+Ad-hoc execution for MFTBCFFR-163
+Trailer PO is created in Parent SO
+UV査定承認５００万以上で、役員へ承認WFが飛ばない
+BP002_002 execution for MFTBCFFR-179
+Ad-hoc execution for MFTBCFFR-163
+Ad-hoc execution for MFTBCFFR-164
+BP00X_002 sample test case example 2
+Ad-hoc execution for MFTBCFFR-174
+BP002_001 execution for MFTBCFFR-178
+TOB Location Master 読込されていない /TOB Location Master not loaded
+Supplier settings based on branch master do not exist. *PO to D2S PO cannot be created.
+Inventory master is incorrectly named.
+"Menu is not initially set up. e.g.)In the SC version, Branch-Parts-staff and Branch-Parts-Mgr initially displays a customized menu."
+"Parts Stock screen does not exist, both Branch-Parts-Mgr and Branch-Parts-Staff"
+"When a non-gen part master is created, a part number that already exists is assigned. e.g.) #101247473 duplicated."
+"Despite the existence of a genuine parts master, this cannot be entered in the quotation screen."
+UV Purchase Orderの[発注契約書受領済日]が入力できません。Ctrl＋Sを押すと下記のError Messageがでます。
+今度は再作成した査定依頼の最初の拠点営業スタッフからの承認がWFでなくなりました。。。
+早速、Quality CheckでUVのAssessment Requestを実施しましたが、FDP0990　 SCHQ-Sales-UV-Staffで査定後に承認依頼を押すと承認履歴がでません。
+見積書1ページ目の下側がページ内に収まっていない	/The bottom of the first page of the quotation does not fit within the page
+"”オーダー取消”ボタンを押すとエラー表示される /An error is displayed when you press the ""Cancel order"" button"
+”初年度登録”が年月しか表示されない /First year registration only displays the year and month
+"”登録番号（陸事名_地域名）”に検索虫メガネが表示されない /Search magnifying glass is not displayed in ""registration number (land name_area name)"""
+【FQ】分が英語表示になっている / [FQ] minutes are displayed in English
+242個中18個しか表示されない / Registered location master Only 18 out of 242 are displayed
+シャシオプションが選択できない / Chassis option not selectable
+架装発注書のPDFが作成されない。/ A PDF of the bodywork order is not created.
+"ステータス”却下”時に承認依頼ボタンが押せない / Approval request button cannot be pressed when the status is ""rejected""."
+FDP BP00X_00X test
+PT_066
+PT_064
+SV_003
+SV_002
+SV_001
+PT_073
+PT_072
+PT_071
+PT_068
+PT_067
+PT_065
+PT_063
+PT_061
+PT_060
+PT_055
+PT_044
+PT_042
+PT_041
+PT_038
+PT_035
+PT_034
+PT_032
+PT_030
+PT_029
+PT_024_2
+PT_021
+PT_015
+PT_010
+PT_008_01
+PT_007
+PT_005
+PT_003
+PT_001
+BP002_005
+BP002_004
+BP002_003
+BP002_002
+BP002_001
+BP001_009
+BP001_008
+BP001_007
+BP001_006
+BP001_005
+BP001_004
+BP001_003
+BP00X_00X Sample Test Example
+BP001_002
+BP001_001
+FDP-AAC-03 - Document Series should be FDP dependent.
+FDP-AAC-02 - Approval Flows in different modules will be FDP dependent.
+FDP-AAC-01 - Account Receivable (AR) and Account Payable (AP) accounts to be merged in one Customer Account.
+FDP-SVC-04 Improvement of Job Card Screen
+FDP-SVC-02 Additional Category for JC Type
+FDP-SVC-01 Add New Item Type for WO and Quote
+FDP-PT-08 Remove SC stock View
+FDP-PT-07 Change FDP Recall Screen Name
+FDP-PT-04 Transfer of Atsugi returned parts
+FDP-UV-09 Approval Levels to be FDP dependent
+FDP-UV-05 Changes to be done to allow linking of vehicles in Opportunity that are not in stock
+"FDP-UV-03 Pickup Request Approval might not be required for some FDPs. Hence, Pickup Request should NOT be kept mandatory."
+FDP-UV-01 Mandatory fields to create assessment request will be different for each FDP
+FDP-NV-05 Function for automatic calculation of operating costs for Modification
+FDP-NV-04 Function for automatic calculation of operating costs for First Body
+FDP-NV-03 Managing Operation cost & Operation profit for Chassis and Option
+"FDP-NV-02 Change of Sales Type (Direct sales, Wholesale)"
+FDP-NV-01 Creation of Purchase plan and Quotation

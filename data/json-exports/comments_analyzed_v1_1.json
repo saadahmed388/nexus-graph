@@ -1,0 +1,1771 @@
+[
+    {
+        "issue_key": "MFTBCFFR-5855",
+        "investigation_summary": "The AR update failed for China record 0000S28325 when using the Update account information button because the Business partner name (first line of form print) exceeded Siebel's 20-character limit. The requested remediation was to correct the error messaging rather than increase the field length. Validations and corresponding messages for both business partner name print-line fields were implemented and deployed to the production environment in the regular release on the 23rd.",
+        "important_findings": [
+            "Business partner name (first line of form print) contained \"Auto Alliance Yamaguchi Co., Ltd. Iwakuni Office\", exceeding the 20-character limit during AR processing.",
+            "The 20-character restriction was identified as a standard Siebel system limitation, not a customization, application defect, or user-defined rule.",
+            "Increasing the maximum length to 30 characters was rejected; the required change was to revise the error message.",
+            "Validations were implemented for Business partner name (first line of form printing) and Business partner name (second line of form printing).",
+            "\"An internal error occurred while handling the following exception. The current task has been cancelled.\" is a Siebel standard system message and cannot be removed."
+        ],
+        "root_cause": "The value in Business partner name (first line of form print) exceeded the 20-character maximum supported by Siebel during the AR update process.",
+        "resolution": "Implemented validation and revised custom error messages for both Business partner name form-printing fields, then deployed the changes to the production environment in the regular release on the 23rd.",
+        "technical_entities": [
+            "MFTBCFFR-5855",
+            "China",
+            "0000S28325",
+            "Update account information button",
+            "AR Details",
+            "Siebel",
+            "Business partner name (first line of form print)",
+            "Business partner name (second line of form printing)",
+            "Auto Alliance Yamaguchi Co., Ltd. Iwakuni Office",
+            "production environment",
+            "PROD",
+            "An internal error occurred while handling the following exception. The current task has been cancelled."
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4763",
+        "investigation_summary": "Bulk Invoice calculations for Parts orders with multiple shipments did not apply rounding correctly, resulting in missing or incorrect tax calculation behavior. Investigation confirmed the existing rounding logic supported only single-shipment Parts orders. The Bulk Invoice logic was updated, tested on UAT1, released to Prod, and recovery data was created for impacted records.",
+        "important_findings": [
+            "The issue occurred only when a Parts order contained multiple shipments.",
+            "Previous Bulk Invoice rounding logic was applied only to single-shipment Parts orders.",
+            "The required calculation behavior included Round up, Truncation, and Rounding scenarios.",
+            "The updated logic applies rounding across all shipments and was tested on UAT1.",
+            "Recovery was completed for remaining impacted records, including records omitted from the recreated okaSAAD20251006125657.csv file.",
+            "The fix was deployed to Prod and the October 20 Okayama Production Bulk Invoice data was verified without recurrence."
+        ],
+        "root_cause": "Bulk Invoice rounding logic handled only single shipments in Parts orders and did not apply rounding across multiple shipments.",
+        "resolution": "Updated and deployed the Bulk Invoice logic to apply rounding across all shipments in Parts orders; tested the change on UAT1, released it to Prod, and generated recovery Bulk Invoice data for impacted records.",
+        "technical_entities": [
+            "Bulk Invoice",
+            "Parts order",
+            "UAT1",
+            "Prod",
+            "Okayama Production",
+            "okaSAAD20251006125657.csv",
+            "Sales return O000290299/M000433847",
+            "M001298997/O000184197",
+            "M001298996/O000184196",
+            "M001298995/O000184195",
+            "sales posting data",
+            "delivery slip",
+            "month end file",
+            "recovery file",
+            "KB"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4754",
+        "investigation_summary": "The reported status display behavior in PBI reports was traced to pre-existing status-column logic: only sub_status \"stocked in\" is displayed as \"Book Receipt\", while all other values are displayed as \"Product\". Recovery was completed by updating db last upd on specific tables, with values expected after the next refresh. Investigation found no backend logic that would revert Vehicle Sub Status to \"Available\" after Recovery; the last Vehicle record update was made by a user, so the specific recovery discrepancy could not be conclusively attributed.",
+        "important_findings": [
+            "PBI reports display \"Book Receipt\" only when sub_status is \"stocked in\"; all other statuses are displayed as \"Product\".",
+            "The PBI status-column logic is pre-existing across all FDPs and SC.",
+            "Recovery was completed by updating db last upd on specific tables, and the values were expected after the following day's refresh.",
+            "Backend logic review and regression testing found no scenario in which Vehicle Sub Status reverts to \"Available\" after Recovery.",
+            "The last update to the Vehicle record was made by a user; recovery miss or user mis-operation was suspected but not confirmed.",
+            "Future recoveries will be validated by senior operators and monitored for Vehicle Status and Sub-Status."
+        ],
+        "root_cause": "The PBI report status-column behavior is caused by pre-existing logic that maps only sub_status \"stocked in\" to \"Book Receipt\" and maps every other status to \"Product\".",
+        "resolution": "Recovery was completed by updating db last upd on specific tables. Recovery procedures were updated to require senior-operator validation and monitoring of Vehicle Status and Sub-Status; changing the PBI status-column logic requires an AMS CR.",
+        "technical_entities": [
+            "PBI reports",
+            "status column",
+            "sub_status",
+            "stocked in",
+            "Book Receipt",
+            "Product",
+            "FDPs",
+            "SC",
+            "AMS CR",
+            "db last upd",
+            "Vehicle",
+            "Vehicle Status",
+            "Vehicle Sub Status",
+            "Available",
+            "Recovery",
+            "backend logics",
+            "regression testing",
+            "monitoring"
+        ]
+    },
+    {
+        "issue_key": "4750",
+        "investigation_summary": "Duplicate and missing Sales Order records in NV reports were investigated following data patching for MFTBCFFR-4608. The issue was determined to be incomplete recovery synchronization: recovery was performed on the Siebel side, but the corresponding PBI recovery records were not updated. All affected and additionally identified duplicate records were recovered in PBI, and preventive monitoring and recovery-process controls were implemented.",
+        "important_findings": [
+            "The issue was similar to MFTBCFFR-4587, where Sales Orders were recovered in Siebel but not in PBI, resulting in duplicate records in PBI.",
+            "The issue was not identified as a system defect; recovery records had not been updated on the PBI side.",
+            "A query against wc_nv_sales_f identified duplicate active orders by order_num when COUNT(DISTINCT REQUESTED_REGIST_DT) > 1.",
+            "The query identified additional duplicate records A030659223 and A031051460, and recovery was completed for them.",
+            "Recovery confirmation procedures were updated to require confirmation from the PBI team before confirming recovery with the business."
+        ],
+        "root_cause": "After data patching for MFTBCFFR-4608, recovery was performed in Siebel but the corresponding recovery records were not updated in PBI, causing duplicate Sales Order records in PBI.",
+        "resolution": "Recovered all affected and additionally identified duplicate records in PBI, implemented daily duplicate monitoring using a query on wc_nv_sales_f, and updated the recovery manual to require PBI team confirmation before business confirmation.",
+        "technical_entities": [
+            "MFTBCFFR-4608",
+            "MFTBCFFR-4587",
+            "Siebel",
+            "PBI",
+            "Sales Orders",
+            "NV reports",
+            "wc_nv_sales_f",
+            "order_num",
+            "delete_flg",
+            "REQUESTED_REGIST_DT",
+            "A030659223",
+            "A031051460",
+            "Basic Filtering"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4731",
+        "investigation_summary": "A Delivery Approval error occurred for one migrated NV Sales Order because \"Promissory Note Due Date\" was present in the NV Sales Quote but missing from the corresponding NV Sales Order. The source SC production environment contained the field in both records, while post-migration FDP data contained it only in the NV Sales Quote. The affected order was recovered by manually setting the missing value; the issue could not be reproduced in FDP UAT or found in other FDP Production records. The exact cause of the migration discrepancy could not be established because the relevant logs had expired.",
+        "important_findings": [
+            "The Delivery Approval/order completion validation correctly stopped processing when \"Promissory Note Due Date\" was missing in the NV Sales Order.",
+            "The affected record was migrated from SC production; the field was confirmed in both the NV Sales Order and NV Sales Quote in the source environment.",
+            "After migration, \"Promissory Note Due Date\" was populated in the NV Sales Quote but not in the corresponding NV Sales Order.",
+            "Only one migrated record was affected; no similar records were found in FDP Production, and regression testing in FDP UAT passed.",
+            "The missing field was manually populated in the affected NV Sales Order, resolving the Delivery Approval error.",
+            "Error monitoring was deployed for the process that populates Promissory Note Due Date from Sales Quote to Sales Order; system-log retention was planned to increase from one month to two months."
+        ],
+        "root_cause": null,
+        "resolution": "Manually set the missing \"Promissory Note Due Date\" in the affected NV Sales Order, resolving the Delivery Approval error. Error monitoring was deployed for the Sales Quote-to-Sales Order population process.",
+        "technical_entities": [
+            "MFTBCFFR-4731",
+            "Delivery Approval",
+            "NV Sales Order",
+            "NV Sales Quote",
+            "Promissory Note Due Date",
+            "Promissory Note Payment Due Date",
+            "Sales Order",
+            "Sales Quote",
+            "SC production environment",
+            "SC Prod",
+            "FDP",
+            "FDP UAT",
+            "FDP UAT-1",
+            "FDP Production",
+            "Chugoku Production",
+            "Siebel",
+            "order completion process",
+            "error monitoring",
+            "DB level",
+            "FORCE bus"
+        ]
+    },
+    {
+        "issue_key": "4724",
+        "investigation_summary": "The Delivery Approval Error was associated with duplicate NV Pool Cost Orders whose duplicate-order line items had not been recovered. Duplicate Pool Orders were created by a manual file execution mistake, not by a system error. Recovery was completed for affected duplicate/cancelled purchase orders across the reported Production/FDP environments, and the AMS Recovery Manual was updated to require line-item recovery for duplicate Pool Cost Orders.",
+        "important_findings": [
+            "The Delivery Approval Error occurred when line items of duplicate NV Pool Cost Orders were not included in recovery.",
+            "Duplicate Pool Orders were created by a manual file execution mistake.",
+            "Recycle Fee Orders and Pool Cost Orders are child orders of a Chassis Order and are mapped when the Chassis Order is mapped to a Sales Order.",
+            "Recovery was completed for duplicate NV Pool Cost Orders and cancelled purchase orders across the reported Production/FDP environments, including Chugoku-PROD.",
+            "Duplicate Recycle Fee Orders and multiple D21 files received from TOB are tracked separately under MFTBCFFR-4498.",
+            "The AMS Recovery Manual was updated to require recovery of line items for duplicate Pool Cost Orders."
+        ],
+        "root_cause": "Duplicate Pool Orders were created by a manual file execution mistake, and the resulting Delivery Approval Error occurred because recovery of duplicate NV Pool Cost Orders did not include their line items.",
+        "resolution": "Recovered the affected duplicate/cancelled purchase orders and duplicate NV Pool Cost Orders across the reported environments, including their line items, and updated the AMS Recovery Manual to require line-item recovery for duplicate Pool Cost Orders.",
+        "technical_entities": [
+            "Delivery Approval Error",
+            "NV Pool Cost Order",
+            "Pool Orders",
+            "Pool Cost Orders",
+            "Recycle Fee Orders",
+            "Chassis Order",
+            "Sales Order",
+            "Purchase Orders",
+            "Line Items",
+            "AMS Recovery Manual",
+            "Production Environments",
+            "Prod environments",
+            "FDP environments",
+            "Chugoku-PROD",
+            "MFTBCFFR-4498",
+            "TOB",
+            "D21 files",
+            "Siebel system"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4764",
+        "investigation_summary": "The Re-Edit CR logic incorrectly updated the Sent to KB flag to \"Y\" when the Re-edit button was clicked on the same day that a job card was created. The query based on Voucher Abstract included expense JVs created before the latest Job Card JV, causing affected Tax - Weight Tax JVs to be sent to KB. The fix was deployed to production in the 19th September release, and affected records were recovered.",
+        "important_findings": [
+            "In Re-Edit CR logic, clicking Re-edit on the same day as job card creation updated Sent to KB to \"Y\" for all JVs except the latest closed JVs.",
+            "The logic queried JVs using Voucher Abstract, which included expense JVs created before the latest Job Card JV.",
+            "Affected expense Order Types were Tax - Weight Tax, Tax - Automobile Type, and Tax - Automobile Env.",
+            "Review of all FDP environments found two affected Tax - Weight Tax JVs: I000213439 and I000224933.",
+            "The corrective change excluded Job Card JVs with the affected expense Order Types, and the two impacted JVs were retriggered for KB linkage through the daily batch."
+        ],
+        "root_cause": "Re-Edit CR logic used Voucher Abstract to update the Sent to KB flag and, when re-edit occurred on the job card creation date, included expense JVs created before the latest Job Card JV. This caused Tax - Weight Tax, Tax - Automobile Type, and Tax - Automobile Env JVs to be incorrectly marked Sent to KB = \"Y\".",
+        "resolution": "Updated the Re-Edit CR logic to exclude Job Card JVs with Order Types Tax - Weight Tax, Tax - Automobile Type, and Tax - Automobile Env; deployed the fix to production in the 19th September release. Retriggered affected JVs I000213439 and I000224933 and completed record recovery.",
+        "technical_entities": [
+            "Re-Edit CR logic",
+            "Re-edit button",
+            "Sent to KB",
+            "Voucher Abstract",
+            "JV",
+            "Expense JV",
+            "Job Card JV",
+            "Tax - Weight Tax",
+            "Tax - Automobile Type",
+            "Tax - Automobile Env",
+            "UAT",
+            "production environment",
+            "FDP environments",
+            "I000213439",
+            "I000224933",
+            "KB",
+            "daily batch"
+        ]
+    },
+    {
+        "issue_key": "4668",
+        "investigation_summary": "A logic update to display three address lines for all accounts also affected the field fix JC type, causing \"Free recall improvement measures\" to be displayed three times instead of once. The issue was fixed and tested in FDP-UAT1 using JC records I001298562, I001296214, and I001296107, then released to Prod on 18 Sep.",
+        "important_findings": [
+            "The three-address-line display logic for all accounts unintentionally affected the field fix JC type.",
+            "The text \"Free recall improvement measures\" was repeated three times instead of appearing once.",
+            "The fix was implemented in FDP-UAT1 and tested with JC# I001298562, I001296214, and I001296107.",
+            "No recovery action was required.",
+            "The change was released to Prod on 18 Sep."
+        ],
+        "root_cause": "Updating the logic to display three address lines for all accounts affected the field fix JC type, causing \"Free recall improvement measures\" to repeat three times.",
+        "resolution": "Corrected the affected logic in FDP-UAT1, tested it with the specified JC records, and released the fix to Prod on 18 Sep.",
+        "technical_entities": [
+            "FDP-UAT1",
+            "Prod",
+            "field fix JC type",
+            "Free recall improvement measures",
+            "JC# I001298562",
+            "JC# I001296214",
+            "JC# I001296107"
+        ]
+    },
+    {
+        "issue_key": "4648",
+        "investigation_summary": "TOB recycling data was received, but the response was associated with a duplicate Recycle Order rather than the intended order, preventing correct order processing. Investigation found that duplicate Recycle Fee orders retained the same Vehicle ID during recovery. The affected orders were recovered, Vehicle IDs were removed from canceled duplicate orders, and the AMS recovery process was updated to prevent recurrence.",
+        "important_findings": [
+            "Both TOBs had received recycling data, but the Recycle Order status required recovery and update to Completed.",
+            "Duplicate Recycle Orders with the same Vehicle ID caused the TOB response to be reflected in the incorrect order.",
+            "For MS06GP-15519, Recycle Order B000286143 had duplicate order B000283229; for MS06GP-15518, Recycle Order B000286144 had duplicate order B000283228.",
+            "The Vehicle ID was not unmapped from duplicate Recycle Fee orders during recovery.",
+            "Recovery was completed across all production environments, and Vehicle IDs were removed from duplicate and canceled duplicate Recycle Orders.",
+            "The issue was not identified as a Siebel system issue."
+        ],
+        "root_cause": "During recovery of duplicate Recycle Fee orders, the Vehicle ID was not unmapped from the duplicate order. The duplicate orders therefore retained the same Vehicle ID, causing TOB responses to map to the incorrect Recycle Order.",
+        "resolution": "Completed recovery of the affected records, removed Vehicle IDs from canceled duplicate Recycle Orders, and updated the AMS recovery procedure and manual to unmap vehicles when recovering duplicate Recycle Fee orders.",
+        "technical_entities": [
+            "TOB",
+            "AMS",
+            "Siebel system",
+            "Recycle Order",
+            "Recycle Fee order",
+            "Vehicle ID",
+            "MS06GP-15519",
+            "B000286143",
+            "B000283229",
+            "MS06GP-15518",
+            "B000286144",
+            "B000283228",
+            "production environments"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4634",
+        "investigation_summary": "Delivery Approval was blocked by validation when a canceled Parts Purchase Order shipment remained Open. Investigation found that the validation checked shipment status for Parts Purchase Orders instead of Parts Internal Orders. The logic was corrected, validated in FDP-UAT1, approved for PRO, and deployed to Production in the 9th October FDP Release.",
+        "important_findings": [
+            "For internal purchase order M000284707, line item #ETC2.0 led to purchase order N000285015 and a shipment that remained Open after the part was cancelled in the internal order.",
+            "The immediate recovery set the affected shipment status to Cancelled, allowing Delivery Approval to proceed.",
+            "The pre-Delivery Approval validation checked whether parts shipments were Open, but it evaluated Parts Purchase Orders rather than Parts Internal Orders.",
+            "The incorrect Parts Purchase Order check caused canceled parts to trigger a validation error during Delivery Approval.",
+            "The corrected logic was tested in FDP-UAT1 using Sales Order A001298875 and test case A001298884; after Generate Approval, status updated to Sales Posting Completed when all order-status criteria were met.",
+            "The fix was deployed to Production in the 9th October FDP Release."
+        ],
+        "root_cause": "The Delivery Approval validation incorrectly checked shipment status for Parts Purchase Orders instead of Parts Internal Orders, allowing canceled Parts Purchase Order shipments with an Open status to cause validation errors.",
+        "resolution": "Updated the validation logic to check shipment status for Parts Internal Orders rather than Parts Purchase Orders; the change was validated in FDP-UAT1, approved for PRO, and deployed to Production. The affected shipment was also set to Cancelled as immediate recovery.",
+        "technical_entities": [
+            "Delivery Approval",
+            "Parts Purchase Orders",
+            "Parts Internal Orders",
+            "M000284707",
+            "#ETC2.0",
+            "N000285015",
+            "Open",
+            "Cancelled",
+            "FDP-UAT1",
+            "Sales Order",
+            "A001298875",
+            "A001298884",
+            "Generate Approval",
+            "Sales Posting Completed",
+            "PRO",
+            "Production",
+            "9th October FDP Release",
+            "Siebel system"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4625",
+        "investigation_summary": "Customer addresses from accounts receivable information were not correctly reflected in the Expense Invoice BIP report. The customer-address mapping logic was corrected and validated in UAT1 using JC# I001298453 for customer 0000H15413. Following approval, the fix was released to the production environment on September 13, 2025.",
+        "important_findings": [
+            "The Expense Invoice BIP report did not correctly map customer address values from accounts receivable information.",
+            "The customer-address logic in the Expense Invoice BIP report was corrected.",
+            "UAT1 validation for JC# I001298453 and customer 0000H15413 confirmed that the AR address was correctly reflected in the report.",
+            "The production release was approved after operational verification.",
+            "Recovery from ATTB34 to ATTB01 was requested for customers 0000T06149 and 0000U03637."
+        ],
+        "root_cause": "Incorrect customer address mapping in the Expense Invoice BIP report prevented customer address values from accounts receivable information from being correctly reflected in the report.",
+        "resolution": "Corrected the customer-address logic and mapping in the Expense Invoice BIP report, validated the fix in UAT1, and released it to the production environment on September 13, 2025.",
+        "technical_entities": [
+            "accounts receivable information",
+            "AR",
+            "Expense Invoice BIP report",
+            "Expense Invoice Report",
+            "UAT1",
+            "JC# I001298453",
+            "0000H15413",
+            "production environment",
+            "ATTB34",
+            "ATTB01",
+            "0000T06149",
+            "0000U03637"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4621",
+        "investigation_summary": "No technical incident details, investigation findings, root cause, or corrective action were documented in the available comments.",
+        "important_findings": [],
+        "root_cause": null,
+        "resolution": null,
+        "technical_entities": []
+    },
+    {
+        "issue_key": "MFTBCFFR-4619",
+        "investigation_summary": "The affected Job Card I050337264 was identified as a recovery record related to incident MFTBCFFR-4577. Investigation confirmed that the backend quote_id had not been updated in the Job Card Order, causing incorrect invoice/discount data. Recovery was completed, and the response JSON showed correct discount values so the branch could issue the correct Individual invoice.",
+        "important_findings": [
+            "The incident was an impacted recovery record of MFTBCFFR-4577.",
+            "The backend quote_id was not updated in the Job Card Order.",
+            "The affected Job Card was I050337264.",
+            "After recovery, the response JSON displayed correct discount values.",
+            "A correct Individual invoice could be issued by the branch after recovery.",
+            "The related fix was scheduled for FDP production release on September 13."
+        ],
+        "root_cause": "The backend quote_id was not updated in the Job Card Order.",
+        "resolution": "Recovery was performed for Job Card I050337264, restoring correct discount values in the response JSON and enabling the branch to issue the correct Individual invoice. Ongoing monitoring and the production fix were tracked under MFTBCFFR-4577.",
+        "technical_entities": [
+            "MFTBCFFR-4577",
+            "quote_id",
+            "Job Card Order",
+            "Job Card I050337264",
+            "Response JSON",
+            "Individual invoice",
+            "FDP production"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4611",
+        "investigation_summary": "BIP report (Order Detail)/Order Sheet BIP generation failed after Sales Order approval when a backdated Last Contract Date caused null tax retrieval. The tax lookup compared Last Contract Date and Acknowledgment date against Consumption Tax master effective dates; dates before the available tax master period could return no tax rate. The obsolete date-comparison logic was removed, the change was validated in UAT1, and deployed to Production in the 9th October FDP Release.",
+        "important_findings": [
+            "The issue occurred when the Sales Order was approved; a Sales Order in \"Pending\" status did not execute the failing code path.",
+            "A Last Contract Date before 2020, such as 09/10/2018, could result in a null tax rate because the Tax Master table start date was in 2020.",
+            "The null tax rate caused BIP report (Order Detail) generation to fail after Sales Order approval.",
+            "The fix removed obsolete Last Contract Date and Acknowledgment date comparisons from tax retrieval.",
+            "Consumption tax effective start and end date logic remains in place; the tax value is selected from Consumption Tax master based on today's date.",
+            "The fix was deployed to Production in the 9th October FDP Release."
+        ],
+        "root_cause": "Tax retrieval used Last Contract Date and Acknowledgment date to match Consumption Tax master effective dates. A backdated Last Contract Date outside the Tax Master table's configured date range returned a null tax rate, causing BIP report generation failure.",
+        "resolution": "Removed the obsolete Last Contract Date and Acknowledgment date comparison logic from tax retrieval, validated the change in UAT1, and deployed it to Production in the 9th October FDP Release.",
+        "technical_entities": [
+            "Production",
+            "FDP Release",
+            "UAT1 Environment",
+            "Sales Order",
+            "Pending",
+            "BIP report (Order Detail)",
+            "Order Sheet BIP",
+            "Consumption Tax master",
+            "Tax Master table",
+            "Last Contract Date",
+            "Acknowledgment date",
+            "MFTBCFFR-2045"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4608",
+        "investigation_summary": "A synchronization issue affecting migrated records in Chugoku Prod was investigated and confirmed as a data migration error. Twelve affected records were identified for recovery, including A032009351 / 1-3MD3C3K Rev4. Recovery was completed for all affected records, preventing further synchronization issues for those migrated records.",
+        "important_findings": [
+            "The issue was a data issue caused by a data migration error, not a system issue.",
+            "A total of 12 affected records required recovery in Chugoku Prod.",
+            "Recovery was completed for A032009351 and subsequently for all affected records on Chugoku Prod.",
+            "The recovery manual was updated to help prevent recurrence.",
+            "The affected migrated records should no longer experience the synchronization issue after recovery."
+        ],
+        "root_cause": "Data migration error affecting migrated records.",
+        "resolution": "Recovered all 12 affected records on Chugoku Prod and updated the recovery manual.",
+        "technical_entities": [
+            "Chugoku Prod",
+            "Chugoku-PROD",
+            "MFTBCFFR-4526",
+            "A032009351",
+            "1-3MD3C3K Rev4",
+            "Account mismatch",
+            "synchronization issue",
+            "data migration"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4587",
+        "investigation_summary": "Duplicate sales-order records were displayed in PBI/Power BI after a recovery on the Siebel side associated with MFTBCFFR-4608. Investigation found that the ODI load plan loads existing Siebel line items but does not automatically delete PBI records for line items removed in Siebel. Recoveries were performed on both Siebel and PBI, all duplicate records were subsequently verified as cleared, and recovery procedures were updated to include PBI validation.",
+        "important_findings": [
+            "Some sales-order line items removed in Siebel were not automatically removed from PBI.",
+            "The ODI load plan loads line items existing in Siebel but does not delete line items removed from Siebel.",
+            "Duplicate PBI records were observed after recovery activity associated with MFTBCFFR-4608.",
+            "Initial PBI recovery did not remove all duplicates; all records required verification and additional recovery.",
+            "The AMS recovery manual was updated to require PBI validation after each Siebel recovery."
+        ],
+        "root_cause": "A Siebel recovery associated with MFTBCFFR-4608 caused duplicate records in PBI, while the ODI load plan did not automatically delete PBI line items that had been removed from Siebel.",
+        "resolution": "Performed and corrected recoveries on both Siebel and PBI, verified that all duplicate sales orders were cleared, and updated the AMS recovery and recovery-method manuals to validate PBI results after Siebel recovery.",
+        "technical_entities": [
+            "Siebel",
+            "PBI",
+            "Power BI",
+            "ODI",
+            "ODI load plan",
+            "PBI Datamart",
+            "MFTBCFFR-4608",
+            "AMS recovery manual",
+            "recovery method manual",
+            "UAT",
+            "SC",
+            "FDP",
+            "sales orders",
+            "line items"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4583",
+        "investigation_summary": "The incident was caused by a recovery mistake in Siebel. After recovery, the functionality was confirmed to be working normally, and the incident could be closed by setting the JIRA status to completed.",
+        "important_findings": [
+            "The issue occurred due to a recovery mistake in Siebel.",
+            "Functionality was confirmed to be working correctly after recovery.",
+            "JIRA status should be set to completed once recovery is complete."
+        ],
+        "root_cause": "A recovery mistake in Siebel.",
+        "resolution": "Recovery was completed and functionality was confirmed to be working; close the incident by setting the JIRA status to completed.",
+        "technical_entities": [
+            "Siebel",
+            "JIRA"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4570",
+        "investigation_summary": "The incident discussion only confirms that the item appears to be completed. No technical investigation details, root cause, or corrective action were provided.",
+        "important_findings": [
+            "The item was reported as completed.",
+            "No technical findings, errors, systems, or remediation steps were documented."
+        ],
+        "root_cause": null,
+        "resolution": null,
+        "technical_entities": []
+    },
+    {
+        "issue_key": "MFTBCFFR-4565",
+        "investigation_summary": "The incident was caused by a recovery mistake affecting a record. The affected record was recovered, and recovery was subsequently checked and completed for such records across all Production Environment. The recovery manual was updated to prevent recurrence.",
+        "important_findings": [
+            "The issue was attributed to a recovery mistake.",
+            "Recovery for the mentioned record had been completed on May 9, 2025.",
+            "A request to recheck indicated that past records had not initially been fully confirmed.",
+            "Recovery was completed for such records across all Production Environment.",
+            "The recovery manual and recovery procedures were updated to prevent similar issues."
+        ],
+        "root_cause": "Recovery mistake.",
+        "resolution": "Recovered the affected records across all Production Environment and updated the recovery manual/procedures to prevent recurrence.",
+        "technical_entities": [
+            "MFTBCFFR-4502",
+            "Production Environment",
+            "recovery manual",
+            "recovery procedures"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-4557",
+        "investigation_summary": "Retro-fit Chassis Orders were not updated to Completed after receipt of D21Z completion data. Investigation confirmed that ODI processing searched the Division Type Code using \"11SC\", but affected Chinese-environment orders were created by users whose position Organization Type was not \"11SC\". Required ODI/file corrections were implemented, and future Retrofit Orders will be monitored.",
+        "important_findings": [
+            "A Retro-fit Chassis Order should be updated to Completed when its D21Z file contains an Actual Completion Date beginning with \"J\" at position 106 for four characters.",
+            "Division Type Code refers to the Organization Type associated with the user's position.",
+            "Affected carry-on retrofit orders in the Chinese environment were created from positions in organizations other than \"11SC\"; no affected orders were created from positions in the \"11SC\" organization.",
+            "ODI processing filtered orders using Division Type Code \"11SC\", preventing retrieval and status updates for the affected orders.",
+            "The required corrections were completed and recovered orders were updated to Completed."
+        ],
+        "root_cause": "ODI processing was configured to search for Division Type Code \"11SC\", while affected Retrofit Orders were created under different position Organization Types, causing the orders not to be retrieved and their status not to be updated to Completed.",
+        "resolution": "Required corrections were implemented in the respective ODI processing files/configuration, and affected orders were recovered by updating their status to Completed. Future Retrofit Orders will be monitored.",
+        "technical_entities": [
+            "Retro-fit Chassis Order",
+            "Retrofit Orders",
+            "D21Z",
+            "Actual Completion Date",
+            "Completed",
+            "ODI",
+            "Division Type Code",
+            "Organization Type",
+            "11SC",
+            "FDP",
+            "Chinese environment",
+            "Headquarters",
+            "Siebel",
+            "TOB",
+            "D21A",
+            "INC5251034",
+            "B036094136",
+            "B000087258",
+            "B000091490",
+            "B050070077",
+            "B000087243",
+            "B000097292",
+            "B000207864",
+            "B000203647",
+            "B000202622",
+            "B036837516"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-3592",
+        "investigation_summary": "Body Building Orders used Actual Shipment Date as the Journal Voucher Posting Date for the journal events \"ConsTax PO - Body Building Order - IBOS\" and \"PO - Body Building Order - IBOS\". An old Actual Shipment Date migrated from SC, or a manually editable value, could result in a date that caused KB integration errors. The mapping was changed to use JV Creation Date, validated in UAT1, and deployed to the production environment on April 1, 2025; affected orders were also recovered.",
+        "important_findings": [
+            "Actual Shipment Date from a Body Building Order was mapped to Posting Date in Journal Voucher.",
+            "Actual Shipment Date was editable across all FDP environments and SC without validation.",
+            "The affected order contained Actual Shipment Date \"2024/11/21 12:00:00 AM\" because it was migrated from SC.",
+            "If Actual Shipment Date was blank, Journal Voucher used the current timestamp; however, received or manually entered dates could cause KB linkage errors.",
+            "The corrective change updated the mapping from \"Actual Shipment Date\" to \"JV Creation Date\" for Body Building Orders across all FDP environments.",
+            "Order recovery was completed and a new JV with the correct posting date was created."
+        ],
+        "root_cause": "Journal Voucher Posting Date for Body Building Orders was derived from the editable Actual Shipment Date, including historical dates migrated from SC, allowing dates that caused KB integration errors.",
+        "resolution": "Changed the Body Building Order Journal Voucher mapping from Actual Shipment Date to JV Creation Date across all FDP environments, validated the change in UAT1, deployed it to production on April 1, 2025, and recovered affected orders.",
+        "technical_entities": [
+            "Body Building Order",
+            "Actual Shipment Date",
+            "Journal Voucher",
+            "JV",
+            "Posting Date",
+            "JV Creation Date",
+            "KB",
+            "KB integration",
+            "IBOS",
+            "Siebel",
+            "SIEBEL",
+            "SC",
+            "FDP environments",
+            "UAT1",
+            "production environment",
+            "\"ConsTax PO - Body Building Order - IBOS\"",
+            "\"PO - Body Building Order - IBOS\"",
+            "Order# B001293394",
+            "B031615178",
+            "Fuso China",
+            "D2S Parts"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-3002",
+        "investigation_summary": "The incident occurrence was reported as increasing and required urgent action. Recovery was completed and the affected SO status was updated to 'Pending'. The incident was released in the 17th January FDP Emergency release.",
+        "important_findings": [
+            "Incident occurrence was increasing.",
+            "Recovery was completed and the SO status was updated to 'Pending'.",
+            "The incident was released in the 17th January FDP Emergency release."
+        ],
+        "root_cause": null,
+        "resolution": "Completed recovery, updated the SO status to 'Pending', and released the incident in the 17th January FDP Emergency release.",
+        "technical_entities": [
+            "SO",
+            "Pending",
+            "FDP Emergency release"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2767",
+        "investigation_summary": "When Generate Approvals was clicked with null values in required quotation fields, the displayed validation-message content was considered inappropriate because it did not meet the requirement to identify the applicable required field. The validation messages for Vehicle Consumption Tax and Registration Total Commission Fee were updated and deployed to UAT1 for verification. The same message approach was applied to NV and UV quotes, and the change was released to Production on 16 December.",
+        "important_findings": [
+            "The issue occurred during Generate Approvals when Vehicle Consumption Tax or Registration Total Commission Fee was null.",
+            "The requested behavior was for the error message to display the corresponding required field name.",
+            "The prior validation messages were stated to be existing behavior used during FDP Okayama Sprint UAT and FDP Okayama Prod, but the business rejected those messages as inappropriate.",
+            "Vehicle Consumption Tax was changed to: 'Vehicle Consumption Tax' is a required field.",
+            "Registration Total Commission Fee was changed to: 'Registration Total Commission Fee' is a required field.",
+            "The revised messages were implemented in UAT1, applied consistently to NV Quotes and UV quotes, and released to Production."
+        ],
+        "root_cause": "The existing validation-message content for required fields during Generate Approvals was inappropriate because it did not provide the required field-specific messaging expected by the business.",
+        "resolution": "Updated the validation messages for Vehicle Consumption Tax and Registration Total Commission Fee, applied the same messages to NV Quotes and UV quotes, verified in UAT1, and released the change to Production on 16 December.",
+        "technical_entities": [
+            "Generate Approvals",
+            "Registration Commission Fee Tax",
+            "Registration Total Commission Fee",
+            "Vehicle Consumption Tax",
+            "NV Quotes",
+            "UV quotes",
+            "UAT1",
+            "Production",
+            "FDP Okayama Sprint UAT",
+            "FDP Okayama Prod",
+            "AMS-CR",
+            "BRD"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2764",
+        "investigation_summary": "The reported inability to select special sales users in the Entity Transfer Screen was reviewed against the approved FDP/SC specification and related AMS-CRs. Entity Transfer is configured to display only five specified positions and does not include HQ-TAJ-Fleet-Mgr or HQ-TAJ-Fleet-Staff. Sales Rep changes for users with the same position as the initial Sales Rep are available through Quote, Opportunity, and Sales Order screens; the incident was rejected with no system change required.",
+        "important_findings": [
+            "The Entity Transfer Screen in SC and FDP originally displayed Branch-Sales-Staff and Bus-Staff users only.",
+            "AMS-CR MFTBCFFR-2161 added Branch-Sales-Mgr and Branch-Head, and MFTBCFFR-2571 added Branch NV/UV Sales Staff to the Entity Transfer Screen.",
+            "The Entity Transfer Screen currently displays Branch-Sales-Staff, Bus-Staff, Branch-Sales-Mgr, Branch-Head, and Branch NV/UV Sales Staff.",
+            "HQ-TAJ-Fleet-Mgr and HQ-TAJ-Fleet-Staff were not requested or approved for the Entity Transfer Screen; adding them requires an AMS-CR.",
+            "NV-01 CR Sprint-A added Sales Rep change functionality to Quote, Opportunity, and Sales Order, not to the Entity Transfer Screen.",
+            "Users can change Sales Rep from Quote, Opportunity, and Sales Order for applicable statuses, including transfer to users with the same position as the initial Sales Rep."
+        ],
+        "root_cause": "The reported behavior was caused by an expectation mismatch: HQ-TAJ-Fleet-Mgr and HQ-TAJ-Fleet-Staff are not included in the approved Entity Transfer Screen position list, while the required Sales Rep transfer capability is implemented through Quote, Opportunity, and Sales Order screens.",
+        "resolution": "No system change was required. The existing Sales Rep change functionality in Quote, Opportunity, and Sales Order was confirmed to work correctly, and the incident was rejected. Any request to add HQ-TAJ-Fleet positions to the Entity Transfer Screen requires an AMS-CR.",
+        "technical_entities": [
+            "MFTBCFFR-2764",
+            "FDP",
+            "SC",
+            "Entity Transfer Screen",
+            "Transfer applet",
+            "Branch-Sales-Staff",
+            "Bus-Staff",
+            "Branch-Sales-Mgr",
+            "Branch-Head",
+            "Branch NV/UV Sales Staff",
+            "HQ-TAJ-Fleet-Mgr",
+            "HQ-TAJ-Fleet-Staff",
+            "AMS-CR MFTBCFFR-2161",
+            "MFTBCFFR-2571",
+            "Quote",
+            "Opportunity",
+            "Sales Order",
+            "NV-01 CR",
+            "Sprint-A",
+            "Okayama setup",
+            "SR"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2753",
+        "investigation_summary": "The incident involved customer pay amount calculation for Lubricant quote items with the Line Item Type set to Free Cost. The calculation behavior depended on whether Adjusted List Price matched Item List Unit Price. A program modification was validated in UAT-1 and released to Production on 16 December.",
+        "important_findings": [
+            "For Lubricant items, when Adjusted List Price differs from Item List Unit Price, customer pay amount is calculated as Item List Unit Price \u00d7 Qty.",
+            "For Lubricant items, when Adjusted List Price equals Item List Unit Price, customer pay amount uses Net Price.",
+            "A Free Cost line item can have a non-zero customer pay amount; example JC I000193504, Quote 1-1R0T4Q, Line 14 in Okayama Prod had Adjusted List Price \u00a5980, Item List Unit Price \u00a51,140, Net Price \u00a50, and Qty 15.",
+            "The modified program was fixed and verified in UAT-1 before deployment to PROD."
+        ],
+        "root_cause": null,
+        "resolution": "The modified program was validated in UAT-1, approved, and released to Production on 16 December.",
+        "technical_entities": [
+            "Production",
+            "PROD",
+            "UAT-1",
+            "Okayama Prod",
+            "Lubricant",
+            "Adjusted List Price",
+            "Item List Unit Price",
+            "customer pay amount",
+            "Net Price",
+            "Qty",
+            "Quote",
+            "quote item",
+            "JC",
+            "I000193504",
+            "1-1R0T4Q",
+            "Line Item Type",
+            "Free Cost"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2749",
+        "investigation_summary": "The incident involved an incorrect account field for NV Sales order A001279143. The issue was fixed in UAT1, where the account field was confirmed correct, and was subsequently released to PROD in the 21st Nov FDP Release.",
+        "important_findings": [
+            "The account field for NV Sales order A001279143 was incorrect before the fix.",
+            "The fix was implemented and validated in UAT1.",
+            "The incident was approved for PROD deployment and released in the 21st Nov FDP Release.",
+            "Related business-party details provided included payment address 0000333743 Sainichi Co., Ltd., contract partner 0000G28955 Mitsubishi Auto Lease Co., Ltd., and billing address 0000010006 Mitsubishi Fuso Truck and Bus Co., Ltd."
+        ],
+        "root_cause": null,
+        "resolution": "Corrected the account field for NV Sales order A001279143 in UAT1 and deployed the fix to PROD in the 21st Nov FDP Release.",
+        "technical_entities": [
+            "UAT1",
+            "PROD",
+            "FDP Release",
+            "NV Sales order",
+            "A001279143",
+            "A001266550",
+            "account field",
+            "0000333743",
+            "Sainichi Co., Ltd.",
+            "0000G28955",
+            "Mitsubishi Auto Lease Co., Ltd.",
+            "0000010006",
+            "Mitsubishi Fuso Truck and Bus Co., Ltd."
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2745",
+        "investigation_summary": "A delivery approved on October 28 did not result in a TOB transmission on October 29. JMS Server logs contained no record entry, indicating that Siebel did not send the trigger. Investigation identified that the TOB trigger was suppressed when the 'Vehicle Category' field contained a value; the functionality was changed and validated in UAT1 before Production release on December 16.",
+        "important_findings": [
+            "No JMS Server log entry existed for the affected record, indicating that a TOB trigger was not sent from Siebel.",
+            "Historical error logs could not establish the original workflow error because logs are retained for only one month.",
+            "The affected record and previously attached records had a populated 'Vehicle Category' field.",
+            "Under the prior functionality, a populated 'Vehicle Category' field prevented the TOB trigger from being sent.",
+            "The corrected functionality sends the TOB trigger after 'Sales Posting Completed' for all sales orders regardless of 'Vehicle Category' value.",
+            "The fix was validated in UAT1 using Sales Order A001284121 and released to Production on December 16."
+        ],
+        "root_cause": "The existing functionality required the 'Vehicle Category' field to be null for the TOB trigger to be sent; records with a populated value did not send the trigger.",
+        "resolution": "Modified the functionality so that TOB triggers are sent after 'Sales Posting Completed' for all sales orders regardless of the 'Vehicle Category' value, validated in UAT1, and released to Production on December 16.",
+        "technical_entities": [
+            "FDA50-610011",
+            "TOB",
+            "JMS Server",
+            "Siebel",
+            "Vehicle Category",
+            "Sales Posting Completed",
+            "UAT1",
+            "Production",
+            "Sales Order A001284121"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2729",
+        "investigation_summary": "The approval flow was investigated for a quote whose sales profit decreased after approval. In UAT1, the issue could be reproduced when a Headquarter user changed Sales Price while the quote was in Pending Approval and then approved it; the approval flow had already been triggered using the initial value. No change log exists for Sales Price, so the specific user and time of the production change could not be confirmed.",
+        "important_findings": [
+            "Sales Price is editable for Headquarter users while a quote is in Pending Approval status.",
+            "Changing Sales Price during Pending Approval can reduce Sales profit after the approval flow has already been triggered using the original value.",
+            "The approval flows were confirmed to be working normally in UAT and Prod environments.",
+            "No audit trail or change log is recorded for Sales Price, preventing identification of who changed the field and when.",
+            "The reproducible scenario was assessed as user mis-operation; no change to Sales Price editability was requested."
+        ],
+        "root_cause": "A Headquarter user could modify Sales Price while the quote was in Pending Approval, after the approval flow had been triggered based on the initial value.",
+        "resolution": null,
+        "technical_entities": [
+            "NV_Approval Flow Difference_Okayama",
+            "Sales Price",
+            "Headquarter",
+            "Pending Approval",
+            "quote",
+            "Sales profit",
+            "approval flow",
+            "UAT1",
+            "UAT",
+            "Prod",
+            "Audit trail"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2728",
+        "investigation_summary": "The reported attribute was investigated and confirmed not to represent the Customer Account of the Purchase Order. In both UV Quote and SC, the attribute represented the Quote's Ship To Account Name. Attribute names were changed, validated in UAT1, approved for production, and released in the 21st November FDP Release.",
+        "important_findings": [
+            "\"Customer Name_Supplier\" represented the Ship To Account Name of UV Quote, not the Customer Account of the Purchase Order.",
+            "In SC, \"Customer Name_Supplier\" also represented the Ship To Account Name within the Quote.",
+            "The issue was fixed in the UAT1 environment and subsequently approved for Prod release.",
+            "The production release was completed in the 21st November FDP Release."
+        ],
+        "root_cause": "The attribute name was misleading because \"Customer Name_Supplier\" displayed the Quote's Ship To Account Name rather than the Purchase Order Customer Account.",
+        "resolution": "Changed the relevant attribute names, validated the fix in UAT1, and released it to Prod in the 21st November FDP Release.",
+        "technical_entities": [
+            "Customer Name_Supplier",
+            "Ship To Account Name",
+            "Customer Account",
+            "Purchase Order",
+            "UV Quote",
+            "SC",
+            "UAT1",
+            "Prod",
+            "FDP Release",
+            "SC UAT",
+            "UAT3",
+            "UV Quote:-1-340WHKQ",
+            "AR#: H000130757",
+            "UV Quote:-1-1APV1Q",
+            "AR#: H000009724"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2726",
+        "investigation_summary": "The incident was fixed in the FDP UAT1 Environment and submitted for approval for Production release. After approval, the fix was scheduled for the 16th December FDP Release and released to Production on 16 December.",
+        "important_findings": [
+            "The incident was fixed in the FDP UAT1 Environment.",
+            "Production release approval was requested and granted.",
+            "The fix was scheduled for the 16th December FDP Release.",
+            "The incident was released to Production on 16 December."
+        ],
+        "root_cause": null,
+        "resolution": "The fix was deployed to Production in the 16th December release.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "Production",
+            "Prod",
+            "16th December FDP Release"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2723",
+        "investigation_summary": "The incident was fixed in the FDP UAT1 Environment and submitted for approval for production release. Following approval, the fix was deployed to Production in the 16th December FDP Release.",
+        "important_findings": [
+            "The incident fix was implemented in the FDP UAT1 Environment.",
+            "Production-release approval was requested after UAT1 remediation.",
+            "The fix was released to Production on 16 December as part of the FDP Release."
+        ],
+        "root_cause": null,
+        "resolution": "The incident was fixed in the FDP UAT1 Environment and deployed to Production in the 16th December FDP Release.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "Production",
+            "Prod",
+            "16th December FDP Release"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2722",
+        "investigation_summary": "The incident fix was validated in the FDP UAT1 Environment and approved for production deployment. The fix was released to Production as part of the 16th December release.",
+        "important_findings": [
+            "The incident was fixed in the FDP UAT1 Environment.",
+            "Production deployment was approved after UAT validation.",
+            "The fix was released to Production on 16th December."
+        ],
+        "root_cause": null,
+        "resolution": "Deployed the validated incident fix to Production in the 16th December release.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "Production",
+            "Prod",
+            "16th December FDP Release"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2721",
+        "investigation_summary": "The incident was fixed in the FDP UAT1 Environment and approved for production deployment. The fix was released to Production in the 16th December FDP Release.",
+        "important_findings": [
+            "The incident was fixed in the FDP UAT1 Environment.",
+            "Approval was requested and received for the Production release.",
+            "The fix was deployed to Production on 16 December as part of the FDP Release."
+        ],
+        "root_cause": null,
+        "resolution": "The incident fix was validated in FDP UAT1 Environment and released to Production in the 16th December FDP Release.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "Production",
+            "Prod",
+            "FDP Release"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2718",
+        "investigation_summary": "The incident involved the \"Type\" field behavior in the UI. Investigation found that the field was editable, but changes did not persist after a refresh. The field was configured as read-only in FDP UAT1 Environment, approved for Production, and released on 16 December.",
+        "important_findings": [
+            "The \"Type\" field was editable in the UI, but edited values did not persist after a refresh.",
+            "The initial UAT1 fix was rejected during confirmation.",
+            "The \"Type\" field was subsequently made read-only in FDP UAT1 Environment.",
+            "The Production deployment was approved and released on 16 December through the FDP Release."
+        ],
+        "root_cause": "The UI allowed edits to the \"Type\" field even though changes to the field did not persist after refresh.",
+        "resolution": "Configured the \"Type\" field as read-only in the UI, validated the change in FDP UAT1 Environment, and released it to Production on 16 December.",
+        "technical_entities": [
+            "Type",
+            "UI",
+            "FDP UAT1 Environment",
+            "Production",
+            "FDP Release"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2704",
+        "investigation_summary": "The incident fix was implemented and verified in UAT1. Additional changes in Indent were required for the FDP version, and the approved fix was deployed to Production in the December 16 release.",
+        "important_findings": [
+            "The incident was fixed and made available for verification in UAT1.",
+            "Changes in Indent were also required for the FDP version.",
+            "The fix was approved for production release.",
+            "The incident was released to Production on December 16."
+        ],
+        "root_cause": null,
+        "resolution": "Implemented the required Indent changes for the FDP version, verified the fix in UAT1, and deployed it to Production in the December 16 release.",
+        "technical_entities": [
+            "Indent",
+            "FDP",
+            "UAT1",
+            "PROD",
+            "Production"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2699",
+        "investigation_summary": "The UV Inbox Approval Error occurred after Sales Order \"E000247317\" was left pending approval and the related Quote \"1-1WQC6R\" was revised and approved. Approval of revision 2 cancelled the pending Sales Order, after which the order could not be transitioned from \"Cancelled\" to \"Rejected\" or \"Approved\". The incident was recovered, and investigation determined that no product fix was required because the condition resulted from user operation.",
+        "important_findings": [
+            "Quote \"1-1WQC6R\" revision 1 was approved before Sales Order \"E000247317\" was created.",
+            "The Sales Order was left in \"Pending Approval\" after approvals were generated using the \"Generate Approval\" button.",
+            "Approving Quote \"1-1WQC6R\" revision 2 while the Sales Order was pending approval changed the Sales Order status to \"Cancelled\".",
+            "A Sales Order in \"Cancelled\" status cannot be changed to \"Rejected\" or \"Approved\".",
+            "Users must approve the Sales Order before revising the quote, or create a new Sales Order rather than use the cancelled order."
+        ],
+        "root_cause": "User revised and approved Quote \"1-1WQC6R\" while related Sales Order \"E000247317\" remained in \"Pending Approval\", causing the order to become \"Cancelled\".",
+        "resolution": "Incident recovery was completed. No product modification was required; users must approve the Sales Order before revising the quote or create a new Sales Order after cancellation.",
+        "technical_entities": [
+            "UV Inbox Approval Error",
+            "Quote \"1-1WQC6R\"",
+            "Sales Order \"E000247317\"",
+            "\"Generate Approval\" button",
+            "\"Request Approval\" button",
+            "\"Pending Approval\"",
+            "\"Waiting for approval\"",
+            "\"Awaiting Approval\"",
+            "\"Cancelled\"",
+            "\"Rejected\"",
+            "\"Approved\"",
+            "\"Revise\" button"
+        ]
+    },
+    {
+        "issue_key": "2696",
+        "investigation_summary": "A D21A file execution issue required records to be deleted in Siebel and the file to be re-executed. The deleted records had already been inserted into PBI reports and were not removed, causing duplicate and unsynchronized PBI data. The PBI-side data was corrected, and the process was reinforced to patch PBI records whenever Siebel records are deleted after report insertion. The issue was limited to QA4/UAT testing data and did not affect the Production environment.",
+        "important_findings": [
+            "The D21A file was re-executed after an execution issue, and the related records were deleted from Siebel.",
+            "Records deleted from Siebel had already been inserted into PBI reports and were not removed from PBI, resulting in duplicate records.",
+            "PBI records must be patched when corresponding Siebel records are deleted after they have been inserted into PBI reports.",
+            "The QA4 records B000017357, B000017358, B000017359, B000017360, and B000017361 were dummy records with status \"Ordered\" and no associated order item; PBI report logic does not extract such records.",
+            "No sales order was associated with the mentioned chassis, and the sales order field was blank in both Siebel and PBI reports.",
+            "Production environment was not affected."
+        ],
+        "root_cause": "During D21A file re-execution, records were deleted from Siebel but the corresponding records were not removed or patched in PBI reports after they had already been inserted, causing duplicate and unsynchronized PBI data.",
+        "resolution": "Correct the affected data on the PBI side and ensure PBI record patching is performed whenever records are deleted from Siebel after insertion into PBI reports.",
+        "technical_entities": [
+            "D21A file",
+            "Siebel",
+            "PBI reports",
+            "QA4",
+            "UAT environment",
+            "Production environment",
+            "B000017357",
+            "B000017358",
+            "B000017359",
+            "B000017360",
+            "B000017361",
+            "Ordered",
+            "order item",
+            "sales order",
+            "chassis",
+            "chassis order",
+            "C/#540091"
+        ]
+    },
+    {
+        "issue_key": "2680",
+        "investigation_summary": "The incident affected the Invoice and Registration process, including billing for miscellaneous expenses and registration completion. Recovery was completed, but investigation and regression testing found no program omissions or reproducible system issue. The workflow used by the process lacked error handling, so error monitoring was added to Prod in the 21st November FDP Release to capture future occurrences.",
+        "important_findings": [
+            "Pressing confirm displayed the error: \"Claim must be completed before registration is completed\" although billing for miscellaneous expenses was completed.",
+            "Regression testing of the Invoice and Registration process found no program omissions or system issue.",
+            "The incident was considered a rare case; user steps for creating and completing billing fees and registration requests needed chronological review.",
+            "The workflow used for the process had no error handling or error logging.",
+            "Recovery was completed, and error monitoring was added in Prod in the 21st November FDP Release."
+        ],
+        "root_cause": null,
+        "resolution": "Recovery was completed. Error monitoring was added to the workflow in Prod in the 21st November FDP Release to provide error logs if the incident recurs.",
+        "technical_entities": [
+            "Invoice and Registration process",
+            "billing and registration processes",
+            "billing fees",
+            "registration requests",
+            "billing for miscellaneous expenses",
+            "workflow",
+            "error handling",
+            "error monitoring",
+            "error log",
+            "Prod",
+            "FDP Release",
+            "\"Claim must be completed before registration is completed\"",
+            "taxes"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2665",
+        "investigation_summary": "Delivery approval continued to fail after reapproval. Investigation found that the user added line item #TJ516B0102 to intra-part purchase order M000169898, created part purchase order N000172361, then canceled the row and added another line. Recovery was completed for the parts purchase order, and Sales posting was completed; the process was confirmed to be working normally.",
+        "important_findings": [
+            "Reapproving delivery reproduced the same error.",
+            "Line item #TJ516B0102 was added to intra-part purchase order M000169898, resulting in part purchase order N000172361.",
+            "The user canceled the original row after creating the part purchase order and added another row.",
+            "Recovery required cancellation of the related parts purchase order and shipment.",
+            "Sales posting and parts purchase order recovery were completed successfully."
+        ],
+        "root_cause": "User misoperation: the user canceled a line after creating part purchase order N000172361 from line item #TJ516B0102 and then added another line.",
+        "resolution": "Canceled/recovered the related parts purchase order and shipment; Sales posting was completed.",
+        "technical_entities": [
+            "Sales posting",
+            "intra-part purchase order M000169898",
+            "line item #TJ516B0102",
+            "part purchase order N000172361",
+            "shipment",
+            "delivery approval"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2655",
+        "investigation_summary": "Two recycle fee orders were created for Fuso Rec Number 853702 because two D21F files for the same record were received from TOB. B000159439 was created from D21F_27082024113227 on 27 August, and B000172074 was created from D21F_01102024143156 on 01 October. Recovery was completed by retaining and completing the recycle fee order linked to the single chassis order, and cancelling the other order.",
+        "important_findings": [
+            "TOB sent two D21F files for the same Fuso Rec Number 853702.",
+            "D21F_27082024113227 created recycle fee order B000159439 on 27 August.",
+            "D21F_01102024143156 created recycle fee order B000172074 on 01 October.",
+            "Both recycle fee orders were linked to one chassis order.",
+            "TOB had already been sent and received before the order-status correction."
+        ],
+        "root_cause": "TOB provided two D21F files for the same Fuso Rec Number 853702, resulting in creation of two recycle fee orders; this was not a system issue.",
+        "resolution": "Completed B000172074, the recycle fee order retained for the chassis order, and cancelled B000159439.",
+        "technical_entities": [
+            "TOB",
+            "D21F",
+            "Fuso Rec Number 853702",
+            "D21F_27082024113227",
+            "D21F_01102024143156",
+            "B000159439",
+            "B000172074",
+            "Recycle fee order",
+            "chassis order",
+            "Sales Order",
+            "C# number"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2654",
+        "investigation_summary": "The issue involved classification linkage in FDP UAT-1/UAT1. The fix was implemented and verified in UAT1, where the classification was confirmed as correctly linked. Following approval, the change was deployed to FDP-PROD/Production in the December 16 release.",
+        "important_findings": [
+            "The issue was fixed in UAT1.",
+            "Classification was verified as correctly linked in FDP UAT-1.",
+            "Approval was obtained for production deployment.",
+            "The fix was released to Production on December 16."
+        ],
+        "root_cause": null,
+        "resolution": "The verified UAT1 fix was deployed to FDP-PROD/Production in the December 16 release.",
+        "technical_entities": [
+            "FDP UAT-1",
+            "UAT1",
+            "FDP-PROD",
+            "Production",
+            "classification"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2653",
+        "investigation_summary": "The incident was fixed in the FDP UAT1 Environment and submitted for approval for production release. Following approval, the fix was released to PROD in the 21st Nov FDP Release.",
+        "important_findings": [
+            "The incident fix was completed in the FDP UAT1 Environment.",
+            "Production release approval was requested after the UAT1 fix.",
+            "The item was released to PROD in the 21st Nov FDP Release."
+        ],
+        "root_cause": null,
+        "resolution": "The fix was validated in the FDP UAT1 Environment and released to PROD in the 21st Nov FDP Release.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "PROD",
+            "21st Nov FDP Release"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2651",
+        "investigation_summary": "The incident was fixed in the FDP UAT1 Environment and submitted for approval for Production release. After Production approval, the fix was released to Production on 16 December.",
+        "important_findings": [
+            "The incident fix was completed in the FDP UAT1 Environment.",
+            "Production approval was received before deployment.",
+            "The fix was released to Production on 16 December."
+        ],
+        "root_cause": null,
+        "resolution": "Released the approved fix to Production on 16 December.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "Production"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2650",
+        "investigation_summary": "The incident was fixed in the FDP UAT1 Environment and submitted for approval for Production release. After Production approval was received, the fix was released to Production on 16 December.",
+        "important_findings": [
+            "The incident was fixed in the FDP UAT1 Environment.",
+            "Production approval was received.",
+            "The fix was released to Production on 16 December."
+        ],
+        "root_cause": null,
+        "resolution": "The fix was deployed to the FDP UAT1 Environment, approved for Production, and released to Production on 16 December.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "Production"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2649",
+        "investigation_summary": "Changes were implemented in FDP UAT1 and submitted for verification and approval for Production release. After approval, the changes were released to Production on 16 December; no technical investigation details, defect cause, or validation outcome were documented.",
+        "important_findings": [
+            "Changes were made in FDP UAT1.",
+            "Production release approval was requested and granted.",
+            "The changes were released to Production on 16 December.",
+            "No root-cause analysis or specific technical change details were provided."
+        ],
+        "root_cause": null,
+        "resolution": null,
+        "technical_entities": [
+            "FDP UAT1",
+            "Production",
+            "Prod"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2637",
+        "investigation_summary": "The issue was fixed in UAT1 and submitted for verification. After approval, the fix was deployed to Production in the December 16 release.",
+        "important_findings": [
+            "The issue was reported as fixed in UAT1 on November 25, 2024.",
+            "Deployment to PROD was approved and coordinated with INC4114554.",
+            "The incident was released to Production on December 16, 2024."
+        ],
+        "root_cause": null,
+        "resolution": "The fix was deployed to Production in the December 16 release.",
+        "technical_entities": [
+            "UAT1",
+            "Production",
+            "PROD",
+            "INC4114554"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2625",
+        "investigation_summary": "An Approval Request could be initiated while Sub-Quotes were In-Progress, although this should have been blocked. The vehicle recovery was completed and the vehicle was mapped to the UV Quote. Validation for UV was implemented in FDP UAT1, approved for release, and deployed to Production on October 22.",
+        "important_findings": [
+            "Approval Request was possible while Sub-Quotes were In-Progress, indicating the required validation was not working.",
+            "The vehicle recovery was completed and the vehicle was mapped in the UV Quote.",
+            "Validation for UV was implemented in FDP UAT1 for verification before the Production release.",
+            "The approved fix was released to the Production environment on October 22."
+        ],
+        "root_cause": "The validation intended to prevent Approval Request creation when Sub-Quotes are In-Progress was not working.",
+        "resolution": "Implemented the UV validation in FDP UAT1, obtained approval, and released the fix to Production; the vehicle was also recovered and mapped to the UV Quote.",
+        "technical_entities": [
+            "Sub-Quotes",
+            "Approval Request",
+            "UV",
+            "FDP UAT1",
+            "Production",
+            "UV Quote",
+            "vehicle"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2620",
+        "investigation_summary": "An issue was observed in FDP following master upload or update activities, despite the same upload steps being used for the SC version and FDP version. The cause of the cache-clear behavior could not be determined because cache clearing is an inbuilt Siebel function. As a preventive measure, approval was obtained to restart the FDP production environment after price updates.",
+        "important_findings": [
+            "SC version and FDP (UAT-1) deployments were successful without rebooting.",
+            "The upload operation steps are the same for the SC version and FDP version.",
+            "Cache clear is an inbuilt functionality in Siebel, but the reason for the observed issue was unknown.",
+            "The issue was observed in FDP, so restarting the FDP production environment was proposed as a precaution.",
+            "Approval was received to restart after price updates."
+        ],
+        "root_cause": null,
+        "resolution": "Adopted a preventive process to restart the FDP production environment after price updates, with approval from the relevant stakeholders.",
+        "technical_entities": [
+            "SC version",
+            "FDP",
+            "UAT-1",
+            "Siebel",
+            "FDP production environment",
+            "Master upload",
+            "cache clear",
+            "price update"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2591",
+        "investigation_summary": "A discrepancy in BIP caused the purchase order to be unavailable. Investigation found that the Accessories amount in Order Sheet 1 excluded service effort line items, creating a 12,900 Yen difference. The BIP was corrected and released in the FDP 03 Oct release.",
+        "important_findings": [
+            "Accessories amount in Order Sheet 1 did not include service effort line items.",
+            "The omission created a 12,900 Yen difference in BIP.",
+            "The purchase order was unavailable until the correction was released.",
+            "The corrected BIP was released in the FDP 03 Oct release."
+        ],
+        "root_cause": "BIP excluded service effort line items from the Accessories amount in Order Sheet 1, causing a 12,900 Yen discrepancy.",
+        "resolution": "Corrected the BIP and released the fix in the FDP 03 Oct release.",
+        "technical_entities": [
+            "FDP",
+            "BIP",
+            "Order Sheet 1",
+            "Accessories amount",
+            "service effort line items",
+            "test environment",
+            "Prod",
+            "PROD",
+            "Purchase order",
+            "Okayama",
+            "Aomori",
+            "Hakodate"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2586",
+        "investigation_summary": "Deleted line items from the work order template were removed from the UI but remained in the database. These backend records caused unwanted additional line items to be added to Work Order, Quote, and JCO. The template was to be restored until the issue was addressed, and future deletions will be performed directly in the database.",
+        "important_findings": [
+            "The UI Delete button removed work order template line items from the UI only.",
+            "Deleted line items remained present in the database.",
+            "Residual database line items caused unwanted additional line items in Work Order, Quote, and JCO.",
+            "The template was requested to be restored until the problem was resolved.",
+            "Future template line-item deletions will be performed directly in the database."
+        ],
+        "root_cause": "Line items deleted through the work order template UI's Delete button remained in the database, causing them to continue being added to Work Order, Quote, and JCO.",
+        "resolution": "Restore the template until resolution and delete affected work order template line items directly from the database going forward.",
+        "technical_entities": [
+            "work order template",
+            "UI",
+            "Delete button",
+            "database",
+            "Work Order",
+            "Quote",
+            "JCO"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2583",
+        "investigation_summary": "The order status was not updated in the UI although the relevant file executed correctly. Database activity on September 16 caused the DB to be down, preventing the file changes from being reflected in the application. Recovery was completed and shipment for the affected order was completed. Future DB-down activities will include manually running and checking ODI files after the DB is restored.",
+        "important_findings": [
+            "On September 16, DB activity caused the database to be down.",
+            "The file executed correctly during the DB outage, but its changes were not reflected in the application.",
+            "As a result, the corresponding order status was not updated in the UI.",
+            "Recovery was completed and shipment for the affected order was completed.",
+            "For future DB-down activities, ODI files will be manually run and checked after the DB is up and running."
+        ],
+        "root_cause": "Database downtime during DB activity on September 16 prevented changes from a correctly executed file from being reflected in the application, leaving the order status unchanged in the UI.",
+        "resolution": "Recovery was completed and the affected order shipment was completed. A precautionary process was added to manually run and verify ODI files after DB-down activity is complete and the DB is available.",
+        "technical_entities": [
+            "DB",
+            "database",
+            "application",
+            "UI",
+            "ODI files",
+            "order",
+            "shipment"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2582",
+        "investigation_summary": "Quote '1-8U15E' was revised to revision 2 after sales order 'A000160329' was created from revision 1. The quote was therefore processed as 'Change Sales Quotation(Having Sales Order before Sales Posting status)'. Approval generation was confirmed to be correct for the applicable workflow, and no system defect was identified.",
+        "important_findings": [
+            "Revision 1 of quote '1-8U15E' created sales order 'A000160329'.",
+            "The quote was revised to revision 2 after the sales order was created.",
+            "The applicable category was 'Change Sales Quotation(Having Sales Order before Sales Posting status)'.",
+            "For Product class 'LB' and requester role 'Branch NV/UV Sales Staff', the workflow correctly generated 3 approvers.",
+            "The final approver was 'SCHQ-BizMgmt-SnrMgr'."
+        ],
+        "root_cause": "The perceived approval issue resulted from the quote being a post-order revision, which follows the 'Change Sales Quotation(Having Sales Order before Sales Posting status)' approval workflow.",
+        "resolution": null,
+        "technical_entities": [
+            "1-8U15E",
+            "A000160329",
+            "Change Sales Quotation(Having Sales Order before Sales Posting status)",
+            "Product class 'LB'",
+            "Branch NV/UV Sales Staff",
+            "SCHQ-BizMgmt-SnrMgr",
+            "Branch-Head"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2582",
+        "investigation_summary": "The Add Parts Order button was disabled for Sales Orders with status \"Rejected\", preventing parts-order creation. Investigation confirmed that the button enablement condition did not correctly handle the \"Rejected\" status and that the issue was reproducible in UAT. The fix was implemented and validated in UAT1, and PROD application was requested.",
+        "important_findings": [
+            "The Add Parts Order button enablement condition did not handle Sales Orders with status \"Rejected\" correctly.",
+            "The issue was reproducible in UAT; the initially shared UAT reference was not a Sales Order in \"Rejected\" status.",
+            "As recovery, the button was enabled from the backend and was to be disabled again after the user added a Parts Order.",
+            "The UAT1 fix enabled the Add Parts Order button for a Sales Order with status \"Rejected\".",
+            "UAT1 Order Reference A001270921 was provided for validation, and the parts order was completed."
+        ],
+        "root_cause": "The Add Parts Order button enablement condition did not correctly handle Sales Orders with status \"Rejected\".",
+        "resolution": "The button enablement logic was fixed in UAT1 so that the Add Parts Order button is enabled for Sales Orders with status \"Rejected\"; PROD application was requested after validation.",
+        "technical_entities": [
+            "Add Parts Order button",
+            "Sales Order",
+            "Rejected",
+            "UAT",
+            "UAT1",
+            "PROD",
+            "A001270921",
+            "Parts Order",
+            "backend"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2579",
+        "investigation_summary": "Investigation found that HMSU054 in the Account Payable Screen was mapped to Payment_term Payment term type, producing an incorrect value for the affected accounts. HMSU058 and HMSU059 mappings were found to produce the expected outputs. The required change was to map HMSU054 to Payment_term method in Okayama; implementation was planned but not confirmed as completed in the comments.",
+        "important_findings": [
+            "HMSU054 was mapped with Payment_term Payment term type in the Account Payable Screen.",
+            "For accounts 0000010006, 0000010049, and 0000010057, HMSU054 had the value month, while the expected output was 9.",
+            "HMSU058 was mapped with Payment_term Payment term and returned 01 as expected for the affected accounts.",
+            "HMSU059 was mapped with Payment_term Payment date and was expected to return 99 for the value EOM.",
+            "The same functionality existed in Okayama Prod, where HMSU054 was to be remapped to Payment_term method."
+        ],
+        "root_cause": "HMSU054 was incorrectly mapped to Payment_term Payment term type instead of Payment_term method in the Account Payable Screen.",
+        "resolution": null,
+        "technical_entities": [
+            "HMSU054",
+            "HMSU058",
+            "HMSU059",
+            "Account Payable Screen",
+            "Payment_term Payment term type",
+            "Payment_term method",
+            "Payment_term Payment term",
+            "Payment_term Payment date",
+            "Okayama",
+            "Okayama Prod",
+            "Hakodate",
+            "0000010006",
+            "0000010049",
+            "0000010057",
+            "month",
+            "EOM"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2571",
+        "investigation_summary": "The Entity Transfer function could not select user D8WSAKAZ because the user's primary position, 'Branch NV/UV Sales Staff', was excluded from the Transfer pick applet criteria. The position type was introduced by CR 'FDP CR New Position Type for NV UV Process ' but was not handled for the Entity Transfer screen in the approved BRD. Recovery was completed for the affected opportunity, quote, and sales order, and the Transfer functionality was fixed in UAT1, UAT2, and UAT3; PROD application was requested.",
+        "important_findings": [
+            "User D8WSAKAZ had primary position 'Branch NV/UV Sales Staff', which was not available for selection in the Entity Transfer pick applet.",
+            "Before the fix, the Entity Transfer screen displayed only employees with primary position types 'Branch-Sales-Mgr', 'Branch-Sales-Staff', 'Bus-Staff', and 'Branch-Head' in the Organisation.",
+            "The 'Branch NV/UV Sales Staff' position type was created through CR 'FDP CR New Position Type for NV UV Process ' but was not included in Entity Transfer requirements in the approved BRD.",
+            "Recovery was completed for opportunity 1-8JFBD, quote 1-8GT0Y (Revision 4), and sales order A000159269.",
+            "The Transfer pick applet was fixed in UAT1, UAT2, and UAT3 to allow selection of employees whose primary position is 'Branch NV/UV Sales Staff'."
+        ],
+        "root_cause": "The Entity Transfer pick applet criteria did not handle the newly introduced 'Branch NV/UV Sales Staff' position type because it was omitted from the approved BRD for CR 'FDP CR New Position Type for NV UV Process '.",
+        "resolution": "Recovered the assigned person for the affected opportunity, quote, and sales order, and updated the Transfer pick applet in UAT1, UAT2, and UAT3 to include employees with primary position 'Branch NV/UV Sales Staff'. PROD application was requested.",
+        "technical_entities": [
+            "PROD",
+            "UAT1",
+            "UAT2",
+            "UAT3",
+            "Entity Transfer",
+            "Transfer",
+            "Transfer pick applet",
+            "Organisation",
+            "D8WSAKAZ",
+            "Branch NV/UV Sales Staff",
+            "Branch-Sales-Mgr",
+            "Branch-Sales-Staff",
+            "Bus-Staff",
+            "Branch-Head",
+            "FDP CR New Position Type for NV UV Process ",
+            "BRD",
+            "AMS-CR",
+            "opportunity 1-8JFBD",
+            "quote 1-8GT0Y (Revision 4)",
+            "sales order A000159269"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2570",
+        "investigation_summary": "NV Quote Generate Approval was blocked when the Sales Price was correctly set to 0 Yen. Initial investigation identified a division-by-zero error in Sales profit calculations. The code was fixed on UAT1, where Generate Approval worked correctly with Sales Price 0, and the fix was submitted for PROD release.",
+        "important_findings": [
+            "Sales Price 0 is a valid selling price and must be supported.",
+            "Sales profit calculations produced a division-by-zero error when Sales Price was 0.",
+            "The approval process was blocked because the NV Quote could not be approved.",
+            "The issue affected Quote and Sales Order amounts, including order A000167279.",
+            "After the UAT1 fix, NV Quote Generate Approval worked with Sales Price 0.",
+            "PROD application was requested after UAT1 validation."
+        ],
+        "root_cause": "NV Quote did not correctly handle Sales Price 0, causing a division-by-zero error in Sales profit calculations and preventing approval generation.",
+        "resolution": "The code was fixed on UAT1 to support Sales Price 0 in NV Quote. Generate Approval was validated successfully on UAT1, and the fix was requested for PROD release.",
+        "technical_entities": [
+            "NV Quote",
+            "Generate Approval",
+            "Sales Price",
+            "Sales profit calculations",
+            "division by 0",
+            "UAT1",
+            "PROD",
+            "Quote",
+            "Sales Order",
+            "A000167279"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2554",
+        "investigation_summary": "The incident involved a missing or incorrect color/line price on chassis order B000159832. Testing in UAT2 and test environments reproduced normal pricing behavior, and the production data was reported as correct when color was added again. The correct price was restored, but the problem location and root cause were not identified; error monitoring was added to the Pricing workflow to capture logs if the issue recurs.",
+        "important_findings": [
+            "The reported symptom was that the amount was not displayed after adding a detail line and entering an external color code for the product.",
+            "The issue could not be reproduced in UAT2; pricing was reflected correctly there.",
+            "Regression testing in the test environment showed the process working normally.",
+            "The correct price was recovered for chassis order B000159832.",
+            "Error monitoring/error logging was added to workflows related to the chassis line price process and Pricing workflow to collect error logs upon recurrence.",
+            "The incident had not recurred for eight months before closure."
+        ],
+        "root_cause": null,
+        "resolution": "The correct price was restored for chassis order B000159832, and error monitoring was added in test environments and planned/added for Prod to capture diagnostic logs if the issue recurs.",
+        "technical_entities": [
+            "B000159832",
+            "Pricing workflow",
+            "chassis line price process",
+            "error monitoring",
+            "error logging",
+            "error logs",
+            "UAT2",
+            "test environment",
+            "test environments",
+            "Prod",
+            "production record",
+            "FDP release",
+            "color price",
+            "external color code"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2546",
+        "investigation_summary": "Sales Posting for Order-A000086482 completed on 5 August 2024, but no Journal Voucher was created for chassis line item B000087336 because its cost was null. Cost was updated during recovery for Order-B000087336 on 9 August 2024, as referenced in MFTBCFFR-2423. Recovery data was provided and recovery was completed on the KB Side.",
+        "important_findings": [
+            "The cost for Model Code of Chassis order line item B000087336 was null when Sales Posting for Order-A000086482 completed on 5 August 2024.",
+            "A Journal Voucher for Sales Posting Chassis is created only when the cost is not null and is 0.",
+            "No Journal Voucher was created because the chassis line-item cost was null.",
+            "Recovery for Order-B000087336 updated the line-item cost on 9 August 2024.",
+            "Recovery was completed on the KB Side."
+        ],
+        "root_cause": "The cost for chassis order line item B000087336 was null at the time of Sales Posting, preventing creation of the Sales Posting Chassis Journal Voucher.",
+        "resolution": "The line-item cost was updated through recovery for Order-B000087336, and recovery data was provided and completed on the KB Side.",
+        "technical_entities": [
+            "Order-A000086482",
+            "Order-B000087336",
+            "B000087336",
+            "Sales Posting",
+            "Model Code of Chassis",
+            "Journal Voucher",
+            "Sales Posting Chassis",
+            "MFTBCFFR-2423",
+            "VO_chassis amount not shown",
+            "KB Side"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2527",
+        "investigation_summary": "The issue was reproduced in UAT3 using NV Quote: 1-1JNFQ7: manually adding a color through VC caused Siebel to receive a null cost. The issue was fixed and verified in UAT3, but production-equivalent model-code data was required before testing could be completed because chassis/model selection was unavailable. Required data was added to UAT3, testing was completed, and the fix was released to Production.",
+        "important_findings": [
+            "In UAT3, manually adding Manual Color through VC caused the cost received by Siebel to be null.",
+            "The issue was reproduced using the same model code and colors as NV Quote: 1-1JNFQ7.",
+            "After the fix, manually adding colors through VC correctly reflected the cost in Siebel.",
+            "UAT3 initially lacked production-equivalent data, preventing chassis and model-code selection for validation.",
+            "Data matching the Production environment was added to UAT3, enabling model-code selection and testing.",
+            "The fix was approved and released to Production."
+        ],
+        "root_cause": null,
+        "resolution": "Fixed the VC-to-Siebel handling for manually added colors so that cost is populated correctly; loaded required Production-equivalent data into UAT3 for validation and released the fix to Production.",
+        "technical_entities": [
+            "UAT3",
+            "UAT",
+            "UAT1",
+            "Production",
+            "Prod",
+            "VC",
+            "Siebel",
+            "NV Quote: 1-1JNFQ7",
+            "Manual Color",
+            "model code",
+            "chassis",
+            "cost",
+            "MFTBCFFR-2490",
+            "SR"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2516",
+        "investigation_summary": "The Actual Shipment Date for chassis order B000158574 became blank after a recovery package for Jira MFTBCFFR-2441 was re-executed and included the record. The field was editable in the UI, allowing manual updates before the recovery reset it to null. The corrective action was to make Actual Shipment Date read-only on the chassis order list, and the change was applied to PROD.",
+        "important_findings": [
+            "Actual Shipment Date was editable in the UI and could be manually updated by users.",
+            "Re-execution of the recovery package for Jira MFTBCFFR-2441 reset Actual Shipment Date to null for included chassis-order records.",
+            "B000158574 was included in the recovered records and its Actual Shipment Date became blank.",
+            "Actual Shipment Date values for chassis orders were to be obtained from TOB data; D21E files were reviewed for B000158573 and B000158575.",
+            "The read-only change applies to Actual Shipment Date on the chassis order list and does not affect items on other screens.",
+            "The read-only change was released to PROD."
+        ],
+        "root_cause": "The recovery package for Jira MFTBCFFR-2441 was re-executed, including the affected chassis-order record and setting its Actual Shipment Date to null.",
+        "resolution": "Made Actual Shipment Date read-only on the chassis order list to prevent manual updates and deployed the change to PROD.",
+        "technical_entities": [
+            "MFTBCFFR-2441",
+            "Actual Shipment Date",
+            "chassis order",
+            "chassis order list",
+            "UI",
+            "recovery package",
+            "PROD",
+            "Production",
+            "TOB data",
+            "D21E file",
+            "B000158573",
+            "B000158574",
+            "B000158575"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2515",
+        "investigation_summary": "The inquiry concerned paper tray behavior for target printers P05 and P06. Investigation confirmed that paper tray settings are not handled at the Siebel level. The default paper tray of the print object was changed to the manual feed tray, and printing of AOJF_00_P06 was confirmed to work.",
+        "important_findings": [
+            "Target printers were P05 and P06.",
+            "Paper tray settings cannot be controlled at the Siebel level.",
+            "The print object's default paper tray was changed to the manual feed tray.",
+            "Printing of AOJF_00_P06 was confirmed to be working correctly.",
+            "The issue was determined not to be a Siebel system issue."
+        ],
+        "root_cause": "Paper tray configuration is managed outside Siebel, so the requested tray behavior could not be handled at the Siebel level.",
+        "resolution": "Changed the default paper tray of the print object to the manual feed tray and confirmed successful printing for AOJF_00_P06.",
+        "technical_entities": [
+            "Siebel",
+            "P05",
+            "P06",
+            "print object",
+            "manual feed tray",
+            "AOJF_00_P06"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2512",
+        "investigation_summary": "Options added to chassis records were not included in TOB Send Data because the required Option Selection Flag was blank or not set to \"Y\". The behavior was identified for chassis created from D21 files and was consistent with FDP-Okayama and SC. AMS-CR MFTBCFFR-2572 was released to all three production environments to make the Option Selection Flag editable.",
+        "important_findings": [
+            "An option is included in TOB Send Data only when Option Select Flag is \"Y\" and TOB Retrofit Flag is \"N\".",
+            "Chassis created from D21 files could have a blank Option Selection Flag, causing options to be excluded from TOB sent data.",
+            "The Option Selection Flag could not be changed manually before the corrective change.",
+            "The process was confirmed to work the same as FDP-Okayama and SC.",
+            "AMS-CR MFTBCFFR-2572 made the Option Selection Flag editable and was deployed to all three production environments."
+        ],
+        "root_cause": "The Option Selection Flag was blank or could not be set to \"Y\" for affected chassis created from D21 files; therefore, the conditions for including options in TOB Send Data were not met.",
+        "resolution": "Released AMS-CR MFTBCFFR-2572 to all three production environments to make the Option Selection Flag editable.",
+        "technical_entities": [
+            "AMS-CR MFTBCFFR-2572",
+            "Option Selection Flag",
+            "TOB Retrofit Flag",
+            "TOB Send Data",
+            "TOB",
+            "D21 files",
+            "chassis",
+            "chassis order",
+            "DJ2B",
+            "SC Production",
+            "SC",
+            "FDP-Okayama",
+            "UAT1",
+            "EIMADMIN",
+            "B000210244",
+            "B001213885"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2507",
+        "investigation_summary": "Vehicle creation failed because a null value in backend data caused the vehicle creation step to error. The data issue was attributed to the initial environment setup process and affected the Aomori and Hakodate environments; FDP Okayama and SC were not affected. Recovery records were completed and the affected data was corrected.",
+        "important_findings": [
+            "A null value in a column caused the vehicle creation step to error.",
+            "The issue was identified as a backend data error related to the initial environment setup process.",
+            "Changes and fixes were applied only to the Aomori and Hakodate environments.",
+            "FDP Okayama and SC were reported as unaffected.",
+            "All values became visible for order B000160210 after the data fix.",
+            "Recovery was completed for B000159907, B000160210, and B000160447."
+        ],
+        "root_cause": "A null value in a backend-data column, originating from the initial environment setup process, caused the vehicle creation step to fail.",
+        "resolution": "Recovered the affected records and corrected the backend data in the Aomori and Hakodate environments.",
+        "technical_entities": [
+            "Aomori",
+            "Hakodate",
+            "FDP Okayama",
+            "SC",
+            "vehicle creation",
+            "backend data",
+            "initial environment setup process",
+            "B000159907",
+            "B000160210",
+            "B000160447"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2503",
+        "investigation_summary": "The incident was fixed and submitted for Production approval. Production approval was received, and the fix was released to Production on 16 December.",
+        "important_findings": [
+            "The incident was confirmed as fixed on 20 November.",
+            "Production approval was received on 9 December.",
+            "The fix was released to Production on 16 December."
+        ],
+        "root_cause": null,
+        "resolution": "A fix was released to Production on 16 December.",
+        "technical_entities": [
+            "Production"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2500",
+        "investigation_summary": "The incident concerned the 'Update Job Card' functionality in the Internal Activity Request screen. A UAT fix introduced a confirmation pop-up and updated the Job Card while making the Internal Order Number field read-only. During UAT validation, users reported that the confirmation message failed to display the Chassis Number and Sales Order Number. Investigation identified that these values were not being populated from the Job Card screen, resulting in blank fields in the pop-up. The logic was corrected to retrieve and display both values correctly, after which UAT re-testing was requested. Following successful validation, the development team requested confirmation from business users and approval to proceed with production deployment.",
+        "important_findings": [
+            "The initial UAT implementation successfully updated the Job Card and made the Internal Order Number field read-only after confirmation.",
+            "UAT testing identified that the confirmation message did not display the Chassis Number and Sales Order Number.",
+            "The root cause was that no values were being retrieved from the corresponding fields on the Job Card screen for display in the confirmation pop-up.",
+            "The application logic was updated to correctly populate and display both the Chassis Number and Sales Order Number in the confirmation message.",
+            "Business users were requested to perform UAT re-testing, and after follow-up, production deployment approval was requested."
+        ],
+        "root_cause": "The confirmation pop-up did not display the Chassis Number and Sales Order Number because the corresponding values were not being retrieved from the Job Card screen, leaving the fields blank in the message.",
+        "resolution": "The confirmation message logic was modified to correctly retrieve and display the Chassis Number and Sales Order Number from the Job Card. The fix was deployed to UAT for validation, business confirmation was requested, and production deployment approval was subsequently sought.",
+        "technical_entities": [
+            "Update Job Card",
+            "Internal Activity Request",
+            "Job Card",
+            "Internal Order Number",
+            "Confirmation Pop-up",
+            "Chassis Number",
+            "Sales Order Number",
+            "UAT",
+            "PROD"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2499",
+        "investigation_summary": "The incident had previously been addressed in SC and released to SC Prod in July 2024. The same fix was implemented and validated in the FDP UAT1 Environment, approved for production, and released to Prod on 2024-11-07. The comments do not describe the underlying technical defect or implementation details.",
+        "important_findings": [
+            "The incident was previously released to SC Prod in July 2024.",
+            "The incident was fixed in the FDP UAT1 Environment.",
+            "PROD approval was received before the production release.",
+            "The item was released to Prod on 2024-11-07."
+        ],
+        "root_cause": null,
+        "resolution": "Implemented the previously released SC fix in FDP, validated it in FDP UAT1 Environment, obtained PROD approval, and released it to Prod.",
+        "technical_entities": [
+            "SC",
+            "SC Prod",
+            "FDP",
+            "FDP UAT1 Environment",
+            "Prod",
+            "PROD"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2498",
+        "investigation_summary": "The incident was reported as fixed in the FDP UAT1 Environment and submitted for validation and approval for production release. The requester asked for the cause and UAT1 verification method, but those details were referenced only in an attachment not included in the comments. Following approval, the item was applied and released to PROD.",
+        "important_findings": [
+            "The incident was fixed in the FDP UAT1 Environment.",
+            "The root cause and UAT1 verification procedure were requested, but are not documented in the available comment text.",
+            "The item was approved for PROD application.",
+            "The item was subsequently released to PROD."
+        ],
+        "root_cause": null,
+        "resolution": "The incident fix was deployed to the FDP UAT1 Environment, approved for production, and released to PROD.",
+        "technical_entities": [
+            "FDP UAT1 Environment",
+            "PROD"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2491",
+        "investigation_summary": "The chassis order for Fuso Reception Number 306330 was received in D21C_28082024113224 but remained in \"Ordered\" status because C# confirmation and other vehicle data were absent. The order was confirmed visible in Hakodate Prod, and no system defect was identified. A D21G file is required to update the order to \"C# Confirmed\".",
+        "important_findings": [
+            "D21C_28082024113224 contained details for Fuso Reception Number 306330 but did not contain C# confirmation or other vehicle data.",
+            "The missing C# confirmation caused chassis order 306330 to remain in \"Ordered\" status.",
+            "Chassis order 306330 was confirmed visible in Hakodate Prod.",
+            "For Fuso Reception Number 305519, a later D21G file changed the chassis order status to \"C# Confirmed\".",
+            "The D21C file functionality was operating correctly; no system issue was found."
+        ],
+        "root_cause": "D21C_28082024113224 lacked the C# confirmation and other vehicle data for Fuso Reception Number 306330, so its chassis order remained in \"Ordered\" status.",
+        "resolution": "No system correction was required. The chassis order for 306330 was confirmed visible in Hakodate Prod; receipt of a D21G file for the order will change its status to \"C# Confirmed\".",
+        "technical_entities": [
+            "D21C",
+            "D21C_28082024113224",
+            "D21G",
+            "Fuso Reception Number 306330",
+            "Fuso Reception Number 305519",
+            "C# confirmation",
+            "Ordered",
+            "C# Confirmed",
+            "Hakodate Prod",
+            "chassis order"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2490",
+        "investigation_summary": "Model codes loaded into UAT were not displayed or available for confirmation. Investigation identified a UAT3 master-data discrepancy: the Body Type required by model code FGA50C31SK0G-4 had been created in SC production only after migration to UAT3. Data was subsequently added to UAT environments; the final update states that production model codes could be used in UAT2.",
+        "important_findings": [
+            "Model code FGA50C31SK0G-4 was not visible in UAT3 because its Body Type had not been created in UAT3.",
+            "The required Body Type was created in SC production after the data migration to UAT3, causing a master-data discrepancy.",
+            "The initial conclusion that UAT contained only sample data did not resolve the reported UAT validation issue.",
+            "Data was added to UAT3, but the requester later reported that the issue was still not fixed.",
+            "Data was added to UAT2, after which production model codes could be used in UAT2."
+        ],
+        "root_cause": "A master-data discrepancy in UAT3: the Body Type required for model code FGA50C31SK0G-4 was created in SC production after the UAT3 data migration and was therefore missing from UAT3.",
+        "resolution": "Added the required data in UAT2, enabling model codes from production to be used in UAT2.",
+        "technical_entities": [
+            "MFTBCFFR-2513",
+            "Master Update SR",
+            "UAT",
+            "UAT2",
+            "UAT3",
+            "SC production",
+            "production",
+            "FGA50C31SK0G-4",
+            "Body Type",
+            "model code"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2747",
+        "investigation_summary": "For chassis order B000159393, the JV Posting date was determined by the PO actual shipping date. The actual shipping date was updated to 20240731 through the TOB D21Z file before the JV was submitted, resulting in a Posting date of 20240731. Recovery was completed.",
+        "important_findings": [
+            "Chassis orders are created from D21E files received from TOB.",
+            "A JV (journal entry voucher) is created when the chassis order status becomes \"shipping ordered\".",
+            "For B000159393, the actual shipping date was updated to 20240731 through a D21Z file before the JV was submitted.",
+            "The JV Posting date is mapped to the PO actual shipping date.",
+            "If the actual shipping date is null, the JV Posting date is set to the JV creation timestamp."
+        ],
+        "root_cause": "The actual shipping date was updated to 20240731 through the TOB D21Z file before JV submission, and the current logic mapped this date to the JV Posting date.",
+        "resolution": "Recovery was completed.",
+        "technical_entities": [
+            "B000159393",
+            "PO",
+            "chassis order",
+            "TOB",
+            "D21E",
+            "D21Z",
+            "JV",
+            "journal entry voucher",
+            "Posting date",
+            "actual shipping date",
+            "shipping ordered"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-2396",
+        "investigation_summary": "The incident addressed Full Model Code editability for vehicle records. The implemented rule was validated in UAT1 and released to Production on 16 December: vehicles created by EAIUSER have Full Model Code set to read-only unless the code is FUSO-Gen or Non-FUSO.",
+        "important_findings": [
+            "Full Model Code is read-only for vehicles with Created By = EAIUSER when the Full Model Code is neither FUSO-Gen nor Non-FUSO.",
+            "Full Model Code remains editable for FUSO-Gen and Non-FUSO vehicles.",
+            "The change was implemented and made available for validation in the UAT1 environment before Production release.",
+            "Vehicles created through TOB files can appear with Created By = EIMADMIN; D21A was identified as an example involving vehicle creation before chassis-order creation.",
+            "Trailer records were stated to remain editable under the applicable scenario."
+        ],
+        "root_cause": "Full Model Code editability required conditional control based on the vehicle Created By value and Full Model Code classification.",
+        "resolution": "Implemented the read-only rule in UAT1 and released it to Production on 16 December: set Full Model Code to read-only for EAIUSER-created vehicles except those with Full Model Code FUSO-Gen or Non-FUSO.",
+        "technical_entities": [
+            "Full Model Code",
+            "EAIUSER",
+            "EIMADMIN",
+            "FUSO-Gen",
+            "Non-FUSO",
+            "UAT1",
+            "Production",
+            "TOB",
+            "D21A",
+            "chassis order",
+            "Trailer"
+        ]
+    },
+    {
+        "issue_key": "MFTBCFFR-1103",
+        "investigation_summary": "Submitting the order to TOB produced an error response from IBOS. The requester reversed the UID and MGR in Cubastion and resubmitted the order, but the same error persisted. The comments do not establish the underlying IBOS error cause or a final resolution.",
+        "important_findings": [
+            "The error occurs when clicking \"Submit To TOB\".",
+            "IBOS returned an error response for the case.",
+            "Reversing the UID and MGR in Cubastion did not resolve the error.",
+            "Affected references: B001212528 and 72032300024-01."
+        ],
+        "root_cause": null,
+        "resolution": null,
+        "technical_entities": [
+            "Cubastion",
+            "IBOS",
+            "Submit To TOB",
+            "UID",
+            "MGR",
+            "B001212528",
+            "72032300024-01"
+        ]
+    }
+]

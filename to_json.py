@@ -19,7 +19,7 @@ class ToJSON:
         self.json_list = []
 
     def read_json(self):
-        if self.outfilepath:
+        if self.outfilepath.is_file():
             with open(self.outfilepath, "r", encoding="utf-8") as f:
                 content = json.loads(f.read())
                 if content:

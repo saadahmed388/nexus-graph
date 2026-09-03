@@ -1,0 +1,6 @@
+pydantic>=2.0
+
+# Not required by graphrag_retrieval itself (it only calls your FunctionTools
+# methods) — but function_tools.py needs these for the real driver/embedder:
+# neo4j>=5.14
+# llama-index-core

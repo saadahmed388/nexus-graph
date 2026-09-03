@@ -94,6 +94,7 @@ class PreProcessorTrans:
         print(temp_df.head())
 
 
+
 translate_engine = PreProcessorTrans()
 translate_engine.translate_in_batches_comments(0)
 
