@@ -43,37 +43,59 @@ A vector-only RAG system can miss exact identifiers and relationship structure. 
 
 ```mermaid
 flowchart TD
-    U[User Query] --> I[Intent / Retrieval Planning]
-    I --> A[LlamaIndex Function Agent]
+    U[User Query] --> A[LlamaIndex Function Agent]
 
-    A --> H[Hybrid Retrieval]
-    A --> G[Graph Tools]
+    A --> T1[Hybrid Retrieval Tool]
+    A --> T2[Ticket Relationship Tool]
+    A --> T3[Ticket Network Traversal Tool]
+    A --> T4[Node Details Tool]
+    A --> T5[Connected Node Content Tool]
+    A --> T6[Dynamic Cypher Tool]
+    A --> T7[Additional Retrieval / Utility Tool]
 
-    H --> V[Vector Search]
-    H --> L[Lexical Search]
+    subgraph HYBRID[Hybrid Retrieval Internals]
+        T1 --> V[Vector / Semantic Retrievers]
+        T1 --> L[Lexical / Full-Text Retrievers]
 
-    V --> NV[(Neo4j Vector Indexes)]
-    L --> NL[(Neo4j Full-Text Indexes)]
-    G --> NG[(Neo4j Knowledge Graph)]
-    D --> NG
+        V --> VI[(Neo4j Vector Indexes)]
+        L --> FI[(Neo4j Full-Text Indexes)]
 
-    V --> N[Normalize Candidates]
-    L --> N
-    G --> N
+        VI --> VC[Semantic Candidates]
+        FI --> LC[Lexical Candidates]
 
-    N --> F[Fuse / Deduplicate]
-    F --> R[Rerank]
-    R --> C[Evidence Coverage]
+        VC --> RRF[Reciprocal Rank Fusion]
+        LC --> RRF
 
-    C -->|Enough evidence| E[Select Evidence]
-    C -->|Missing evidence| X[Bounded Follow-up]
-    X --> E
+        RRF --> RR[Reranking]
+        RR --> HR[Hybrid Retrieval Results]
+    end
 
-    E --> O[Grounded Evidence]
-    O --> A
+    subgraph GRAPH[Graph Retrieval]
+        T2 --> G1[Relationship Queries]
+        T3 --> G2[Multi-Hop Traversal]
+        T4 --> G3[Exact Node Queries]
+        T5 --> G4[Connected Content Queries]
+
+        G1 --> N[(Neo4j Knowledge Graph)]
+        G2 --> N
+        G3 --> N
+        G4 --> N
+    end
+
+    T6 --> N2[(Neo4j Knowledge Graph)]
+
+    HR --> E[Retrieved Evidence]
+    G1 --> E
+    G2 --> E
+    G3 --> E
+    G4 --> E
+    N2 --> E
+
+    E --> A
+    A --> O[Final Answer Synthesis]
 ```
 
-The retrieval engine follows the implemented sequence: query + intent → retrieval plan → concurrent lexical/vector/graph retrieval → normalization → fusion → reranking → evidence coverage → bounded follow-up when needed → evidence selection. 
+The retrieval architecture follows an agent-driven flow: user query → LlamaIndex FunctionAgent → dynamic selection of specialized retrieval tools; within the Hybrid Retrieval Tool, semantic and lexical results are fused using Reciprocal Rank Fusion (RRF) and reranked, while graph-based tools independently retrieve relationship and node-level evidence from Neo4j before the agent synthesizes the final answer.
 
 ## Why GraphRAG?
 
