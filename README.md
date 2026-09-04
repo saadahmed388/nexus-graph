@@ -48,7 +48,6 @@ flowchart TD
 
     A --> H[Hybrid Retrieval]
     A --> G[Graph Tools]
-    A --> D[Dynamic Cypher]
 
     H --> V[Vector Search]
     H --> L[Lexical Search]
